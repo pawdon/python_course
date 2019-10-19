@@ -272,3 +272,43 @@ def argsy_kwargsy():
     # test_args_kwargs(1, 5, 19, 20, c=6, d=9, e=10, f=30)
     # test_args_kwargs(1, 5, 19, 20, f=30)
     test_args_kwargs(z=30, a=1, b=2)
+
+
+def convert_from_m_to_cm(x):
+    return 100 * x
+
+
+def convert_to_m(x, unit='m'):
+    result = x
+    if unit == 'cm':
+        result = x / 100
+    elif unit == 'km':
+        result = x * 1000
+    elif unit == 'mile':
+        result = x * 1609
+    elif unit == 'inch':
+        result = x * 2.54 / 100
+    return result
+
+
+def convert_to_m2(x, unit='m'):
+    multiplier = {'m': 1, 'cm': 0.01, 'km': 1000, 'mile': 1609, 'inch': 0.0254}
+    return x * multiplier.get(unit)
+
+
+def quadratic_equation(a, b, c):
+    delta = b ** 2 - 4 * a * c
+    if delta < 0:
+        return None
+    elif delta == 0:
+        x0 = -b / 2 * a
+        return x0
+    else:
+        delta_sqrt = delta ** (1/2)
+        x1 = (-b - delta_sqrt) / (2 * a)
+        x2 = (-b + delta_sqrt) / (2 * a)
+        return x1, x2
+
+print(quadratic_equation(1, 6, 10))
+print(quadratic_equation(1, 6, 9))
+print(quadratic_equation(1, 0, -9))
