@@ -205,6 +205,11 @@ def for_containers():
         print(key, 'has', val)
 
 
+def print_dict(d):
+    for key, value in d.items():
+        print(f'key={key}, value={value}')
+
+
 def for_containers2():
     my_dict = {'a': 1, 'b': 3, 'c': 5}
     my_list = ['Jan', 'Karol', 'Bartek', 'Adam']
@@ -233,5 +238,37 @@ def test_for():
     for_containers2()
 
 
+def test_args(a, b, c, *d):  # d is tuple and takes all positional arguments
+    print(a, type(a))
+    print(b, type(b))
+    print(c, type(c))
+    print(d, type(d))
 
-test_for()
+
+def test_kwargs(a, b, c, **kwargs):  # kwargs is dict and takes all named arguments
+    print(a, type(a))
+    print(b, type(b))
+    print(c, type(c))
+    print(kwargs, type(kwargs))
+
+
+def test_args_kwargs(a, b, *args, c=3, d='d', **kwargs):
+    print(a, type(a))
+    print(b, type(b))
+    print(args, type(args))
+    print(c, type(c))
+    print(d, type(d))
+    print(kwargs, type(kwargs))
+
+
+def argsy_kwargsy():
+    # print_dict({'abc': 3, 'Def': 5, 'xYx': 9, 'GGS': 14, 'XCY': 17, 'vgb': 99})  # key=abc, value=3
+    # test_args(1, 'a', 4.5, 6, 1, 'haha', 19)
+    # test_kwargs(a=1, b='a', c=4.5, d=6, e=1, f='haha', g=19)
+    # test_args_kwargs(1, 5)
+    # test_args_kwargs(1, 5, 6, 9, 10)
+    # test_args_kwargs(1, 5, c=6, d=9, e=10)
+    # test_args_kwargs(a=1, b=5, c=6, d=9, e=10)
+    # test_args_kwargs(1, 5, 19, 20, c=6, d=9, e=10, f=30)
+    # test_args_kwargs(1, 5, 19, 20, f=30)
+    test_args_kwargs(z=30, a=1, b=2)
