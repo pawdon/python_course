@@ -59,10 +59,10 @@ def print_every_pair(models, colors):
     for m, c in itertools.product(models, colors):
         print(f'{m} is {c.lower()}')
 
-print('__name__', __name__)
 if __name__ == '__main__':
     # print_models(models)
     # print_models_with_nr(models)  # 0: Volvo
     # print_model_color_unique(models, colors)  #  Volvo is red
     # print(test_type_annotation('Jan', age=25))
-    print_every_pair(models, colors)
+    print_model_color_unique(models, colors)
+    get_model_color_unique(models, colors)  # [{'model': 'Volvo', 'color': 'red'}, {{'model': 'Toyota', 'color': 'black'}]
