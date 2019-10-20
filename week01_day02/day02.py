@@ -91,6 +91,25 @@ def get_models(list_of_dicts):
         my_list.append(model)
     return my_list
 
+
+def get_models_ver2(list_of_dicts):
+    return [d['model'] for d in list_of_dicts]
+
+
+def get_models2(list_of_dicts):
+    my_list = []
+    for i, d in enumerate(list_of_dicts):
+        new_d = {'id': i, 'model': d['model']}
+        my_list.append(new_d)
+    return my_list
+
+
+def get_models2_ver2(list_of_dicts):
+    return [{'id': i, 'model': d['model']} for i, d in enumerate(list_of_dicts)]
+
+def one_liners():
+    
+
 if __name__ == '__main__':
     # print_models(models)
     # print_models_with_nr(models)  # 0: Volvo
@@ -98,9 +117,10 @@ if __name__ == '__main__':
     # print(test_type_annotation('Jan', age=25))
     # print_model_color_unique(models, colors)
     # get_model_color_unique2(models, colors)  # [{'model': 'Volvo', 'color': 'red'}, {{'model': 'Toyota', 'color': 'black'}]
-    x = get_model_color_unique(models, colors)
-    print(x)
-    y = get_models(x)  # ['Volvo', 'Toyota', 'BMW', 'Mitsubishi']
-    print(y)
-    y2 = get_models2(x)  # [{'id': 0, 'model': 'Volvo'}, {'id': 1, 'model': 'Toyota'}, {'id': 2, 'model': 'BMW'}, {'id': 3, 'model': 'Mitsubishi'}]
-    print(y2)
+    # x = get_model_color_unique(models, colors)
+    # print(x)
+    # y = get_models_ver2(x)  # ['Volvo', 'Toyota', 'BMW', 'Mitsubishi']
+    # print(y)
+    # y2 = get_models2_ver2(x)  # [{'id': 0, 'model': 'Volvo'}, {'id': 1, 'model': 'Toyota'}, {'id': 2, 'model': 'BMW'}, {'id': 3, 'model': 'Mitsubishi'}]
+    # print(y2)
+    one_liners()
