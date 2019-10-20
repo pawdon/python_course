@@ -309,6 +309,4 @@ def quadratic_equation(a, b, c):
         x2 = (-b + delta_sqrt) / (2 * a)
         return x1, x2
 
-print(quadratic_equation(1, 6, 10))
-print(quadratic_equation(1, 6, 9))
-print(quadratic_equation(1, 0, -9))
+argsy_kwargsy()

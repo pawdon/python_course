@@ -59,10 +59,38 @@ def print_every_pair(models, colors):
     for m, c in itertools.product(models, colors):
         print(f'{m} is {c.lower()}')
 
+
+def get_model_color_unique(models, colors):
+    my_list = []
+    for m, c in zip(models, colors):
+        my_dict = {'model': m, 'color': c.lower()}
+        my_list.append(my_dict)
+    return my_list
+
+
+def my_dict(**x):
+    return x
+
+
+def get_model_color_unique2(models, colors):
+    for m, c in zip(models, colors):
+        diction = {'model': m, 'color': c.lower()}
+        # <==>
+        diction = dict(model=m, color=c)
+        # <==>
+        diction = my_dict(model=m, color=c)
+        print(diction)
+
+def get_models(list_of_dicts):
+
+
 if __name__ == '__main__':
     # print_models(models)
     # print_models_with_nr(models)  # 0: Volvo
     # print_model_color_unique(models, colors)  #  Volvo is red
     # print(test_type_annotation('Jan', age=25))
-    print_model_color_unique(models, colors)
-    get_model_color_unique(models, colors)  # [{'model': 'Volvo', 'color': 'red'}, {{'model': 'Toyota', 'color': 'black'}]
+    # print_model_color_unique(models, colors)
+    # get_model_color_unique2(models, colors)  # [{'model': 'Volvo', 'color': 'red'}, {{'model': 'Toyota', 'color': 'black'}]
+    x = get_model_color_unique(models, colors)
+    y = get_models(x)  # ['Volvo', 'Toyota', 'BMW', 'Mitsubishi']
+    print(y)
