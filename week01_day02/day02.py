@@ -107,8 +107,46 @@ def get_models2(list_of_dicts):
 def get_models2_ver2(list_of_dicts):
     return [{'id': i, 'model': d['model']} for i, d in enumerate(list_of_dicts)]
 
+
+def valid_number(a=None):
+    a = a if a is not None else [1, 2, 3]
+    return a
+
 def one_liners():
-    
+    print("IF")
+    a = 10
+    '''
+    if a == 10:
+        b = 3
+    else:
+        b = 8'''
+    b = 3 if a == 10 else 8
+    c = 3 if a == 11 else 8
+    print(a, b, c)
+    print(valid_number())
+    print(valid_number(7))
+
+    print("\nLIST 01")
+    my_list = list(range(10, 40, 2))
+    print(my_list)
+    d = [2 * x for x in my_list]
+    '''
+    d = []
+    for x in my_list:
+        d.append(2 * x)'''
+    print('d', d)
+
+    my_list2 = ['Red', 'Blue', 'Green', 'Black', 'White']
+    e = [f"{str(i).rjust(3, '0')}_{color}" for i, color in enumerate(my_list2, 5)]
+    print(e)
+
+    d2 = [2 * x for x in range(10, 40, 2)]
+    print(d2)
+
+
+def my_empty_fun(a, b):
+    pass
+
 
 if __name__ == '__main__':
     # print_models(models)
