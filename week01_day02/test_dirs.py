@@ -1,5 +1,7 @@
 import week01_day02.day02
 
+def make_files_say_hello():
+
 print('__name__', __name__)
 if __name__ == '__main__':
     print(week01_day02.day02.models)
