@@ -180,6 +180,56 @@ def my_empty_fun(a, b):
     pass
 
 
+def rect(a, b):
+    return a * b
+
+
+def check(fun, result, *args, **kwargs):
+    if fun(*args, **kwargs) == result:
+        print('OK')
+    else:
+        print('NOT OK')
+
+
+def magic_stars_again2():
+    my_list = [{'arguments': (2, 3), 'result': 6},
+               {'arguments': (4, 5), 'result': 20},
+               {'arguments': (7, 3), 'result': 42},
+               {'arguments': (3, 3), 'result': 9}]
+
+    for d in my_list:
+        check(rect, d['result'], *d['arguments'])
+
+
+def magic_stars_again():
+    list_of_lists_or_tuples = [(2, 3), (4, 10), [7, 9]]
+    for d in list_of_lists_or_tuples:
+        p = rect(d[0], d[1])
+        # <==>
+        p = rect(*d)
+        print(p)
+
+    print()
+    list_of_dicts = [{'a': 2, 'b': 3}, {'a': 4, 'b': 10}, dict(a=7, b=9)]
+    for d in list_of_dicts:
+        p = rect(a=d['a'], b=d['b'])
+        # <==>
+        p = rect(**d)
+        print(p)
+
+    print()
+    my_list = [{'arguments': (2, 3), 'result': 6},
+               {'arguments': (4, 5), 'result': 20},
+               {'arguments': (7, 3), 'result': 42},
+               {'arguments': (3, 3), 'result': 9}]
+
+    for d in my_list:
+        if rect(*d['arguments']) == d['result']:
+            print('OK')
+        else:
+            print('NOT OK')
+
+
 if __name__ == '__main__':
     # print_models(models)
     # print_models_with_nr(models)  # 0: Volvo
@@ -194,4 +244,5 @@ if __name__ == '__main__':
     # y2 = get_models2_ver2(x)  # [{'id': 0, 'model': 'Volvo'}, {'id': 1, 'model': 'Toyota'}, {'id': 2, 'model': 'BMW'}, {'id': 3, 'model': 'Mitsubishi'}]
     # print(y2)
     # one_liners()
-    print(get_model_color_unique(models, colors))
+    # print(get_model_color_unique(models, colors))
+    magic_stars_again2()
