@@ -143,6 +143,38 @@ def one_liners():
     d2 = [2 * x for x in range(10, 40, 2)]
     print(d2)
 
+    d3 = [x % 3 for x in range(10, 40, 2)]
+    print(d3)
+
+    d4 = [{'a': x, 'b': x // 3, 'c': x % 3} for x in range(10, 40, 2)]
+    print(d4)
+
+    d5 = ['podzielne' if x % 3 == 0 else "niepodzielne" for x in range(10)]
+    print(d5)
+
+    d6 = [x for x in range(10) if x % 3 == 0]
+    print(d6)
+
+    d7 = ['podzielne' if x % 3 == 0 else "niepodzielne" for x in range(10) if x % 3 == 0]
+    print(d7)
+
+    d8 = [x for x in range(100) if x % 5 == 0]
+    print(d8)
+
+    print("\nDICT 01")
+    my_list2 = ['Red', 'Blue', 'Green', 'Black', 'White']
+    my_dict1 = {color: i for i, color in enumerate(my_list2)}
+    print(my_dict1)
+
+    my_dict2 = {color: i * 2 for i, color in enumerate(my_list2) if i % 2 == 0}
+    print(my_dict2)
+
+    my_dict3 = {color: i if i % 2 == 0 else i * 10 for i, color in enumerate(my_list2)}
+    print(my_dict3)
+
+    my_dict4 = {color.lower() if i % 2 == 0 else color.upper(): i for i, color in enumerate(my_list2)}
+    print(my_dict4)
+
 
 def my_empty_fun(a, b):
     pass
@@ -161,4 +193,5 @@ if __name__ == '__main__':
     # print(y)
     # y2 = get_models2_ver2(x)  # [{'id': 0, 'model': 'Volvo'}, {'id': 1, 'model': 'Toyota'}, {'id': 2, 'model': 'BMW'}, {'id': 3, 'model': 'Mitsubishi'}]
     # print(y2)
-    one_liners()
+    # one_liners()
+    print(get_model_color_unique(models, colors))
