@@ -81,8 +81,15 @@ def get_model_color_unique2(models, colors):
         diction = my_dict(model=m, color=c)
         print(diction)
 
-def get_models(list_of_dicts):
 
+def get_models(list_of_dicts):
+    my_list = []
+    for d in list_of_dicts:
+        model = d['model']  # raise Exception if 'model' is not a valid key of d
+        # <~=>
+        model = d.get('model')  # return None if 'model' is not a valid key of d
+        my_list.append(model)
+    return my_list
 
 if __name__ == '__main__':
     # print_models(models)
@@ -92,5 +99,8 @@ if __name__ == '__main__':
     # print_model_color_unique(models, colors)
     # get_model_color_unique2(models, colors)  # [{'model': 'Volvo', 'color': 'red'}, {{'model': 'Toyota', 'color': 'black'}]
     x = get_model_color_unique(models, colors)
+    print(x)
     y = get_models(x)  # ['Volvo', 'Toyota', 'BMW', 'Mitsubishi']
     print(y)
+    y2 = get_models2(x)  # [{'id': 0, 'model': 'Volvo'}, {'id': 1, 'model': 'Toyota'}, {'id': 2, 'model': 'BMW'}, {'id': 3, 'model': 'Mitsubishi'}]
+    print(y2)
