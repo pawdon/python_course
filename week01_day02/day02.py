@@ -1,4 +1,5 @@
 from typing import List, Sequence, Dict
+import itertools
 # List implements Sequence
 # list implements List and Sequence
 # dict implements Sequence, but not List
@@ -48,8 +49,20 @@ def test_type_annotation(first_name: str, last_name: str=None, age: int=18) -> s
     return f'{first_name} {last_name} is {age} years old'
 
 
-# print_models(models)
-# print_models_with_nr(models)  # 0: Volvo
-# print_model_color_unique(models, colors)  #  Volvo is red
-# print(test_type_annotation('Jan', age=25))
-print_every_pair(models, colors)
+def print_every_pair_simple(models, colors):
+    for m in models:
+        for c in colors:
+            print(f'{m} is {c.lower()}')
+
+
+def print_every_pair(models, colors):
+    for m, c in itertools.product(models, colors):
+        print(f'{m} is {c.lower()}')
+
+print('__name__', __name__)
+if __name__ == '__main__':
+    # print_models(models)
+    # print_models_with_nr(models)  # 0: Volvo
+    # print_model_color_unique(models, colors)  #  Volvo is red
+    # print(test_type_annotation('Jan', age=25))
+    print_every_pair(models, colors)
