@@ -98,7 +98,9 @@ def print_medals(filename):
 
 
 if __name__ == '__main__':
-    data = read_csv2('ski_jumping_2014_medals.csv')
+    data = read_csv('ski_jumping_2014_medals.csv')
     print(data)
+    heights = [x['Height'] for x in data]
+    print(heights)
 
 
