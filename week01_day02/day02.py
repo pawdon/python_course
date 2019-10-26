@@ -230,6 +230,28 @@ def magic_stars_again():
             print('NOT OK')
 
 
+def fibonacci(n):
+    result = [0]
+    if n >= 2:
+        result.append(1)
+    if n > 2:
+        a, b = result
+        for _ in range(n - 2):
+            a, b = b, a + b
+            result.append(b)
+    return result
+
+
+def draw_rectangle(height, width, char='*'):
+    for _ in range(height):
+        print(char * width)
+
+
+def draw_triangle(height, width, char='*'):
+    for h in range(height):
+        print(char * int(width * (h + 1) / height))
+
+
 if __name__ == '__main__':
     # print_models(models)
     # print_models_with_nr(models)  # 0: Volvo
@@ -245,4 +267,11 @@ if __name__ == '__main__':
     # print(y2)
     # one_liners()
     # print(get_model_color_unique(models, colors))
-    magic_stars_again2()
+    # magic_stars_again2()
+    # print(fibonacci(1))
+    # print(fibonacci(2))
+    # print(fibonacci(3))
+    # print(fibonacci(4))
+    # print(fibonacci(10))
+    draw_triangle(height=10, width=42, char='-')
+    # draw_rectangle(height=10, width=30)
