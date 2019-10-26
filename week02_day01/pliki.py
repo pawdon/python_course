@@ -99,8 +99,19 @@ def print_medals(filename):
             print(f'{values[0]} got {values[6].lower()} medal')
 
 
+# Age -> int
+# Height -> float
+# Weight -> float
+def type_data(data: List[Dict]):
+    for d in data:
+        d['Age'] = int(float(d['Age']))
+        d['Height'] = float(d['Height'])
+        d['Weight'] = float(d['Weight'])
+
+
 if __name__ == '__main__':
-    data = read_csv('ski_jumping_2014_medals.csv')
+    data: List[Dict] = read_csv('ski_jumping_2014_medals.csv')
+    type_data(data)
     print(data)
     heights = [x['Height'] for x in data]
     print(heights)
