@@ -72,7 +72,17 @@ def read_csv(filename):
             print(values)
 
 
+def print_medals(filename):
+    with open(filename, 'r') as f:
+        f.readline()
+        for line in f:
+            # name, *_, medal = line.strip().split(',')
+            # print(f'{name} got {medal.lower()} medal')
+            values = line.strip().split(',')
+            print(f'{values[0]} got {values[6].lower()} medal')
+
+
 if __name__ == '__main__':
-    read_csv('ski_jumping_2014_medals.csv')
+    print_medals('ski_jumping_2014_medals.csv')
 
 
