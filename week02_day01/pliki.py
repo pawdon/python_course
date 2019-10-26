@@ -43,6 +43,35 @@ def simple_tests():
     my_print('Ala', 'ma', 'kota', end=' haha\n', begin='moja funkcja: ')
 
 
+def cars_models_to_file(*models, filename):
+    with open(filename, 'w') as f:
+        for m in models:
+            f.write(f'{m}\n')
+
+
+def cars_from_file(filename):
+    with open(filename, 'r') as f:
+        return [m.strip() for m in f]
+
+
+"""
+przeczytaj plik po linii
+podziel na poszczegolne wartosci
+wypisz
+
+'Name,Sex,Age,Height,Weight,Team,Medal'.split(',')
+['Name', 'Sex', 'Age', 'Height', 'Weight', 'Team', 'Medal']
+','.join(['Name', 'Sex', 'Age', 'Height', 'Weight', 'Team', 'Medal'])
+'Name,Sex,Age,Height,Weight,Team,Medal'
+"""
+def read_csv(filename):
+    with open(filename, 'r') as f:
+        for line in f:
+            values = line.strip().split(',')
+            print(values)
+
+
 if __name__ == '__main__':
-    pass
+    read_csv('ski_jumping_2014_medals.csv')
+
 
