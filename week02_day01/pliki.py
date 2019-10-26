@@ -27,10 +27,22 @@ def read_from_file(filename='test_file.txt'):
 
     with open(filename, 'r') as f:
         print('\ncorrect way')
-        for line in f:
+        for line in f:  # iterate over lines
             print(line, end='')
 
 
-if __name__ == '__main__':
+def my_print(*args, begin='', end='\n'):
+    print(begin, end='')
+    print(*args, end=end)
+
+
+def simple_tests():
     write_to_file()
     read_from_file('test_file.txt')
+    print()
+    my_print('Ala', 'ma', 'kota', end=' haha\n', begin='moja funkcja: ')
+
+
+if __name__ == '__main__':
+    pass
+
