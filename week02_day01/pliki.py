@@ -109,12 +109,21 @@ def type_data(data: List[Dict]):
         d['Weight'] = float(d['Weight'])
 
 
-if __name__ == '__main__':
+def test_csv():
     data: List[Dict] = read_csv('ski_jumping_2014_medals.csv')
     type_data(data)
     print(data)
     heights = [x['Height'] for x in data]
     print(heights)
     print(mean_sdv(heights))
+
+
+if __name__ == '__main__':
+    data: List[Dict] = read_csv('ski_jumping_2014_medals.csv')
+    type_data(data)
+    data_str = str(data).replace("'", '"')
+    print(data_str)
+    with open('json_example.json', 'w') as f:
+        f.write(data_str)
 
 
