@@ -1,4 +1,6 @@
 from typing import Sequence, List, Dict
+from week02_day01.w03d01 import mean_sdv
+
 
 def write_to_file_stupid_way():
     # NIGDY TAK NIE ROBCIE
@@ -102,5 +104,6 @@ if __name__ == '__main__':
     print(data)
     heights = [x['Height'] for x in data]
     print(heights)
+    print(mean_sdv(heights))
 
 
