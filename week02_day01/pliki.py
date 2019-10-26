@@ -1,3 +1,5 @@
+from typing import Sequence, List, Dict
+
 def write_to_file_stupid_way():
     # NIGDY TAK NIE ROBCIE
     f = open('test_file.txt', 'w')
@@ -64,12 +66,25 @@ wypisz
 ','.join(['Name', 'Sex', 'Age', 'Height', 'Weight', 'Team', 'Medal'])
 'Name,Sex,Age,Height,Weight,Team,Medal'
 """
-def read_csv(filename):
+def read_csv(filename) -> List[Dict]:
+    data = []
     with open(filename, 'r') as f:
-        f.readline()
+        keys = f.readline().strip().split(',')
         for line in f:
             values = line.strip().split(',')
-            print(values)
+            data.append({k: v for k, v in zip(keys, values)})
+    return data
+
+
+def read_csv2(filename):
+    full_list = []
+    with open(filename, 'r') as f:
+        keys = f.readline().strip().split(',')
+        for line in f:
+            values = line.strip().split(',')
+            single_dict = {k: v for k,v in zip(keys, values)}
+            full_list.append(single_dict)
+    return full_list
 
 
 def print_medals(filename):
@@ -83,6 +98,7 @@ def print_medals(filename):
 
 
 if __name__ == '__main__':
-    print_medals('ski_jumping_2014_medals.csv')
+    data = read_csv2('ski_jumping_2014_medals.csv')
+    print(data)
 
 
