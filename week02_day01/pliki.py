@@ -66,6 +66,7 @@ wypisz
 """
 def read_csv(filename):
     with open(filename, 'r') as f:
+        f.readline()
         for line in f:
             values = line.strip().split(',')
             print(values)
