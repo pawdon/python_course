@@ -1,5 +1,6 @@
 from typing import Sequence, List, Dict
 from week02_day01.w03d01 import mean_sdv
+import json
 
 
 def write_to_file_stupid_way():
@@ -118,12 +119,22 @@ def test_csv():
     print(mean_sdv(heights))
 
 
-if __name__ == '__main__':
+def test_json():
     data: List[Dict] = read_csv('ski_jumping_2014_medals.csv')
     type_data(data)
-    data_str = str(data).replace("'", '"')
-    print(data_str)
-    with open('json_example.json', 'w') as f:
-        f.write(data_str)
+    data_str = json.dumps(data)
+    print(type(data_str), data_str)
+    data2 = json.loads(data_str)
+    print(type(data2), data2)
+    with open('json_example2.json', 'w') as f:
+        json.dump(data, f)
+    with open('json_example2.json', 'r') as f:
+        data2 = json.load(f)
+        print(type(data2), data2)
+
+
+
+if __name__ == '__main__':
+    test_json()
 
 
