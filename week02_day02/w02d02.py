@@ -69,7 +69,7 @@ def save_csv2(input_list: List[Dict], filename, sep=';'):
             f.write(row)
 
 
-if __name__ == '__main__':
+def test_save_csv():
     # data: List[Dict] = read_csv(filename='athlete_events_since_2000.csv')
     # data = filter(data, key='Sport', value='Boxing')
     # save_csv(data, filename='box_since_2000.csv', sep=';')
@@ -80,3 +80,21 @@ if __name__ == '__main__':
     # print('START')
     # print(yaml.dump(data[0:100]))
     save_csv2([{'x': 5, 'y': 6}, {'y': 6, 'x': 5}], filename='test.csv')
+
+
+def get_unique(input_list: List[Dict], key):
+    values = [data[key] for data in input_list]
+    return set(values)
+
+
+def get_sorted_unique(input_list: List[Dict], key):
+    unique_set = get_unique(input_list, key)
+    unique_list = list(unique_set)
+    sorted_unique_list = sorted(unique_list)
+    return sorted_unique_list
+
+
+if __name__ == '__main__':
+    data: List[Dict] = read_csv(filename='box_since_2000.csv', sep=';')
+    teams = get_sorted_unique(data, key='Team')
+    print(len(teams), teams)
