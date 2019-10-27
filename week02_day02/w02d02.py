@@ -133,49 +133,37 @@ def type_data(data: List[Dict]):
 
 # kluczem sa panstwa
 # wartosciami sa listy slownikow odpowiadajace zawodnikom danego panstwa
-def result_per_team(input_list: List[Dict], year) -> Dict[str, List[Dict]]:
-    filtered_list = filter(input_list, key='Year', value=year)
-    unique_teams = get_unique(filtered_list, key='Team')
+def result_per_team(input_list: List[Dict], year):
+    filtered_data = filter(input_list, key='Year', value=year)
 
-    result = {}  # tworzymy pusty slownik
-    for team in unique_teams:
-        # result[team] to wartosc ze slownika trzymana pod kluczem team, np. 'USA'
-        """
-        results_for_team = []
-        for data in input_list:
-            if data['Team'] == team:
-                results_for_team.append(data)
-        <==>
-        results_for_team = [data for data in input_list if data['Team'] == team]
-        
-        result[team] = results_for_team
-        """
-        result[team] = [data for data in input_list if data['Team'] == team]
+    teams = get_sorted_unique(filtered_data, key='Team')
+    result = {}
+    for team in teams:
+        result[team] = [data for data in filtered_data if data['Team'] == team]
+
     return result
 
 
-# zwraca liste, w ktorej kazdy element to {'Name': imie_zawodnika, 'Medal': medal}
-# medal nie moze byc rowny ''
-def get_people_on_the_podium(input_list: List[Dict]) -> List[Dict]:
-    return [{'Name': data['Name'], 'Medal': data['Medal']}
+def get_people_on_the_podium(input_list: List[Dict]):
+    return [{'Medal': data['Medal'],
+             'Name': data['Name']}
             for data in input_list if data['Medal'] != '']
 
 
-def compute_score(people_on_the_podium):
-    multipliers = {'Bronze': 1, 'Silver': 3, 'Gold': 5}
-    list_of_scores = [multipliers.get(person['Medal']) for person in people_on_the_podium]
-    return sum(list_of_scores)
-
-
-def get_medals_per_team(results_per_team: Dict[str, List[Dict]]):
+def get_medals_per_team(results_per_team):
     medals_per_team = {}
     for team, result in results_per_team.items():
         people_on_the_podium = get_people_on_the_podium(result)
-        score = compute_score(people_on_the_podium)
+        medals = [x['Medal'] for x in people_on_the_podium]
         medals_per_team[team] = {'Podium': people_on_the_podium,
-                                 'Score': score}
-    # not finished
+                                 'Score': medals_to_score(medals)}
     return medals_per_team
+
+
+def medals_to_score(medals):
+    multipliers = {'Bronze': 1, 'Silver': 3, 'Gold': 5}
+    sub_scores = [multipliers.get(m, 0) for m in medals]
+    return sum(sub_scores)
 
 
 def sorting_key(element):
