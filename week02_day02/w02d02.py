@@ -34,8 +34,20 @@ def read_csv(filename, c=';') -> List[Dict]:
     return data
 
 
+def filter_long(data: List[Dict], key, value) -> List[Dict]:
+    new_list = []
+    for d in data:
+        if d[key] == value:
+            new_list.append(d)
+    return new_list
+
+
+def filter(data: List[Dict], key, value) -> List[Dict]:
+    return [d for d in data if d[key] == value]
+
+
 if __name__ == '__main__':
-    data = read_csv(filename='athlete_events_since_2000.csv')
-    data = choose_sport(data, name='Boxing')
+    data: List[Dict] = read_csv(filename='athlete_events_since_2000.csv')
+    data = filter(data, key='Sport', value='Boxing')
     print('START')
     print(yaml.dump(data[0:100]))
