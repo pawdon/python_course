@@ -24,30 +24,59 @@ def test01():
     print(data2)
 
 
-def read_csv(filename, c=';') -> List[Dict]:
+def read_csv(filename, sep=';') -> List[Dict]:
     data = []
     with open(filename, 'r') as f:
-        keys = f.readline().strip().split(c)
+        keys = f.readline().strip().split(sep)
         for line in f:
-            values = line.strip().split(c)
+            values = line.strip().split(sep)
             data.append({k: v for k, v in zip(keys, values)})
     return data
 
 
-def filter_long(data: List[Dict], key, value) -> List[Dict]:
+def save_csv(data: List[Dict], filename, sep=';'):
+    keys = data[0].keys()
+    with open(filename, 'w') as f:
+        header = sep.join(keys) + '\n'
+        f.write(header)
+        for d in data:
+            values = [f'{d[key]}' for key in keys]
+            row = sep.join(values) + '\n'
+            f.write(row)
+
+
+def filter_long(input_list: List[Dict], key, value) -> List[Dict]:
     new_list = []
-    for d in data:
-        if d[key] == value:
-            new_list.append(d)
+    for data in input_list:
+        if data[key] == value:
+            new_list.append(data)
     return new_list
 
 
-def filter(data: List[Dict], key, value) -> List[Dict]:
-    return [d for d in data if d[key] == value]
+def filter(input_list: List[Dict], key, value) -> List[Dict]:
+    return [data for data in input_list if data[key] == value]
+
+
+# save_csv2([{'x': 5, 'y': 6}, {'y': 6, 'x': 5}], filename='test.csv')
+def save_csv2(input_list: List[Dict], filename, sep=';'):
+    with open(filename, 'w') as f:
+        keys = input_list[0].keys()
+        header = sep.join(keys) + '\n'
+        f.write(header)
+        for data in input_list:
+            values = [str(data[key]) for key in keys]
+            row = sep.join(values) + '\n'
+            f.write(row)
 
 
 if __name__ == '__main__':
-    data: List[Dict] = read_csv(filename='athlete_events_since_2000.csv')
-    data = filter(data, key='Sport', value='Boxing')
-    print('START')
-    print(yaml.dump(data[0:100]))
+    # data: List[Dict] = read_csv(filename='athlete_events_since_2000.csv')
+    # data = filter(data, key='Sport', value='Boxing')
+    # save_csv(data, filename='box_since_2000.csv', sep=';')
+    """
+    ','.join(['Jan', 'Adam', 'Kowalski'])
+    'Jan,Adam,Kowalski'
+    """
+    # print('START')
+    # print(yaml.dump(data[0:100]))
+    save_csv2([{'x': 5, 'y': 6}, {'y': 6, 'x': 5}], filename='test.csv')
