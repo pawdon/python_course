@@ -99,9 +99,41 @@ def remove_column(input_list: List[Dict], key):
         data.pop(key)
 
 
+def str2float(data: str):
+    """
+    if data != '':
+        return float(data)
+    else:
+        return None
+    """
+    # return float(data) if data else None
+    return float(data) if data != '' else None
+
+
+def str2int(data: str):
+    data_float = str2float(data)
+    """
+    if data_float is not None:
+        return int(data_float)
+    else:
+        return None
+    """
+    # return int(data_float) if data_float else None
+    return int(data_float) if data_float is not None else None
+
+
+def type_data(data: List[Dict]):
+    for d in data:
+        d['ID'] = str2int(d['ID'])
+        d['Age'] = str2int(d['Age'])
+        d['Year'] = str2int(d['Year'])
+        d['Height'] = str2float(d['Height'])
+        d['Weight'] = str2float(d['Weight'])
+
+
 if __name__ == '__main__':
-    data: List[Dict] = read_csv(filename='box_since_2000.csv', sep=';')
-    remove_column(data, key='Sport')
-    save_csv(data, filename='box_since_2000_simple.csv', sep=';')
+    data: List[Dict] = read_csv(filename='box_since_2000_simple.csv', sep=';')
+    type_data(data)
+    print(data[0])
     # teams = get_sorted_unique(data, key='Team')
     # print(len(teams), teams)
