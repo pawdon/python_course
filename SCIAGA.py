@@ -20,3 +20,30 @@ keys = my_dict.keys()  # ['name', 'age']
 values = my_dict.values()  # ['Jan', 16]
 # for x in my_dict:  # iterowanie po kluczach, wiec w pierwszej iteracji x == 'name'
 # for key, value in my_dict.items():  # w pierwszej iteracji key = 'name', value = 'Jan'
+
+"""
+# one liners
+x = wartosc_jesli_warunek_spelniony if warunek else wartosc_jesli_nie_spelniony
+# <==>
+if warunek:
+    x = wartosc_jesli_warunek_spelniony
+else:
+    x = wartosc_jesli_nie_spelniony
+    
+
+# fun(value) - dowolna funkcja ktora zwraca cokolwiek
+x = [fun(value) for value in list if warunek]
+# <==>
+
+x = []
+for value in list:
+    if warunek:
+        x.append(fun(value))
+        
+x = {fun1(key): fun2(value) for key, value in costam if warunek}
+x = {}
+for key, value in costam:
+    if warunek:
+        x[fun1(key)] = fun2(value)
+
+"""
