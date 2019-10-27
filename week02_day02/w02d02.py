@@ -154,16 +154,20 @@ def result_per_team(input_list: List[Dict], year) -> Dict[str, List[Dict]]:
     return result
 
 
-def get_people_on_the_podium(data: List[Dict]):
-    pass
+# zwraca liste, w ktorej kazdy element to {'Name': imie_zawodnika, 'Medal': medal}
+# medal nie moze byc rowny ''
+def get_people_on_the_podium(input_list: List[Dict]) -> List[Dict]:
+    return [{'Name': data['Name'], 'Medal': data['Medal']}
+            for data in input_list if data['Medal'] != '']
 
 
 def get_medals_per_team(results_per_team: Dict[str, List[Dict]]):
     medals_per_team = {}
     for team, result in results_per_team.items():
         people_on_the_podium = get_people_on_the_podium(result)
-        print(team, people_on_the_podium)
+        medals_per_team['Podium'] = people_on_the_podium
     # not finished
+    return medals_per_team
 
 
 def sorting_key(element):
