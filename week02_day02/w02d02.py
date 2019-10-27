@@ -143,6 +143,9 @@ def find_best_team(data: List[Dict], year):
         f.write(yaml.dump(results_per_team))
 
     """
+    Bronze = 1 pkt
+    Silver = 3 pkt
+    Gold = 5 pkt
     medals_per_team = get_medals_per_team(results_per_team)
     with open('medals.yaml', 'w') as f:
         f.write(yaml.dump(medals_per_team))
