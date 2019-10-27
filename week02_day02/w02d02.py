@@ -165,7 +165,7 @@ def get_medals_per_team(results_per_team: Dict[str, List[Dict]]):
     medals_per_team = {}
     for team, result in results_per_team.items():
         people_on_the_podium = get_people_on_the_podium(result)
-        medals_per_team['Podium'] = people_on_the_podium
+        medals_per_team[team] = {'Podium': people_on_the_podium}
     # not finished
     return medals_per_team
 
