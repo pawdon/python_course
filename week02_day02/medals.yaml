@@ -1,0 +1,330 @@
+Algeria:
+  Podium: []
+  Score: 0
+Argentina:
+  Podium: []
+  Score: 0
+Armenia:
+  Podium: []
+  Score: 0
+Australia:
+  Podium: []
+  Score: 0
+Azerbaijan:
+  Podium:
+  - Medal: Bronze
+    Name: Kamran ahsuvarl
+  - Medal: Silver
+    Name: Lorenzo Sotomayor Collazo
+  Score: 4
+Belarus:
+  Podium: []
+  Score: 0
+Brazil:
+  Podium:
+  - Medal: Gold
+    Name: Robson Donato Conceio
+  Score: 5
+Bulgaria:
+  Podium: []
+  Score: 0
+Cameroon:
+  Podium: []
+  Score: 0
+Canada:
+  Podium: []
+  Score: 0
+Cape Verde:
+  Podium: []
+  Score: 0
+Central African Republic:
+  Podium: []
+  Score: 0
+China:
+  Podium:
+  - Medal: Bronze
+    Name: Hu Jianguan
+  - Medal: Bronze
+    Name: Li Qian
+  - Medal: Bronze
+    Name: Ren Cancan
+  - Medal: Silver
+    Name: Yin Junhua
+  Score: 6
+Chinese Taipei:
+  Podium: []
+  Score: 0
+Colombia:
+  Podium:
+  - Medal: Silver
+    Name: Yurberjen Herney Martnez Rivas
+  - Medal: Bronze
+    Name: Ingrit Lorena Valencia Victoria
+  Score: 4
+Congo (Brazzaville):
+  Podium: []
+  Score: 0
+Croatia:
+  Podium:
+  - Medal: Bronze
+    Name: Filip Hrgovi
+  Score: 1
+Cuba:
+  Podium:
+  - Medal: Bronze
+    Name: Lzaro Jorge lvarez Estrada
+  - Medal: Bronze
+    Name: Joahnys Oscar Argilagos Prez
+  - Medal: Gold
+    Name: Julio Csar La Cruz Peraza
+  - Medal: Gold
+    Name: Arlen Lpez Cardona
+  - Medal: Gold
+    Name: Robeisy Eloy Ramrez Carrazana
+  - Medal: Bronze
+    Name: Erislandy Savn Cotilla
+  Score: 18
+Dominican Republic:
+  Podium: []
+  Score: 0
+Ecuador:
+  Podium: []
+  Score: 0
+Egypt:
+  Podium: []
+  Score: 0
+Federated States of Micronesia:
+  Podium: []
+  Score: 0
+Fiji:
+  Podium: []
+  Score: 0
+Finland:
+  Podium:
+  - Medal: Bronze
+    Name: Mira Potkonen
+  Score: 1
+France:
+  Podium:
+  - Medal: Bronze
+    Name: Mathieu Albert Daniel Bauderlique
+  - Medal: Bronze
+    Name: Souleymane Diop Cissokho
+  - Medal: Gold
+    Name: Estelle Mossely
+  - Medal: Silver
+    Name: Sofiane Oumiha
+  - Medal: Silver
+    Name: Sarah Ourahmoune
+  - Medal: Gold
+    Name: Tony Victor James Yoka
+  Score: 18
+Germany:
+  Podium:
+  - Medal: Bronze
+    Name: Artem Harutyunyan
+  Score: 1
+Ghana:
+  Podium: []
+  Score: 0
+Great Britain:
+  Podium:
+  - Medal: Gold
+    Name: Nicola Virginia Adams
+  - Medal: Bronze
+    Name: Joshua Buatsi
+  - Medal: Silver
+    Name: '"Joseph ""Joe"" Joyce"'
+  Score: 9
+Haiti:
+  Podium: []
+  Score: 0
+Honduras:
+  Podium: []
+  Score: 0
+Hungary:
+  Podium: []
+  Score: 0
+India:
+  Podium: []
+  Score: 0
+Iran:
+  Podium: []
+  Score: 0
+Iraq:
+  Podium: []
+  Score: 0
+Ireland:
+  Podium: []
+  Score: 0
+Italy:
+  Podium: []
+  Score: 0
+Japan:
+  Podium: []
+  Score: 0
+Jordan:
+  Podium: []
+  Score: 0
+Kazakhstan:
+  Podium:
+  - Medal: Bronze
+    Name: Ivan Fyodorovich Dychko
+  - Medal: Silver
+    Name: Vasily Alekseyevich Levit
+  - Medal: Silver
+    Name: Adilbek Sabitovich Niyazymbetov
+  - Medal: Bronze
+    Name: Dariga Shakimova
+  - Medal: Gold
+    Name: Daniyar Maratovich Yeleusinov
+  Score: 13
+Kenya:
+  Podium: []
+  Score: 0
+Kyrgyzstan:
+  Podium: []
+  Score: 0
+Lesotho:
+  Podium: []
+  Score: 0
+Lithuania:
+  Podium: []
+  Score: 0
+Mauritius:
+  Podium: []
+  Score: 0
+Mexico:
+  Podium:
+  - Medal: Bronze
+    Name: Misael Uziel Rodrguez Olivas
+  Score: 1
+Mongolia:
+  Podium:
+  - Medal: Bronze
+    Name: Dorjnyambuugiin Otgondalai
+  Score: 1
+Morocco:
+  Podium:
+  - Medal: Bronze
+    Name: Mohammed Rabii
+  Score: 1
+Namibia:
+  Podium: []
+  Score: 0
+Netherlands:
+  Podium:
+  - Medal: Silver
+    Name: Nouchka Fontijn
+  Score: 3
+Nigeria:
+  Podium: []
+  Score: 0
+Panama:
+  Podium: []
+  Score: 0
+Papua New Guinea:
+  Podium: []
+  Score: 0
+Philippines:
+  Podium: []
+  Score: 0
+Poland:
+  Podium: []
+  Score: 0
+Puerto Rico:
+  Podium: []
+  Score: 0
+Qatar:
+  Podium: []
+  Score: 0
+Romania:
+  Podium: []
+  Score: 0
+Russia:
+  Podium:
+  - Medal: Bronze
+    Name: Anastasiya Yevgenyevna Belyakova
+  - Medal: Bronze
+    Name: Vitaly Vladimirovich Dunaytsev
+  - Medal: Bronze
+    Name: Vladimir Olegovich Nikitin
+  - Medal: Gold
+    Name: Yevgeny Andreyevich Tishchenko
+  Score: 8
+Seychelles:
+  Podium: []
+  Score: 0
+South Korea:
+  Podium: []
+  Score: 0
+Spain:
+  Podium: []
+  Score: 0
+Sweden:
+  Podium: []
+  Score: 0
+Tajikistan:
+  Podium: []
+  Score: 0
+Thailand:
+  Podium: []
+  Score: 0
+Trinidad and Tobago:
+  Podium: []
+  Score: 0
+Tunisia:
+  Podium: []
+  Score: 0
+Turkey:
+  Podium: []
+  Score: 0
+Turkmenistan:
+  Podium: []
+  Score: 0
+Uganda:
+  Podium: []
+  Score: 0
+Ukraine:
+  Podium: []
+  Score: 0
+United States:
+  Podium:
+  - Medal: Bronze
+    Name: Nico Miguel Hernandez
+  - Medal: Gold
+    Name: Claressa Maria Shields
+  - Medal: Silver
+    Name: Shakur Stevenson
+  Score: 9
+United States Virgin Islands:
+  Podium: []
+  Score: 0
+Uzbekistan:
+  Podium:
+  - Medal: Bronze
+    Name: Murodzhon Kakharovich Akhmadaliyev
+  - Medal: Gold
+    Name: Hasanboy Dusmatov
+  - Medal: Gold
+    Name: Fazliddin Khasanbayevich Gaybnazarov
+  - Medal: Silver
+    Name: Shakhram Dzhamshedovich Giyasov
+  - Medal: Silver
+    Name: Bektemir Ruzmatzhonovich Melikuziyev
+  - Medal: Bronze
+    Name: Rustam Tulaganov
+  - Medal: Gold
+    Name: Shakhobiddin Shokirovich Zoirov
+  Score: 23
+Vanuatu:
+  Podium: []
+  Score: 0
+Venezuela:
+  Podium:
+  - Medal: Bronze
+    Name: Yoel Segundo Finol Rivas
+  Score: 1
+Zambia:
+  Podium: []
+  Score: 0

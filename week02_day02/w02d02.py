@@ -138,7 +138,7 @@ def result_per_team(input_list: List[Dict], year):
 
 
 def find_best_team(data: List[Dict], year):
-    results_per_team = result_per_team(data, year=2016)
+    results_per_team = result_per_team(data, year=year)
     with open('results.yaml', 'w') as f:
         f.write(yaml.dump(results_per_team))
 

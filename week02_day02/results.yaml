@@ -1,0 +1,4038 @@
+Algeria:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 105
+  Medal: ''
+  NOC: ALG
+  Name: Ilyas Abbadi
+  Season: Summer
+  Sex: M
+  Team: Algeria
+  Weight: 75.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 9966
+  Medal: ''
+  NOC: ALG
+  Name: Reda Benbaziz
+  Season: Summer
+  Sex: M
+  Team: Algeria
+  Weight: 60.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 184.0
+  ID: 9968
+  Medal: ''
+  NOC: ALG
+  Name: Abdelhafid Benchabla
+  Season: Summer
+  Sex: M
+  Team: Algeria
+  Weight: 81.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 183.0
+  ID: 14050
+  Medal: ''
+  NOC: ALG
+  Name: Chouaib Bouloudinats
+  Season: Summer
+  Sex: M
+  Team: Algeria
+  Weight: 91.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 19536
+  Medal: ''
+  NOC: ALG
+  Name: Abdelkader Chadi
+  Season: Summer
+  Sex: M
+  Team: Algeria
+  Weight: 60.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 162.0
+  ID: 35855
+  Medal: ''
+  NOC: ALG
+  Name: Mohamed Flissi
+  Season: Summer
+  Sex: M
+  Team: Algeria
+  Weight: 49.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 45313
+  Medal: ''
+  NOC: ALG
+  Name: Fahem Hammachi
+  Season: Summer
+  Sex: M
+  Team: Algeria
+  Weight: 56.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 58357
+  Medal: ''
+  NOC: ALG
+  Name: Zohir Kedache
+  Season: Summer
+  Sex: M
+  Team: Algeria
+  Weight: 69.0
+  Year: 2016
+Argentina:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 156.0
+  ID: 12101
+  Medal: ''
+  NOC: ARG
+  Name: Leandro Yamil Blanc
+  Season: Summer
+  Sex: M
+  Team: Argentina
+  Weight: 49.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 75723
+  Medal: ''
+  NOC: ARG
+  Name: Fernando Daniel Martnez
+  Season: Summer
+  Sex: M
+  Team: Argentina
+  Weight: 52.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 78431
+  Medal: ''
+  NOC: ARG
+  Name: Alberto Ezequiel Melin
+  Season: Summer
+  Sex: M
+  Team: Argentina
+  Weight: 56.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 90871
+  Medal: ''
+  NOC: ARG
+  Name: Alberto Ignacio Palmetta
+  Season: Summer
+  Sex: M
+  Team: Argentina
+  Weight: 64.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 192.0
+  ID: 93139
+  Medal: ''
+  NOC: ARG
+  Name: Yamil Alberto Peralta Jara
+  Season: Summer
+  Sex: M
+  Team: Argentina
+  Weight: 91.0
+  Year: 2016
+- Age: 31
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 93564
+  Medal: ''
+  NOC: ARG
+  Name: Ignacio Perrn
+  Season: Summer
+  Sex: M
+  Team: Argentina
+  Weight: 56.0
+  Year: 2016
+Armenia:
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 166.0
+  ID: 431
+  Medal: ''
+  NOC: ARM
+  Name: Narek Abgaryan
+  Season: Summer
+  Sex: M
+  Team: Armenia
+  Weight: 52.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 6055
+  Medal: ''
+  NOC: ARM
+  Name: Aram Avagyan
+  Season: Summer
+  Sex: M
+  Team: Armenia
+  Weight: 56.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 6538
+  Medal: ''
+  NOC: ARM
+  Name: Hovhannes Bachkov
+  Season: Summer
+  Sex: M
+  Team: Armenia
+  Weight: 64.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 160.0
+  ID: 50289
+  Medal: ''
+  NOC: ARM
+  Name: Artur Hovhannisyan
+  Season: Summer
+  Sex: M
+  Team: Armenia
+  Weight: 49.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 74958
+  Medal: ''
+  NOC: ARM
+  Name: Vladimir Margaryan
+  Season: Summer
+  Sex: M
+  Team: Armenia
+  Weight: 69.0
+  Year: 2016
+Australia:
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 69218
+  Medal: ''
+  NOC: AUS
+  Name: Daniel Jason Lewis
+  Season: Summer
+  Sex: M
+  Team: Australia
+  Weight: 75.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 164.0
+  ID: 129023
+  Medal: ''
+  NOC: AUS
+  Name: Shelley Marie Watts
+  Season: Summer
+  Sex: F
+  Team: Australia
+  Weight: 60.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 196.0
+  ID: 129920
+  Medal: ''
+  NOC: AUS
+  Name: Jason Eric Whateley
+  Season: Summer
+  Sex: M
+  Team: Australia
+  Weight: 91.0
+  Year: 2016
+Azerbaijan:
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 188.0
+  ID: 335
+  Medal: ''
+  NOC: AZE
+  Name: Abdulqdir Abdullayev
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 91.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 169.0
+  ID: 2500
+  Medal: ''
+  NOC: AZE
+  Name: Yana Ivanovna Alekseevna
+  Season: Summer
+  Sex: F
+  Team: Azerbaijan
+  Weight: 60.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 177.0
+  ID: 6788
+  Medal: ''
+  NOC: AZE
+  Name: Prviz Barov
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 69.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 22102
+  Medal: ''
+  NOC: AZE
+  Name: Cavid lbiyev
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 56.0
+  Year: 2016
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 51199
+  Medal: ''
+  NOC: AZE
+  Name: Rft Hseynov
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 49.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 190.0
+  ID: 77980
+  Medal: ''
+  NOC: AZE
+  Name: Mhmmdrsul Mcidov
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 91.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 80698
+  Medal: ''
+  NOC: AZE
+  Name: Elvin Mmizad
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 52.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 196.0
+  ID: 80705
+  Medal: ''
+  NOC: AZE
+  Name: Teymur Mmmdov
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 91.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 104327
+  Medal: Bronze
+  NOC: AZE
+  Name: Kamran ahsuvarl
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 75.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 112028
+  Medal: ''
+  NOC: AZE
+  Name: Albert Slimov
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 57.0
+  Year: 2016
+- Age: 31
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 185.0
+  ID: 113381
+  Medal: Silver
+  NOC: AZE
+  Name: Lorenzo Sotomayor Collazo
+  Season: Summer
+  Sex: M
+  Team: Azerbaijan
+  Weight: 64.0
+  Year: 2016
+Belarus:
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 176.0
+  ID: 5474
+  Medal: ''
+  NOC: BLR
+  Name: Dmitry Sergeyevich Asanov
+  Season: Summer
+  Sex: M
+  Team: Belarus
+  Weight: 56.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 185.0
+  ID: 29173
+  Medal: ''
+  NOC: BLR
+  Name: Mikhail Viktorovich Dolgolevets
+  Season: Summer
+  Sex: M
+  Team: Belarus
+  Weight: 81.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 176.0
+  ID: 63143
+  Medal: ''
+  NOC: BLR
+  Name: Pavel Olegovich Kostromin
+  Season: Summer
+  Sex: M
+  Team: Belarus
+  Weight: 69.0
+  Year: 2016
+Brazil:
+- Age: 34
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 4859
+  Medal: ''
+  NOC: BRA
+  Name: Adriana dos Santos Arajo
+  Season: Summer
+  Sex: F
+  Team: Brazil
+  Weight: 60.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 169.0
+  ID: 7471
+  Medal: ''
+  NOC: BRA
+  Name: Andreia Bandeira
+  Season: Summer
+  Sex: F
+  Team: Brazil
+  Weight: 75.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 182.0
+  ID: 13467
+  Medal: ''
+  NOC: BRA
+  Name: Michel de Souza Borges
+  Season: Summer
+  Sex: M
+  Team: Brazil
+  Weight: 81.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 171.0
+  ID: 22623
+  Medal: Gold
+  NOC: BRA
+  Name: Robson Donato Conceio
+  Season: Summer
+  Sex: M
+  Team: Brazil
+  Weight: 57.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 166.0
+  ID: 26193
+  Medal: ''
+  NOC: BRA
+  Name: Robenlson Vieira de Jesus
+  Season: Summer
+  Sex: M
+  Team: Brazil
+  Weight: 56.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 164.0
+  ID: 71700
+  Medal: ''
+  NOC: BRA
+  Name: Patrick Chagas Valrio Loureno
+  Season: Summer
+  Sex: M
+  Team: Brazil
+  Weight: 49.0
+  Year: 2016
+- Age: 34
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 164.0
+  ID: 85404
+  Medal: ''
+  NOC: BRA
+  Name: Julio Henriques Neto
+  Season: Summer
+  Sex: M
+  Team: Brazil
+  Weight: 52.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 186.0
+  ID: 86757
+  Medal: ''
+  NOC: BRA
+  Name: Juan Nogueira
+  Season: Summer
+  Sex: M
+  Team: Brazil
+  Weight: 91.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 119051
+  Medal: ''
+  NOC: BRA
+  Name: Joedison de Jesus Teixeira
+  Season: Summer
+  Sex: M
+  Team: Brazil
+  Weight: 69.0
+  Year: 2016
+Bulgaria:
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 163.0
+  ID: 5510
+  Medal: ''
+  NOC: BUL
+  Name: Daniel Asenov
+  Season: Summer
+  Sex: M
+  Team: Bulgaria
+  Weight: 52.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 19656
+  Medal: ''
+  NOC: BUL
+  Name: Simeon Chamov
+  Season: Summer
+  Sex: M
+  Team: Bulgaria
+  Weight: 69.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 94144
+  Medal: ''
+  NOC: BUL
+  Name: Stanimira Petrova
+  Season: Summer
+  Sex: F
+  Team: Bulgaria
+  Weight: 51.0
+  Year: 2016
+Cameroon:
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 154.0
+  ID: 36471
+  Medal: ''
+  NOC: CMR
+  Name: Simplice Fotsala
+  Season: Summer
+  Sex: M
+  Team: Cameroon
+  Weight: 49.0
+  Year: 2016
+- Age: 32
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 182.0
+  ID: 84883
+  Medal: ''
+  NOC: CMR
+  Name: Hassan N'Dam N'Jikam
+  Season: Summer
+  Sex: M
+  Team: Cameroon
+  Weight: 75.0
+  Year: 2016
+- Age: 18
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 183.0
+  ID: 109024
+  Medal: ''
+  NOC: CMR
+  Name: Dieudonn Wilfred Seyi Ntsengue
+  Season: Summer
+  Sex: M
+  Team: Cameroon
+  Weight: 75.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 112037
+  Medal: ''
+  NOC: CMR
+  Name: Mahaman Smaila
+  Season: Summer
+  Sex: M
+  Team: Cameroon
+  Weight: 64.0
+  Year: 2016
+Canada:
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 11870
+  Medal: ''
+  NOC: CAN
+  Name: '"Movladdin ""Arthur"" Biyarslanov"'
+  Season: Summer
+  Sex: M
+  Team: Canada
+  Weight: 64.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 160.0
+  ID: 16285
+  Medal: ''
+  NOC: CAN
+  Name: Mandy Marie Brigitte Bujold
+  Season: Summer
+  Sex: F
+  Team: Canada
+  Weight: 51.0
+  Year: 2016
+- Age: 31
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 36377
+  Medal: ''
+  NOC: CAN
+  Name: Ariane Fortin
+  Season: Summer
+  Sex: F
+  Team: Canada
+  Weight: 75.0
+  Year: 2016
+Cape Verde:
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 188.0
+  ID: 81751
+  Medal: ''
+  NOC: CPV
+  Name: Davilson dos Santos Morais
+  Season: Summer
+  Sex: M
+  Team: Cape Verde
+  Weight: null
+  Year: 2016
+Central African Republic:
+- Age: 18
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 150.0
+  ID: 77209
+  Medal: ''
+  NOC: CAF
+  Name: Judith Mbougnade
+  Season: Summer
+  Sex: F
+  Team: Central African Republic
+  Weight: 51.0
+  Year: 2016
+China:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 50565
+  Medal: Bronze
+  NOC: CHN
+  Name: Hu Jianguan
+  Season: Summer
+  Sex: M
+  Team: China
+  Weight: 52.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 50573
+  Medal: ''
+  NOC: CHN
+  Name: Hu Qianxun
+  Season: Summer
+  Sex: M
+  Team: China
+  Weight: 64.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 69466
+  Medal: Bronze
+  NOC: CHN
+  Name: Li Qian
+  Season: Summer
+  Sex: F
+  Team: China
+  Weight: 75.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 70646
+  Medal: ''
+  NOC: CHN
+  Name: Liu Wei
+  Season: Summer
+  Sex: M
+  Team: China
+  Weight: 69.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 71894
+  Medal: ''
+  NOC: CHN
+  Name: L Bin
+  Season: Summer
+  Sex: M
+  Team: China
+  Weight: 49.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 99913
+  Medal: Bronze
+  NOC: CHN
+  Name: Ren Cancan
+  Season: Summer
+  Sex: F
+  Team: China
+  Weight: 51.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 109207
+  Medal: ''
+  NOC: CHN
+  Name: Shan Jun
+  Season: Summer
+  Sex: M
+  Team: China
+  Weight: 60.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 132989
+  Medal: Silver
+  NOC: CHN
+  Name: Yin Junhua
+  Season: Summer
+  Sex: F
+  Team: China
+  Weight: 60.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 193.0
+  ID: 133306
+  Medal: ''
+  NOC: CHN
+  Name: Yu Fengkai
+  Season: Summer
+  Sex: M
+  Team: China
+  Weight: 91.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 134476
+  Medal: ''
+  NOC: CHN
+  Name: Zhang Jiawei
+  Season: Summer
+  Sex: M
+  Team: China
+  Weight: 56.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 185.0
+  ID: 134656
+  Medal: ''
+  NOC: CHN
+  Name: Zhao Minggang
+  Season: Summer
+  Sex: M
+  Team: China
+  Weight: 75.0
+  Year: 2016
+Chinese Taipei:
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 169.0
+  ID: 20246
+  Medal: ''
+  NOC: TPE
+  Name: Chen Nien-Chin
+  Season: Summer
+  Sex: F
+  Team: Chinese Taipei
+  Weight: 75.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 65964
+  Medal: ''
+  NOC: TPE
+  Name: Lai Chu-En
+  Season: Summer
+  Sex: M
+  Team: Chinese Taipei
+  Weight: 56.0
+  Year: 2016
+Colombia:
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 162.0
+  ID: 6110
+  Medal: ''
+  NOC: COL
+  Name: Ceiber David vila Segura
+  Season: Summer
+  Sex: M
+  Team: Colombia
+  Weight: 49.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 184.0
+  ID: 18557
+  Medal: ''
+  NOC: COL
+  Name: Juan Carlos Carrillo Palacio
+  Season: Summer
+  Sex: M
+  Team: Colombia
+  Weight: 81.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 75850
+  Medal: Silver
+  NOC: COL
+  Name: Yurberjen Herney Martnez Rivas
+  Season: Summer
+  Sex: M
+  Team: Colombia
+  Weight: 49.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 160.0
+  ID: 123925
+  Medal: Bronze
+  NOC: COL
+  Name: Ingrit Lorena Valencia Victoria
+  Season: Summer
+  Sex: F
+  Team: Colombia
+  Weight: 50.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 126918
+  Medal: ''
+  NOC: COL
+  Name: Jorge Lus Vivas Palacios
+  Season: Summer
+  Sex: M
+  Team: Colombia
+  Weight: 69.0
+  Year: 2016
+Congo (Brazzaville):
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: null
+  ID: 74187
+  Medal: ''
+  NOC: CGO
+  Name: Dival Forele Malonga Dzalamou
+  Season: Summer
+  Sex: M
+  Team: Congo (Brazzaville)
+  Weight: null
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 85662
+  Medal: ''
+  NOC: CGO
+  Name: Mpi Anauel Ngamissengue
+  Season: Summer
+  Sex: M
+  Team: Congo (Brazzaville)
+  Weight: null
+  Year: 2016
+Croatia:
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 198.0
+  ID: 50473
+  Medal: Bronze
+  NOC: CRO
+  Name: Filip Hrgovi
+  Season: Summer
+  Sex: M
+  Team: Croatia
+  Weight: 101.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 108734
+  Medal: ''
+  NOC: CRO
+  Name: Hrvoje Sep
+  Season: Summer
+  Sex: M
+  Team: Croatia
+  Weight: 81.0
+  Year: 2016
+Cuba:
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 3174
+  Medal: Bronze
+  NOC: CUB
+  Name: Lzaro Jorge lvarez Estrada
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 60.0
+  Year: 2016
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 152.0
+  ID: 5023
+  Medal: Bronze
+  NOC: CUB
+  Name: Joahnys Oscar Argilagos Prez
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 49.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 177.0
+  ID: 51688
+  Medal: ''
+  NOC: CUB
+  Name: Roniel Iglesias Sotolongo
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 64.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 182.0
+  ID: 65585
+  Medal: Gold
+  NOC: CUB
+  Name: Julio Csar La Cruz Peraza
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 81.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 71328
+  Medal: Gold
+  NOC: CUB
+  Name: Arlen Lpez Cardona
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 75.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 192.0
+  ID: 93504
+  Medal: ''
+  NOC: CUB
+  Name: Leinier Eunice Per Justiz
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 94.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 98669
+  Medal: Gold
+  NOC: CUB
+  Name: Robeisy Eloy Ramrez Carrazana
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 56.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 192.0
+  ID: 106301
+  Medal: Bronze
+  NOC: CUB
+  Name: Erislandy Savn Cotilla
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 91.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 120801
+  Medal: ''
+  NOC: CUB
+  Name: Yasnier Toledo Lpez
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 60.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 160.0
+  ID: 125690
+  Medal: ''
+  NOC: CUB
+  Name: Yosbany Veita Soto
+  Season: Summer
+  Sex: M
+  Team: Cuba
+  Weight: 49.0
+  Year: 2016
+Dominican Republic:
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 26387
+  Medal: ''
+  NOC: DOM
+  Name: Leonel de los Santos Nez
+  Season: Summer
+  Sex: M
+  Team: Dominican Republic
+  Weight: 52.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 38575
+  Medal: ''
+  NOC: DOM
+  Name: Hctor Lus Garca Mora
+  Season: Summer
+  Sex: M
+  Team: Dominican Republic
+  Weight: 56.0
+  Year: 2016
+Ecuador:
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 183.0
+  ID: 18955
+  Medal: ''
+  NOC: ECU
+  Name: Julio Csar Castillo Torres
+  Season: Summer
+  Sex: M
+  Team: Ecuador
+  Weight: 91.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 184.0
+  ID: 27285
+  Medal: ''
+  NOC: ECU
+  Name: Marlo Delgado Suarez
+  Season: Summer
+  Sex: M
+  Team: Ecuador
+  Weight: 75.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 187.0
+  ID: 80084
+  Medal: ''
+  NOC: ECU
+  Name: Carlos Andrs Mina Caicedo
+  Season: Summer
+  Sex: M
+  Team: Ecuador
+  Weight: 81.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 156.0
+  ID: 97977
+  Medal: ''
+  NOC: ECU
+  Name: Carlos Eduardo Quipo Pilataxi
+  Season: Summer
+  Sex: M
+  Team: Ecuador
+  Weight: 49.0
+  Year: 2016
+Egypt:
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 176.0
+  ID: 228
+  Medal: ''
+  NOC: EGY
+  Name: Mahmoud Abdelaal
+  Season: Summer
+  Sex: M
+  Team: Egypt
+  Weight: 60.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 7102
+  Medal: ''
+  NOC: EGY
+  Name: Hosam Bakr Hosam Abdin
+  Season: Summer
+  Sex: M
+  Team: Egypt
+  Weight: 69.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 80927
+  Medal: ''
+  NOC: EGY
+  Name: Walid Said Mohamed Sedik Mohamed
+  Season: Summer
+  Sex: M
+  Team: Egypt
+  Weight: 69.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 185.0
+  ID: 104600
+  Medal: ''
+  NOC: EGY
+  Name: Abdel Rahman Salah Orabi Abdelgawwad
+  Season: Summer
+  Sex: M
+  Team: Egypt
+  Weight: 81.0
+  Year: 2016
+Federated States of Micronesia:
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 161.0
+  ID: 20692
+  Medal: ''
+  NOC: FSM
+  Name: Jennifer Dugwen Chieng
+  Season: Summer
+  Sex: F
+  Team: Federated States of Micronesia
+  Weight: 60.0
+  Year: 2016
+Fiji:
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: null
+  ID: 48605
+  Medal: ''
+  NOC: FIJ
+  Name: Winston Hill
+  Season: Summer
+  Sex: M
+  Team: Fiji
+  Weight: null
+  Year: 2016
+Finland:
+- Age: 35
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 96466
+  Medal: Bronze
+  NOC: FIN
+  Name: Mira Potkonen
+  Season: Summer
+  Sex: F
+  Team: Finland
+  Weight: 60.0
+  Year: 2016
+France:
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 183.0
+  ID: 3564
+  Medal: ''
+  NOC: FRA
+  Name: Hassan Amzile
+  Season: Summer
+  Sex: M
+  Team: France
+  Weight: 64.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 185.0
+  ID: 8672
+  Medal: Bronze
+  NOC: FRA
+  Name: Mathieu Albert Daniel Bauderlique
+  Season: Summer
+  Sex: M
+  Team: France
+  Weight: 81.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 179.0
+  ID: 21700
+  Medal: Bronze
+  NOC: FRA
+  Name: Souleymane Diop Cissokho
+  Season: Summer
+  Sex: M
+  Team: France
+  Weight: 69.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 62487
+  Medal: ''
+  NOC: FRA
+  Name: lie Konki
+  Season: Summer
+  Sex: M
+  Team: France
+  Weight: 52.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 77176
+  Medal: ''
+  NOC: FRA
+  Name: Christian M'Billi-Assomo
+  Season: Summer
+  Sex: M
+  Team: France
+  Weight: 75.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 82474
+  Medal: Gold
+  NOC: FRA
+  Name: Estelle Mossely
+  Season: Summer
+  Sex: F
+  Team: France
+  Weight: 60.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 189.0
+  ID: 89057
+  Medal: ''
+  NOC: FRA
+  Name: Paul Omba-Biongolo
+  Season: Summer
+  Sex: M
+  Team: France
+  Weight: 91.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 90122
+  Medal: Silver
+  NOC: FRA
+  Name: Sofiane Oumiha
+  Season: Summer
+  Sex: M
+  Team: France
+  Weight: 60.0
+  Year: 2016
+- Age: 34
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 158.0
+  ID: 90133
+  Medal: Silver
+  NOC: FRA
+  Name: Sarah Ourahmoune
+  Season: Summer
+  Sex: F
+  Team: France
+  Weight: 51.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 200.0
+  ID: 133031
+  Medal: Gold
+  NOC: FRA
+  Name: Tony Victor James Yoka
+  Season: Summer
+  Sex: M
+  Team: France
+  Weight: 105.0
+  Year: 2016
+Germany:
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 191.0
+  ID: 42235
+  Medal: ''
+  NOC: GER
+  Name: David Graf
+  Season: Summer
+  Sex: M
+  Team: Germany
+  Weight: 91.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 46344
+  Medal: Bronze
+  NOC: GER
+  Name: Artem Harutyunyan
+  Season: Summer
+  Sex: M
+  Team: Germany
+  Weight: 64.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 75992
+  Medal: ''
+  NOC: GER
+  Name: Arajik Witali Marutjan
+  Season: Summer
+  Sex: M
+  Team: Germany
+  Weight: 69.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 181.0
+  ID: 79404
+  Medal: ''
+  NOC: GER
+  Name: Serge Michel
+  Season: Summer
+  Sex: M
+  Team: Germany
+  Weight: 81.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 191.0
+  ID: 94341
+  Medal: ''
+  NOC: GER
+  Name: Erik Pfeifer
+  Season: Summer
+  Sex: M
+  Team: Germany
+  Weight: 104.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 121443
+  Medal: ''
+  NOC: GER
+  Name: Hamza Touba
+  Season: Summer
+  Sex: M
+  Team: Germany
+  Weight: 52.0
+  Year: 2016
+Ghana:
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: null
+  ID: 89046
+  Medal: ''
+  NOC: GHA
+  Name: Abdul Omar
+  Season: Summer
+  Sex: M
+  Team: Ghana
+  Weight: null
+  Year: 2016
+Great Britain:
+- Age: 33
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 164.0
+  ID: 832
+  Medal: Gold
+  NOC: GBR
+  Name: Nicola Virginia Adams
+  Season: Summer
+  Sex: F
+  Team: Great Britain
+  Weight: 51.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 2692
+  Medal: ''
+  NOC: GBR
+  Name: Muhammad Ali
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 52.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 5545
+  Medal: ''
+  NOC: GBR
+  Name: Qais Dad Ashfaq
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 56.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 185.0
+  ID: 15967
+  Medal: Bronze
+  NOC: GBR
+  Name: Joshua Buatsi
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 81.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 23045
+  Medal: ''
+  NOC: GBR
+  Name: '"Joseph ""Joe"" Cordina"'
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 61.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 179.0
+  ID: 36546
+  Medal: ''
+  NOC: GBR
+  Name: Antony John Fowler
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 75.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 197.0
+  ID: 56073
+  Medal: Silver
+  NOC: GBR
+  Name: '"Joseph ""Joe"" Joyce"'
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 108.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 58582
+  Medal: ''
+  NOC: GBR
+  Name: '"Joshua ""Josh"" Kelly"'
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 69.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 181.0
+  ID: 75428
+  Medal: ''
+  NOC: GBR
+  Name: Savannah Rose Dee Marshall
+  Season: Summer
+  Sex: F
+  Team: Great Britain
+  Weight: 75.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 182.0
+  ID: 77379
+  Medal: ''
+  NOC: GBR
+  Name: Pat McCormack
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 64.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 195.0
+  ID: 88473
+  Medal: ''
+  NOC: GBR
+  Name: Lawrence Junior I. O. Okolie
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 91.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 158.0
+  ID: 132148
+  Medal: ''
+  NOC: GBR
+  Name: Galal Yafai
+  Season: Summer
+  Sex: M
+  Team: Great Britain
+  Weight: 49.0
+  Year: 2016
+Haiti:
+- Age: 18
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: null
+  ID: 48857
+  Medal: ''
+  NOC: HAI
+  Name: Richardson Hitchins
+  Season: Summer
+  Sex: M
+  Team: Haiti
+  Weight: null
+  Year: 2016
+Honduras:
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 176.0
+  ID: 71469
+  Medal: ''
+  NOC: HON
+  Name: Teofimo Andrs Lpez Rivera
+  Season: Summer
+  Sex: M
+  Team: Honduras
+  Weight: 60.0
+  Year: 2016
+Hungary:
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 177.0
+  ID: 6633
+  Medal: ''
+  NOC: HUN
+  Name: Imre Balzs Bacskai
+  Season: Summer
+  Sex: M
+  Team: Hungary
+  Weight: 72.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 184.0
+  ID: 45957
+  Medal: ''
+  NOC: HUN
+  Name: Zoltn dm Harcsa
+  Season: Summer
+  Sex: M
+  Team: Hungary
+  Weight: 75.0
+  Year: 2016
+India:
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 64894
+  Medal: ''
+  NOC: IND
+  Name: Manoj Kumar Kaltagediya
+  Season: Summer
+  Sex: M
+  Team: India
+  Weight: 64.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 169.0
+  ID: 119515
+  Medal: ''
+  NOC: IND
+  Name: Shiva Thapa
+  Season: Summer
+  Sex: M
+  Team: India
+  Weight: 56.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 177.0
+  ID: 132143
+  Medal: ''
+  NOC: IND
+  Name: Vikas Krishan Yadav
+  Season: Summer
+  Sex: M
+  Team: India
+  Weight: 69.0
+  Year: 2016
+Iran:
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 103009
+  Medal: ''
+  NOC: IRI
+  Name: Ehsan Rouzbahani
+  Season: Summer
+  Sex: M
+  Team: Iran
+  Weight: 74.0
+  Year: 2016
+Iraq:
+- Age: 33
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 349
+  Medal: ''
+  NOC: IRQ
+  Name: Waheed Abdulridha Waheed Karaawi
+  Season: Summer
+  Sex: M
+  Team: Iraq
+  Weight: 74.0
+  Year: 2016
+Ireland:
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 163.0
+  ID: 7967
+  Medal: ''
+  NOC: IRL
+  Name: '"Patrick Gerard ""Paddy"" Barnes"'
+  Season: Summer
+  Sex: M
+  Team: Ireland
+  Weight: 49.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 22673
+  Medal: ''
+  NOC: IRL
+  Name: Michael John Conlan
+  Season: Summer
+  Sex: M
+  Team: Ireland
+  Weight: 56.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 29410
+  Medal: ''
+  NOC: IRL
+  Name: Steven Gerard Donnelly
+  Season: Summer
+  Sex: M
+  Team: Ireland
+  Weight: 69.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 52373
+  Medal: ''
+  NOC: IRL
+  Name: Brendan Emmet Irvine
+  Season: Summer
+  Sex: M
+  Team: Ireland
+  Weight: 49.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 171.0
+  ID: 56070
+  Medal: ''
+  NOC: IRL
+  Name: David Oliver Joyce
+  Season: Summer
+  Sex: M
+  Team: Ireland
+  Weight: 60.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 118917
+  Medal: ''
+  NOC: IRL
+  Name: '"Kathleen ""Katie"" Taylor"'
+  Season: Summer
+  Sex: F
+  Team: Ireland
+  Weight: 60.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 186.0
+  ID: 128718
+  Medal: ''
+  NOC: IRL
+  Name: '"Joseph ""Joe"" Ward"'
+  Season: Summer
+  Sex: M
+  Team: Ireland
+  Weight: 81.0
+  Year: 2016
+Italy:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 18066
+  Medal: ''
+  NOC: ITA
+  Name: Manuel Fabrizio Cappai
+  Season: Summer
+  Sex: M
+  Team: Italy
+  Weight: 49.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 74397
+  Medal: ''
+  NOC: ITA
+  Name: Valentino Manfredonia
+  Season: Summer
+  Sex: M
+  Team: Italy
+  Weight: 81.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 171.0
+  ID: 74414
+  Medal: ''
+  NOC: ITA
+  Name: Vincenzo Mangiacapre
+  Season: Summer
+  Sex: M
+  Team: Italy
+  Weight: 64.0
+  Year: 2016
+- Age: 34
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 181.0
+  ID: 103641
+  Medal: ''
+  NOC: ITA
+  Name: Clemente Russo
+  Season: Summer
+  Sex: M
+  Team: Italy
+  Weight: 91.0
+  Year: 2016
+- Age: 18
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 119382
+  Medal: ''
+  NOC: ITA
+  Name: Irma Testa
+  Season: Summer
+  Sex: F
+  Team: Italy
+  Weight: 60.0
+  Year: 2016
+- Age: 32
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 120974
+  Medal: ''
+  NOC: ITA
+  Name: Carmine Tommasone
+  Season: Summer
+  Sex: M
+  Team: Italy
+  Weight: 60.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 198.0
+  ID: 126280
+  Medal: ''
+  NOC: ITA
+  Name: Guido Vianello
+  Season: Summer
+  Sex: M
+  Team: Italy
+  Weight: 103.0
+  Year: 2016
+Japan:
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 176.0
+  ID: 82141
+  Medal: ''
+  NOC: JPN
+  Name: Arashi Morisaka
+  Season: Summer
+  Sex: M
+  Team: Japan
+  Weight: 56.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 84548
+  Medal: ''
+  NOC: JPN
+  Name: Daisuke Narimatsu
+  Season: Summer
+  Sex: M
+  Team: Japan
+  Weight: 60.0
+  Year: 2016
+Jordan:
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 166.0
+  ID: 1991
+  Medal: ''
+  NOC: JOR
+  Name: Obada Al-Kasbeh
+  Season: Summer
+  Sex: M
+  Team: Jordan
+  Weight: 64.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 51499
+  Medal: ''
+  NOC: JOR
+  Name: Hussein Iashaish
+  Season: Summer
+  Sex: M
+  Team: Jordan
+  Weight: 95.0
+  Year: 2016
+Kazakhstan:
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 272
+  Medal: ''
+  NOC: KAZ
+  Name: Berik Abdrakhmanov
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 60.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 182.0
+  ID: 2743
+  Medal: ''
+  NOC: KAZ
+  Name: Zhanibek Alimkhanuly
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 75.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 205.0
+  ID: 31041
+  Medal: Bronze
+  NOC: KAZ
+  Name: Ivan Fyodorovich Dychko
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 91.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 185.0
+  ID: 69163
+  Medal: Silver
+  NOC: KAZ
+  Name: Vasily Alekseyevich Levit
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 91.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 86589
+  Medal: Silver
+  NOC: KAZ
+  Name: Adilbek Sabitovich Niyazymbetov
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 81.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 160.0
+  ID: 106078
+  Medal: ''
+  NOC: KAZ
+  Name: Olzhas Sattybayev
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 52.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 109169
+  Medal: Bronze
+  NOC: KAZ
+  Name: Dariga Shakimova
+  Season: Summer
+  Sex: F
+  Team: Kazakhstan
+  Weight: 75.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 155.0
+  ID: 109487
+  Medal: ''
+  NOC: KAZ
+  Name: Zhayna Shekerbekova
+  Season: Summer
+  Sex: F
+  Team: Kazakhstan
+  Weight: 51.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 132813
+  Medal: Gold
+  NOC: KAZ
+  Name: Daniyar Maratovich Yeleusinov
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 64.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 132869
+  Medal: ''
+  NOC: KAZ
+  Name: Kayrat Yeraliyev
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 56.0
+  Year: 2016
+- Age: 32
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 134412
+  Medal: ''
+  NOC: KAZ
+  Name: Birzhan Zhakypovich Zhakypov
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 48.0
+  Year: 2016
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 134903
+  Medal: ''
+  NOC: KAZ
+  Name: Ablaykhan Kayratovich Zhusupov
+  Season: Summer
+  Sex: M
+  Team: Kazakhstan
+  Weight: 64.0
+  Year: 2016
+Kenya:
+- Age: 31
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 86610
+  Medal: ''
+  NOC: KEN
+  Name: Benson Gicharu Njangiru
+  Season: Summer
+  Sex: M
+  Team: Kenya
+  Weight: 56.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 88547
+  Medal: ''
+  NOC: KEN
+  Name: Rayton Nduku Okwiri
+  Season: Summer
+  Sex: M
+  Team: Kenya
+  Weight: 69.0
+  Year: 2016
+- Age: 35
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 152.0
+  ID: 128820
+  Medal: ''
+  NOC: KEN
+  Name: Peter Mungai Warui
+  Season: Summer
+  Sex: M
+  Team: Kenya
+  Weight: 49.0
+  Year: 2016
+Kyrgyzstan:
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 190.0
+  ID: 1035
+  Medal: ''
+  NOC: KGZ
+  Name: Erkin Adylbek uulu
+  Season: Summer
+  Sex: M
+  Team: Kyrgyzstan
+  Weight: 80.0
+  Year: 2016
+Lesotho:
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: null
+  ID: 81055
+  Medal: ''
+  NOC: LES
+  Name: Moroke Jeremia Mokhotho
+  Season: Summer
+  Sex: M
+  Team: Lesotho
+  Weight: null
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: null
+  ID: 116595
+  Medal: ''
+  NOC: LES
+  Name: Inkululeko Suntele
+  Season: Summer
+  Sex: M
+  Team: Lesotho
+  Weight: null
+  Year: 2016
+Lithuania:
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 164.0
+  ID: 94024
+  Medal: ''
+  NOC: LTU
+  Name: Evaldas Petrauskas
+  Season: Summer
+  Sex: M
+  Team: Lithuania
+  Weight: 60.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 114328
+  Medal: ''
+  NOC: LTU
+  Name: Eimantas Stanionis
+  Season: Summer
+  Sex: M
+  Team: Lithuania
+  Weight: 69.0
+  Year: 2016
+Mauritius:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 21743
+  Medal: ''
+  NOC: MRI
+  Name: Merven Clair
+  Season: Summer
+  Sex: M
+  Team: Mauritius
+  Weight: 75.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 114103
+  Medal: ''
+  NOC: MRI
+  Name: Kennedy St. Pierre
+  Season: Summer
+  Sex: M
+  Team: Mauritius
+  Weight: 91.0
+  Year: 2016
+Mexico:
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 27280
+  Medal: ''
+  NOC: MEX
+  Name: Lindolfo Delgado Garza
+  Season: Summer
+  Sex: M
+  Team: Mexico
+  Weight: 60.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 32494
+  Medal: ''
+  NOC: MEX
+  Name: Elas Eliseo Emigdio Abarca
+  Season: Summer
+  Sex: M
+  Team: Mexico
+  Weight: 52.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 101829
+  Medal: Bronze
+  NOC: MEX
+  Name: Misael Uziel Rodrguez Olivas
+  Season: Summer
+  Sex: M
+  Team: Mexico
+  Weight: 75.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 179.0
+  ID: 102320
+  Medal: ''
+  NOC: MEX
+  Name: Juan Pablo Romero Marn
+  Season: Summer
+  Sex: M
+  Team: Mexico
+  Weight: 69.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 164.0
+  ID: 125738
+  Medal: ''
+  NOC: MEX
+  Name: Joselito Velzquez Altamirano
+  Season: Summer
+  Sex: M
+  Team: Mexico
+  Weight: 49.0
+  Year: 2016
+Mongolia:
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 6402
+  Medal: ''
+  NOC: MGL
+  Name: Baatarskhiin Chinzorig
+  Season: Summer
+  Sex: M
+  Team: Mongolia
+  Weight: 64.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 17025
+  Medal: ''
+  NOC: MGL
+  Name: Byambyn Tvshinbat
+  Season: Summer
+  Sex: M
+  Team: Mongolia
+  Weight: 69.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 29508
+  Medal: Bronze
+  NOC: MGL
+  Name: Dorjnyambuugiin Otgondalai
+  Season: Summer
+  Sex: M
+  Team: Mongolia
+  Weight: 60.0
+  Year: 2016
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 163.0
+  ID: 32839
+  Medal: ''
+  NOC: MGL
+  Name: Erdenebatyn Tsendbaatar
+  Season: Summer
+  Sex: M
+  Team: Mongolia
+  Weight: 56.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 162.0
+  ID: 38360
+  Medal: ''
+  NOC: MGL
+  Name: Gankhuyagiin Gan-Erdene
+  Season: Summer
+  Sex: M
+  Team: Mongolia
+  Weight: 49.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 59203
+  Medal: ''
+  NOC: MGL
+  Name: Kharkhuugiin Enkh-Amar
+  Season: Summer
+  Sex: M
+  Team: Mongolia
+  Weight: 52.0
+  Year: 2016
+Morocco:
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 185.0
+  ID: 5092
+  Medal: ''
+  NOC: MAR
+  Name: Mohamed Al-Arjaoui
+  Season: Summer
+  Sex: M
+  Team: Morocco
+  Weight: 91.0
+  Year: 2016
+- Age: 32
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 33584
+  Medal: ''
+  NOC: MAR
+  Name: Zohra Ez Zahraoui
+  Season: Summer
+  Sex: F
+  Team: Morocco
+  Weight: 51.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 45385
+  Medal: ''
+  NOC: MAR
+  Name: Mohamed Hamout
+  Season: Summer
+  Sex: M
+  Team: Morocco
+  Weight: 56.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 160.0
+  ID: 59213
+  Medal: ''
+  NOC: MAR
+  Name: Achraf Kharroubi
+  Season: Summer
+  Sex: M
+  Team: Morocco
+  Weight: 52.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 164.0
+  ID: 65726
+  Medal: ''
+  NOC: MAR
+  Name: Hasnaa Lachgar
+  Season: Summer
+  Sex: F
+  Team: Morocco
+  Weight: 60.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 183.0
+  ID: 74900
+  Medal: ''
+  NOC: MAR
+  Name: Khadija Al-Mardi
+  Season: Summer
+  Sex: F
+  Team: Morocco
+  Weight: 75.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 98057
+  Medal: Bronze
+  NOC: MAR
+  Name: Mohammed Rabii
+  Season: Summer
+  Sex: M
+  Team: Morocco
+  Weight: 69.0
+  Year: 2016
+Namibia:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 160.0
+  ID: 45403
+  Medal: ''
+  NOC: NAM
+  Name: Mathias Tulyoongeleni Hamunyela
+  Season: Summer
+  Sex: M
+  Team: Namibia
+  Weight: 49.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 181.0
+  ID: 55592
+  Medal: ''
+  NOC: NAM
+  Name: Jonas Junias Jonas
+  Season: Summer
+  Sex: M
+  Team: Namibia
+  Weight: 64.0
+  Year: 2016
+Netherlands:
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 36182
+  Medal: Silver
+  NOC: NED
+  Name: Nouchka Fontijn
+  Season: Summer
+  Sex: F
+  Team: Netherlands
+  Weight: 75.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 181.0
+  ID: 65584
+  Medal: ''
+  NOC: NED
+  Name: Enrico La Cruz
+  Season: Summer
+  Sex: M
+  Team: Netherlands
+  Weight: 60.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 183.0
+  ID: 83030
+  Medal: ''
+  NOC: NED
+  Name: Peter Mllenberg
+  Season: Summer
+  Sex: M
+  Team: Netherlands
+  Weight: 81.0
+  Year: 2016
+Nigeria:
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 190.0
+  ID: 1548
+  Medal: ''
+  NOC: NGR
+  Name: Efe Ajagba
+  Season: Summer
+  Sex: M
+  Team: Nigeria
+  Weight: null
+  Year: 2016
+Panama:
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 17072
+  Medal: ''
+  NOC: PAN
+  Name: Atheyna Bylon
+  Season: Summer
+  Sex: F
+  Team: Panama
+  Weight: 75.0
+  Year: 2016
+Papua New Guinea:
+- Age: 18
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 58038
+  Medal: ''
+  NOC: PNG
+  Name: Thadius Katua
+  Season: Summer
+  Sex: M
+  Team: Papua New Guinea
+  Weight: 60.0
+  Year: 2016
+Philippines:
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 65796
+  Medal: ''
+  NOC: PHI
+  Name: Rogen Ladon
+  Season: Summer
+  Sex: M
+  Team: Philippines
+  Weight: 49.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 116085
+  Medal: ''
+  NOC: PHI
+  Name: Charly Coronel Suarez
+  Season: Summer
+  Sex: M
+  Team: Philippines
+  Weight: 60.0
+  Year: 2016
+Poland:
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 53060
+  Medal: ''
+  NOC: POL
+  Name: Tomasz Jaboski
+  Season: Summer
+  Sex: M
+  Team: Poland
+  Weight: 85.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 184.0
+  ID: 53435
+  Medal: ''
+  NOC: POL
+  Name: Igor Pawe Jakubowski
+  Season: Summer
+  Sex: M
+  Team: Poland
+  Weight: 91.0
+  Year: 2016
+Puerto Rico:
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 171.0
+  ID: 21617
+  Medal: ''
+  NOC: PUR
+  Name: Jeyvier Jess Cintrn Ocasio
+  Season: Summer
+  Sex: M
+  Team: Puerto Rico
+  Weight: 52.0
+  Year: 2016
+Qatar:
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 33061
+  Medal: ''
+  NOC: QAT
+  Name: Hakan Ereker
+  Season: Summer
+  Sex: M
+  Team: Qatar
+  Weight: 60.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 119518
+  Medal: ''
+  NOC: QAT
+  Name: Thulasi Tharumalingam
+  Season: Summer
+  Sex: M
+  Team: Qatar
+  Weight: 64.0
+  Year: 2016
+Romania:
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 86547
+  Medal: ''
+  NOC: ROU
+  Name: Mihai Nistor
+  Season: Summer
+  Sex: M
+  Team: Romania
+  Weight: 105.0
+  Year: 2016
+Russia:
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 356
+  Medal: ''
+  NOC: RUS
+  Name: Adlan Aliyevich Abdurashidov
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 60.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 164.0
+  ID: 3052
+  Medal: ''
+  NOC: RUS
+  Name: '"Mikhail Surenovich ""Misha"" Aloyan"'
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 52.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 9823
+  Medal: Bronze
+  NOC: RUS
+  Name: Anastasiya Yevgenyevna Belyakova
+  Season: Summer
+  Sex: F
+  Team: Russia
+  Weight: 60.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 184.0
+  ID: 20085
+  Medal: ''
+  NOC: RUS
+  Name: Artyom Nikolayevich Chebotaryov
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 75.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 30615
+  Medal: Bronze
+  NOC: RUS
+  Name: Vitaly Vladimirovich Dunaytsev
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 64.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 177.0
+  ID: 59126
+  Medal: ''
+  NOC: RUS
+  Name: Pyotr Mukhamedovich Khamukov
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 81.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 86217
+  Medal: Bronze
+  NOC: RUS
+  Name: Vladimir Olegovich Nikitin
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 56.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 196.0
+  ID: 120511
+  Medal: Gold
+  NOC: RUS
+  Name: Yevgeny Andreyevich Tishchenko
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 91.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 132232
+  Medal: ''
+  NOC: RUS
+  Name: Yaroslava Ivanovna Yakushina
+  Season: Summer
+  Sex: F
+  Team: Russia
+  Weight: 75.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 162.0
+  ID: 132787
+  Medal: ''
+  NOC: RUS
+  Name: Vasily Mikhaylovich Yegorov
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 49.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 133865
+  Medal: ''
+  NOC: RUS
+  Name: Andrey Viktorovich Zamkovoy
+  Season: Summer
+  Sex: M
+  Team: Russia
+  Weight: 69.0
+  Year: 2016
+Seychelles:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 171.0
+  ID: 2913
+  Medal: ''
+  NOC: SEY
+  Name: Andrique Allisop
+  Season: Summer
+  Sex: M
+  Team: Seychelles
+  Weight: 60.0
+  Year: 2016
+South Korea:
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 45164
+  Medal: ''
+  NOC: KOR
+  Name: Ham Sang-Myeong
+  Season: Summer
+  Sex: M
+  Team: South Korea
+  Weight: 56.0
+  Year: 2016
+Spain:
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 162.0
+  ID: 18384
+  Medal: ''
+  NOC: ESP
+  Name: Samuel Carmona Heredia
+  Season: Summer
+  Sex: M
+  Team: Spain
+  Weight: 49.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 182.0
+  ID: 111423
+  Medal: ''
+  NOC: ESP
+  Name: Youba Sissokho Ndiaye
+  Season: Summer
+  Sex: M
+  Team: Spain
+  Weight: 69.0
+  Year: 2016
+Sweden:
+- Age: 36
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 184.0
+  ID: 67112
+  Medal: ''
+  NOC: SWE
+  Name: Anna Rosalie Eleonora Laurell-Nash
+  Season: Summer
+  Sex: F
+  Team: Sweden
+  Weight: 75.0
+  Year: 2016
+Tajikistan:
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 133509
+  Medal: ''
+  NOC: TJK
+  Name: Anvar Yunusov
+  Season: Summer
+  Sex: M
+  Team: Tajikistan
+  Weight: 55.0
+  Year: 2016
+Thailand:
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 4947
+  Medal: ''
+  NOC: THA
+  Name: Sailom Ard
+  Season: Summer
+  Sex: M
+  Team: Thailand
+  Weight: 57.0
+  Year: 2016
+- Age: 31
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 166.0
+  ID: 16891
+  Medal: ''
+  NOC: THA
+  Name: Chatchai Butdee
+  Season: Summer
+  Sex: M
+  Team: Thailand
+  Weight: 52.0
+  Year: 2016
+- Age: 32
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 163.0
+  ID: 66595
+  Medal: ''
+  NOC: THA
+  Name: Peamwilai Laopeam
+  Season: Summer
+  Sex: F
+  Team: Thailand
+  Weight: 51.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 76305
+  Medal: ''
+  NOC: THA
+  Name: Wuttichai Masuk
+  Season: Summer
+  Sex: M
+  Team: Thailand
+  Weight: 64.0
+  Year: 2016
+- Age: 36
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 163.0
+  ID: 103330
+  Medal: ''
+  NOC: THA
+  Name: Amnat Ruenroeng
+  Season: Summer
+  Sex: M
+  Team: Thailand
+  Weight: 48.0
+  Year: 2016
+Trinidad and Tobago:
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 194.0
+  ID: 92168
+  Medal: ''
+  NOC: TTO
+  Name: Nigel Paul
+  Season: Summer
+  Sex: M
+  Team: Trinidad and Tobago
+  Weight: null
+  Year: 2016
+Tunisia:
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 19585
+  Medal: ''
+  NOC: TUN
+  Name: Hassen Al-Chaktami
+  Season: Summer
+  Sex: M
+  Team: Tunisia
+  Weight: 91.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 176.0
+  ID: 79295
+  Medal: ''
+  NOC: TUN
+  Name: Bilel Al-Mhamdi
+  Season: Summer
+  Sex: M
+  Team: Tunisia
+  Weight: 56.0
+  Year: 2016
+Turkey:
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 189.0
+  ID: 27489
+  Medal: ''
+  NOC: TUR
+  Name: Ali Eren Demirezen
+  Season: Summer
+  Sex: M
+  Team: Turkey
+  Weight: 91.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 163.0
+  ID: 31824
+  Medal: ''
+  NOC: TUR
+  Name: Seluk Eker
+  Season: Summer
+  Sex: M
+  Team: Turkey
+  Weight: 52.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 172.0
+  ID: 42147
+  Medal: ''
+  NOC: TUR
+  Name: Batuhan Gzge
+  Season: Summer
+  Sex: M
+  Team: Turkey
+  Weight: 64.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 111342
+  Medal: ''
+  NOC: TUR
+  Name: nder ipal
+  Season: Summer
+  Sex: M
+  Team: Turkey
+  Weight: 69.0
+  Year: 2016
+- Age: 27
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 111343
+  Medal: ''
+  NOC: TUR
+  Name: Onur ipal
+  Season: Summer
+  Sex: M
+  Team: Turkey
+  Weight: 60.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 181.0
+  ID: 123322
+  Medal: ''
+  NOC: TUR
+  Name: Mehmet Nadir nal
+  Season: Summer
+  Sex: M
+  Team: Turkey
+  Weight: 81.0
+  Year: 2016
+Turkmenistan:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 177.0
+  ID: 743
+  Medal: ''
+  NOC: TKM
+  Name: Arslanbek Aylow
+  Season: Summer
+  Sex: M
+  Team: Turkmenistan
+  Weight: 75.0
+  Year: 2016
+Uganda:
+- Age: 31
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 178.0
+  ID: 57967
+  Medal: ''
+  NOC: UGA
+  Name: Kennedy Katende
+  Season: Summer
+  Sex: M
+  Team: Uganda
+  Weight: 81.0
+  Year: 2016
+- Age: 31
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 108906
+  Medal: ''
+  NOC: UGA
+  Name: Ronald Serugo
+  Season: Summer
+  Sex: M
+  Team: Uganda
+  Weight: 48.0
+  Year: 2016
+Ukraine:
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 170.0
+  ID: 16943
+  Medal: ''
+  NOC: UKR
+  Name: Mykola Valeriyovych Butsenko
+  Season: Summer
+  Sex: M
+  Team: Ukraine
+  Weight: 56.0
+  Year: 2016
+- Age: 28
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 161.0
+  ID: 61647
+  Medal: ''
+  NOC: UKR
+  Name: Tetiana Volodymyrivna Kob
+  Season: Summer
+  Sex: F
+  Team: Ukraine
+  Weight: 51.0
+  Year: 2016
+- Age: 33
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 171.0
+  ID: 76778
+  Medal: ''
+  NOC: UKR
+  Name: Volodymyr Mykolaiovich Matviichuk
+  Season: Summer
+  Sex: M
+  Team: Ukraine
+  Weight: 64.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 83953
+  Medal: ''
+  NOC: UKR
+  Name: Dmytro Yuriyovych Mytrofanov
+  Season: Summer
+  Sex: M
+  Team: Ukraine
+  Weight: 75.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 179.0
+  ID: 112974
+  Medal: ''
+  NOC: UKR
+  Name: Denys Viktorovych Solonenko
+  Season: Summer
+  Sex: M
+  Team: Ukraine
+  Weight: 81.0
+  Year: 2016
+United States:
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 7208
+  Medal: ''
+  NOC: USA
+  Name: Carlos Zenon Balderas, Jr.
+  Season: Summer
+  Sex: M
+  Team: United States
+  Weight: 60.0
+  Year: 2016
+- Age: 18
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 22829
+  Medal: ''
+  NOC: USA
+  Name: Charles Albert Shone Conwell
+  Season: Summer
+  Sex: M
+  Team: United States
+  Weight: 75.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 48058
+  Medal: Bronze
+  NOC: USA
+  Name: Nico Miguel Hernandez
+  Season: Summer
+  Sex: M
+  Team: United States
+  Weight: 49.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Women's Lightweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 76993
+  Medal: ''
+  NOC: USA
+  Name: Mikaela Joslin Mayer
+  Season: Summer
+  Sex: F
+  Team: United States
+  Weight: 60.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 103608
+  Medal: ''
+  NOC: USA
+  Name: Gary Antuanne Russell
+  Season: Summer
+  Sex: M
+  Team: United States
+  Weight: 64.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Women's Middleweight
+  Games: 2016 Summer
+  Height: 175.0
+  ID: 109724
+  Medal: Gold
+  NOC: USA
+  Name: Claressa Maria Shields
+  Season: Summer
+  Sex: F
+  Team: United States
+  Weight: 75.0
+  Year: 2016
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 173.0
+  ID: 115113
+  Medal: Silver
+  NOC: USA
+  Name: Shakur Stevenson
+  Season: Summer
+  Sex: M
+  Team: United States
+  Weight: 56.0
+  Year: 2016
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 125276
+  Medal: ''
+  NOC: USA
+  Name: Antonio Vargas
+  Season: Summer
+  Sex: M
+  Team: United States
+  Weight: 52.0
+  Year: 2016
+United States Virgin Islands:
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 196.0
+  ID: 21961
+  Medal: ''
+  NOC: ISV
+  Name: Laurent Clayton, Jr.
+  Season: Summer
+  Sex: M
+  Team: United States Virgin Islands
+  Weight: 127.0
+  Year: 2016
+Uzbekistan:
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 165.0
+  ID: 1647
+  Medal: Bronze
+  NOC: UZB
+  Name: Murodzhon Kakharovich Akhmadaliyev
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 56.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Flyweight
+  Games: 2016 Summer
+  Height: 156.0
+  ID: 30884
+  Medal: Gold
+  NOC: UZB
+  Name: Hasanboy Dusmatov
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 49.0
+  Year: 2016
+- Age: 22
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 198.0
+  ID: 31108
+  Medal: ''
+  NOC: UZB
+  Name: Bakhodir Dzhalolov
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 100.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 169.0
+  ID: 39193
+  Medal: Gold
+  NOC: UZB
+  Name: Fazliddin Khasanbayevich Gaybnazarov
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 64.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 174.0
+  ID: 40641
+  Medal: Silver
+  NOC: UZB
+  Name: Shakhram Dzhamshedovich Giyasov
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 69.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 177.0
+  ID: 78441
+  Medal: Silver
+  NOC: UZB
+  Name: Bektemir Ruzmatzhonovich Melikuziyev
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 75.0
+  Year: 2016
+- Age: 20
+  City: Rio de Janeiro
+  Event: Boxing Women's Flyweight
+  Games: 2016 Summer
+  Height: 160.0
+  ID: 80304
+  Medal: ''
+  NOC: UZB
+  Name: Yodgoroy Mirzayeva
+  Season: Summer
+  Sex: F
+  Team: Uzbekistan
+  Weight: 51.0
+  Year: 2016
+- Age: 30
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 99081
+  Medal: ''
+  NOC: UZB
+  Name: Elshod Yunusovich Rasulov
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 75.0
+  Year: 2016
+- Age: 26
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 166.0
+  ID: 120704
+  Medal: ''
+  NOC: UZB
+  Name: Khurshid Todzhiboyev
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 54.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Heavyweight
+  Games: 2016 Summer
+  Height: 186.0
+  ID: 122563
+  Medal: Bronze
+  NOC: UZB
+  Name: Rustam Tulaganov
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 91.0
+  Year: 2016
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 169.0
+  ID: 135205
+  Medal: Gold
+  NOC: UZB
+  Name: Shakhobiddin Shokirovich Zoirov
+  Season: Summer
+  Sex: M
+  Team: Uzbekistan
+  Weight: 52.0
+  Year: 2016
+Vanuatu:
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: null
+  ID: 128699
+  Medal: ''
+  NOC: VAN
+  Name: Boe Lionel Warawara
+  Season: Summer
+  Sex: M
+  Team: Vanuatu
+  Weight: null
+  Year: 2016
+Venezuela:
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Welterweight
+  Games: 2016 Summer
+  Height: 179.0
+  ID: 4941
+  Medal: ''
+  NOC: VEN
+  Name: Lus Martn Arcn Daz
+  Season: Summer
+  Sex: M
+  Team: Venezuela
+  Weight: 64.0
+  Year: 2016
+- Age: 19
+  City: Rio de Janeiro
+  Event: Boxing Men's Flyweight
+  Games: 2016 Summer
+  Height: 168.0
+  ID: 35443
+  Medal: Bronze
+  NOC: VEN
+  Name: Yoel Segundo Finol Rivas
+  Season: Summer
+  Sex: M
+  Team: Venezuela
+  Weight: 52.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Lightweight
+  Games: 2016 Summer
+  Height: 176.0
+  ID: 72936
+  Medal: ''
+  NOC: VEN
+  Name: Lus ngel Machado Cabrera
+  Season: Summer
+  Sex: M
+  Team: Venezuela
+  Weight: 60.0
+  Year: 2016
+- Age: 29
+  City: Rio de Janeiro
+  Event: Boxing Men's Welterweight
+  Games: 2016 Summer
+  Height: 177.0
+  ID: 73333
+  Medal: ''
+  NOC: VEN
+  Name: Gabriel Jos Maestre Prez
+  Season: Summer
+  Sex: M
+  Team: Venezuela
+  Weight: 69.0
+  Year: 2016
+- Age: 32
+  City: Rio de Janeiro
+  Event: Boxing Men's Super-Heavyweight
+  Games: 2016 Summer
+  Height: 184.0
+  ID: 83324
+  Medal: ''
+  NOC: VEN
+  Name: Edgar Ramn Muoz Mata
+  Season: Summer
+  Sex: M
+  Team: Venezuela
+  Weight: 81.0
+  Year: 2016
+- Age: 24
+  City: Rio de Janeiro
+  Event: Boxing Men's Light-Heavyweight
+  Games: 2016 Summer
+  Height: 182.0
+  ID: 98628
+  Medal: ''
+  NOC: VEN
+  Name: Albert Ramn Ramrez Durn
+  Season: Summer
+  Sex: M
+  Team: Venezuela
+  Weight: 81.0
+  Year: 2016
+- Age: 21
+  City: Rio de Janeiro
+  Event: Boxing Men's Bantamweight
+  Games: 2016 Summer
+  Height: 167.0
+  ID: 101859
+  Medal: ''
+  NOC: VEN
+  Name: Vctor Julio Rodrguez Villavicencio
+  Season: Summer
+  Sex: M
+  Team: Venezuela
+  Weight: 56.0
+  Year: 2016
+- Age: 25
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: 180.0
+  ID: 103997
+  Medal: ''
+  NOC: VEN
+  Name: Endry Jos Saavedra Pinto
+  Season: Summer
+  Sex: M
+  Team: Venezuela
+  Weight: 75.0
+  Year: 2016
+Zambia:
+- Age: 23
+  City: Rio de Janeiro
+  Event: Boxing Men's Middleweight
+  Games: 2016 Summer
+  Height: null
+  ID: 83793
+  Medal: ''
+  NOC: ZAM
+  Name: Benny Muziyo
+  Season: Summer
+  Sex: M
+  Team: Zambia
+  Weight: null
+  Year: 2016
