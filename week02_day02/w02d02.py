@@ -94,7 +94,14 @@ def get_sorted_unique(input_list: List[Dict], key):
     return sorted_unique_list
 
 
+def remove_column(input_list: List[Dict], key):
+    for data in input_list:
+        data.pop(key)
+
+
 if __name__ == '__main__':
     data: List[Dict] = read_csv(filename='box_since_2000.csv', sep=';')
-    teams = get_sorted_unique(data, key='Team')
-    print(len(teams), teams)
+    remove_column(data, key='Sport')
+    save_csv(data, filename='box_since_2000_simple.csv', sep=';')
+    # teams = get_sorted_unique(data, key='Team')
+    # print(len(teams), teams)
