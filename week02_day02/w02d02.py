@@ -133,14 +133,23 @@ def type_data(data: List[Dict]):
 
 # kluczem sa panstwa
 # wartosciami sa listy slownikow odpowiadajace zawodnikom danego panstwa
-def result_per_team(input_list: List[Dict], year):
-    pass
+def result_per_team(input_list: List[Dict], year) -> Dict[str, List[Dict]]:
+    filtered_list = filter(input_list, key='Year', value=year)
+    unique_teams = get_unique(filtered_list, key='Team')
+    print(unique_teams)
+
+
+def get_medals_per_team(results_per_team):
+    medals_per_team = {}
+    for team, result in results_per_team.items():
+        people_on_the_podium = get_people_on_the_podium(result)
+    # not finished
 
 
 def find_best_team(data: List[Dict], year):
     results_per_team = result_per_team(data, year=year)
-    with open('results.yaml', 'w') as f:
-        f.write(yaml.dump(results_per_team))
+    # with open('results.yaml', 'w') as f:
+    #     f.write(yaml.dump(results_per_team))
 
     """
     Bronze = 1 pkt
@@ -153,11 +162,12 @@ def find_best_team(data: List[Dict], year):
     sorted_teams = sort_teams(medals_per_team)
     with open('sorted_teams.yaml', 'w') as f:
         f.write(yaml.dump(sorted_teams))
+        
+    return sorted_teams[0]['Team']
     """
 
 
 if __name__ == '__main__':
     data: List[Dict] = read_csv(filename='box_since_2000_simple.csv', sep=';')
     type_data(data)
-    print(data[0])
     find_best_team(data, year=2016)
