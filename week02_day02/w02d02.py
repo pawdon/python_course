@@ -161,11 +161,19 @@ def get_people_on_the_podium(input_list: List[Dict]) -> List[Dict]:
             for data in input_list if data['Medal'] != '']
 
 
+def compute_score(people_on_the_podium):
+    multipliers = {'Bronze': 1, 'Silver': 3, 'Gold': 5}
+    list_of_scores = [multipliers.get(person['Medal']) for person in people_on_the_podium]
+    return sum(list_of_scores)
+
+
 def get_medals_per_team(results_per_team: Dict[str, List[Dict]]):
     medals_per_team = {}
     for team, result in results_per_team.items():
         people_on_the_podium = get_people_on_the_podium(result)
-        medals_per_team[team] = {'Podium': people_on_the_podium}
+        score = compute_score(people_on_the_podium)
+        medals_per_team[team] = {'Podium': people_on_the_podium,
+                                 'Score': score}
     # not finished
     return medals_per_team
 
@@ -195,13 +203,11 @@ def find_best_team(data: List[Dict], year):
     with open('medals.yaml', 'w') as f:
         f.write(yaml.dump(medals_per_team))
 
-    """
     sorted_teams = sort_teams(medals_per_team)
     with open('sorted_teams.yaml', 'w') as f:
         f.write(yaml.dump(sorted_teams))
         
     return sorted_teams[0]['Team']
-    """
 
 
 if __name__ == '__main__':

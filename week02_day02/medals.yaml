@@ -2,14 +2,18 @@ Algeria:
   Podium:
   - Medal: Bronze
     Name: Mohamed Allalou
+  Score: 1
 Argentina:
   Podium: []
+  Score: 0
 Armenia:
   Podium:
   - Medal: Bronze
     Name: Hrachik Javakhyan
+  Score: 1
 Australia:
   Podium: []
+  Score: 0
 Azerbaijan:
   Podium:
   - Medal: Bronze
@@ -28,12 +32,14 @@ Azerbaijan:
     Name: Kamran ahsuvarl
   - Medal: Silver
     Name: Lorenzo Sotomayor Collazo
+  Score: 10
 Belarus:
   Podium:
   - Medal: Silver
     Name: Magomed Davudovich Aripgadzhiyev
   - Medal: Silver
     Name: Viktor Valeryevich Zuyev
+  Score: 6
 Brazil:
   Podium:
   - Medal: Bronze
@@ -44,20 +50,26 @@ Brazil:
     Name: Yamaguchi Falco Florentino
   - Medal: Silver
     Name: Esquiva Falco Florentino
+  Score: 10
 Bulgaria:
   Podium:
   - Medal: Bronze
     Name: Boris Metodiev Georgiev
   - Medal: Bronze
     Name: Tervel Venkov Pulev
+  Score: 2
 Cameroon:
   Podium: []
+  Score: 0
 Canada:
   Podium: []
+  Score: 0
 Cape Verde:
   Podium: []
+  Score: 0
 Central African Republic:
   Podium: []
+  Score: 0
 China:
   Podium:
   - Medal: Bronze
@@ -84,20 +96,25 @@ China:
     Name: Zou Shiming
   - Medal: Gold
     Name: Zou Shiming
+  Score: 30
 Chinese Taipei:
   Podium: []
+  Score: 0
 Colombia:
   Podium:
   - Medal: Silver
     Name: Yurberjen Herney Martnez Rivas
   - Medal: Bronze
     Name: Ingrit Lorena Valencia Victoria
+  Score: 4
 Congo (Brazzaville):
   Podium: []
+  Score: 0
 Croatia:
   Podium:
   - Medal: Bronze
     Name: Filip Hrgovi
+  Score: 1
 Cuba:
   Podium:
   - Medal: Bronze
@@ -164,12 +181,15 @@ Cuba:
     Name: Yasnier Toledo Lpez
   - Medal: Bronze
     Name: Yordenis Ugs Hernndez
+  Score: 100
 Dominican Republic:
   Podium:
   - Medal: Gold
     Name: Flix Manuel Daz Guzmn
+  Score: 5
 Ecuador:
   Podium: []
+  Score: 0
 Egypt:
   Podium:
   - Medal: Silver
@@ -178,14 +198,18 @@ Egypt:
     Name: Mohamed El-Sayed
   - Medal: Bronze
     Name: Ahmed Ismail El Shamy
+  Score: 5
 Federated States of Micronesia:
   Podium: []
+  Score: 0
 Fiji:
   Podium: []
+  Score: 0
 Finland:
   Podium:
   - Medal: Bronze
     Name: Mira Potkonen
+  Score: 1
 France:
   Podium:
   - Medal: Gold
@@ -212,6 +236,7 @@ France:
     Name: Alexis Alain Vastine
   - Medal: Gold
     Name: Tony Victor James Yoka
+  Score: 34
 Germany:
   Podium:
   - Medal: Bronze
@@ -222,8 +247,10 @@ Germany:
     Name: '"Rustamhodza ""Rustam"" Rahimov"'
   - Medal: Bronze
     Name: Vitali Tajbert
+  Score: 4
 Ghana:
   Podium: []
+  Score: 0
 Great Britain:
   Podium:
   - Medal: Gold
@@ -252,24 +279,31 @@ Great Britain:
     Name: Anthony Osezua Ojo Ogogo
   - Medal: Bronze
     Name: David Price
+  Score: 43
 Haiti:
   Podium: []
+  Score: 0
 Honduras:
   Podium: []
+  Score: 0
 Hungary:
   Podium:
   - Medal: Bronze
     Name: Zsolt Erdei
+  Score: 1
 India:
   Podium:
   - Medal: Bronze
     Name: Mangte Chungneijang Mary Kom
   - Medal: Bronze
     Name: Vijender Kumar Singh
+  Score: 2
 Iran:
   Podium: []
+  Score: 0
 Iraq:
   Podium: []
+  Score: 0
 Ireland:
   Podium:
   - Medal: Bronze
@@ -286,6 +320,7 @@ Ireland:
     Name: Darren John Sutherland
   - Medal: Gold
     Name: '"Kathleen ""Katie"" Taylor"'
+  Score: 15
 Italy:
   Podium:
   - Medal: Bronze
@@ -304,14 +339,17 @@ Italy:
     Name: Clemente Russo
   - Medal: Bronze
     Name: Paolo Vidoz
+  Score: 18
 Japan:
   Podium:
   - Medal: Gold
     Name: Ryota Murata
   - Medal: Bronze
     Name: Satoshi Shimizu
+  Score: 6
 Jordan:
   Podium: []
+  Score: 0
 Kazakhstan:
   Podium:
   - Medal: Gold
@@ -350,26 +388,33 @@ Kazakhstan:
     Name: Daniyar Maratovich Yeleusinov
   - Medal: Silver
     Name: Bolat Nuriddinovich Zhumadilov
+  Score: 54
 Kenya:
   Podium: []
+  Score: 0
 Kyrgyzstan:
   Podium: []
+  Score: 0
 Lesotho:
   Podium: []
+  Score: 0
 Lithuania:
   Podium:
   - Medal: Bronze
     Name: Evaldas Petrauskas
+  Score: 1
 Mauritius:
   Podium:
   - Medal: Bronze
     Name: Louis Richard Bruno Julie
+  Score: 1
 Mexico:
   Podium:
   - Medal: Bronze
     Name: Cristian Bejarano Bentez
   - Medal: Bronze
     Name: Misael Uziel Rodrguez Olivas
+  Score: 2
 Mongolia:
   Podium:
   - Medal: Bronze
@@ -382,32 +427,43 @@ Mongolia:
     Name: Prevdorjin Serdamba
   - Medal: Bronze
     Name: Uranchimegiin Mnkh-Erdene
+  Score: 13
 Morocco:
   Podium:
   - Medal: Bronze
     Name: Mohammed Rabii
   - Medal: Bronze
     Name: Al-Tahar Al-Tamsamani
+  Score: 2
 Namibia:
   Podium: []
+  Score: 0
 Netherlands:
   Podium:
   - Medal: Silver
     Name: Nouchka Fontijn
+  Score: 3
 Nigeria:
   Podium: []
+  Score: 0
 Panama:
   Podium: []
+  Score: 0
 Papua New Guinea:
   Podium: []
+  Score: 0
 Philippines:
   Podium: []
+  Score: 0
 Poland:
   Podium: []
+  Score: 0
 Puerto Rico:
   Podium: []
+  Score: 0
 Qatar:
   Podium: []
+  Score: 0
 Romania:
   Podium:
   - Medal: Bronze
@@ -416,6 +472,7 @@ Romania:
     Name: Dorel Simion
   - Medal: Silver
     Name: Marian Simion
+  Score: 5
 Russia:
   Podium:
   - Medal: Bronze
@@ -470,8 +527,10 @@ Russia:
     Name: Nadezhda Viktorovna Torlopova
   - Medal: Bronze
     Name: Andrey Viktorovich Zamkovoy
+  Score: 72
 Seychelles:
   Podium: []
+  Score: 0
 South Korea:
   Podium:
   - Medal: Silver
@@ -482,16 +541,20 @@ South Korea:
     Name: Kim Jeong-Ju
   - Medal: Bronze
     Name: Kim Jeong-Ju
+  Score: 6
 Spain:
   Podium:
   - Medal: Silver
     Name: Rafael Lozano Muoz
+  Score: 3
 Sweden:
   Podium: []
+  Score: 0
 Tajikistan:
   Podium:
   - Medal: Bronze
     Name: Mavzuna Chorieva
+  Score: 1
 Thailand:
   Podium:
   - Medal: Gold
@@ -510,20 +573,26 @@ Thailand:
     Name: Suriya Prasathinphimai
   - Medal: Bronze
     Name: Pornchai Thongburan
+  Score: 26
 Trinidad and Tobago:
   Podium: []
+  Score: 0
 Tunisia:
   Podium: []
+  Score: 0
 Turkey:
   Podium:
   - Medal: Bronze
     Name: Yakup Kili
   - Medal: Silver
     Name: Atagn Yalnkaya
+  Score: 4
 Turkmenistan:
   Podium: []
+  Score: 0
 Uganda:
   Podium: []
+  Score: 0
 Ukraine:
   Podium:
   - Medal: Silver
@@ -550,6 +619,7 @@ Ukraine:
     Name: Volodymyr Petrovych Sydorenko
   - Medal: Gold
     Name: Oleksandr Oleksandrovych Usik
+  Score: 30
 United States:
   Podium:
   - Medal: Bronze
@@ -576,8 +646,10 @@ United States:
     Name: Deontay Leshun Wilder
   - Medal: Silver
     Name: Ricardo Williams, Jr.
+  Score: 30
 United States Virgin Islands:
   Podium: []
+  Score: 0
 Uzbekistan:
   Podium:
   - Medal: Gold
@@ -606,11 +678,15 @@ Uzbekistan:
     Name: Rustam Tulaganov
   - Medal: Gold
     Name: Shakhobiddin Shokirovich Zoirov
+  Score: 33
 Vanuatu:
   Podium: []
+  Score: 0
 Venezuela:
   Podium:
   - Medal: Bronze
     Name: Yoel Segundo Finol Rivas
+  Score: 1
 Zambia:
   Podium: []
+  Score: 0
