@@ -202,3 +202,11 @@ if __name__ == '__main__':
     data: List[Dict] = read_csv(filename='box_since_2000_simple.csv', sep=';')
     type_data(data)
     find_best_team(data, year=2016)
+
+    """
+    1. Policz sredni wzrost mezczyzn z danego kraju
+    2. To samo, tylko dla tych, ktorzy zdobyli jakis medal
+    3. To samo dla wieku
+    4. To samo, ale najpierw podzielcie na kategorie wagowe
+    5. Znajdz minimalna i maksymalna wage w danej kategorii wagowej dla mezczyzn i kabiet
+    """
