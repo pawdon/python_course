@@ -166,6 +166,17 @@ def get_medals_per_team(results_per_team: Dict[str, List[Dict]]):
     # not finished
 
 
+def sorting_key(element):
+    return element['Score']
+
+
+def sort_teams(medals_per_team):
+    result = [{'Team': key, 'Score': value['Score'], 'Podium': value['Podium']}
+              for key, value in medals_per_team.items()]
+    result.sort(key=sorting_key, reverse=True)
+    return result
+
+
 def find_best_team(data: List[Dict], year):
     results_per_team = result_per_team(data, year=year)
     with open('results.yaml', 'w') as f:
