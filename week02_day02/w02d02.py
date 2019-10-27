@@ -154,13 +154,16 @@ def result_per_team(input_list: List[Dict], year) -> Dict[str, List[Dict]]:
     return result
 
 
-"""
-def get_medals_per_team(results_per_team):
+def get_people_on_the_podium(data: List[Dict]):
+    pass
+
+
+def get_medals_per_team(results_per_team: Dict[str, List[Dict]]):
     medals_per_team = {}
     for team, result in results_per_team.items():
         people_on_the_podium = get_people_on_the_podium(result)
+        print(team, people_on_the_podium)
     # not finished
-    """
 
 
 def find_best_team(data: List[Dict], year):
@@ -172,10 +175,12 @@ def find_best_team(data: List[Dict], year):
     Bronze = 1 pkt
     Silver = 3 pkt
     Gold = 5 pkt
+    """
     medals_per_team = get_medals_per_team(results_per_team)
     with open('medals.yaml', 'w') as f:
         f.write(yaml.dump(medals_per_team))
 
+    """
     sorted_teams = sort_teams(medals_per_team)
     with open('sorted_teams.yaml', 'w') as f:
         f.write(yaml.dump(sorted_teams))
