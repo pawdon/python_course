@@ -131,9 +131,30 @@ def type_data(data: List[Dict]):
         d['Weight'] = str2float(d['Weight'])
 
 
+# kluczem sa panstwa
+# wartosciami sa listy slownikow odpowiadajace zawodnikom danego panstwa
+def result_per_team(input_list: List[Dict], year):
+    pass
+
+
+def find_best_team(data: List[Dict], year):
+    results_per_team = result_per_team(data, year=2016)
+    with open('results.yaml', 'w') as f:
+        f.write(yaml.dump(results_per_team))
+
+    """
+    medals_per_team = get_medals_per_team(results_per_team)
+    with open('medals.yaml', 'w') as f:
+        f.write(yaml.dump(medals_per_team))
+
+    sorted_teams = sort_teams(medals_per_team)
+    with open('sorted_teams.yaml', 'w') as f:
+        f.write(yaml.dump(sorted_teams))
+    """
+
+
 if __name__ == '__main__':
     data: List[Dict] = read_csv(filename='box_since_2000_simple.csv', sep=';')
     type_data(data)
     print(data[0])
-    # teams = get_sorted_unique(data, key='Team')
-    # print(len(teams), teams)
+    find_best_team(data, year=2016)
