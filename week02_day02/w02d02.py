@@ -1,20 +1,23 @@
-import pandas as pd
+def test01():
+    names = ['Jan', 'Anna', 'Karol', 'Marcin', 'Dominik', 'Zuzanna']
+    ages = [17, 25, 42, 65, 21, 33]
+    heights = [173, 156, 184, 164, 191, 166]
+    names_lower = [n.lower() for n in names]
+    data = [{'name': n, 'age': a, 'height': h} for n, a, h in zip(names, ages, heights)]
+    print(data)
+
+    for d in data:
+        d['name'] = d['name'].lower()
+        d['age'] += 1
+
+    print(data)
+
+    data2 = [{'name': n.lower() + 'Kowalski',
+              'age': a + 1,
+              'height': h}
+             for n, a, h in zip(names, ages, heights)]
+    print(data2)
 
 
-def test():
-    with open('athlete_events_since_2000.csv', 'r') as f:
-        keys = f.readline().strip().split(';')
-        print(len(keys))
-        for line in f:
-            values = line.strip().split(';')
-            if len(values) != len(keys):
-                print(values)
-
-
-def prepare():
-    df = pd.read_csv('athlete_events.csv')
-    df = df[df['Year'] >= 2000]
-    df.to_csv('athlete_events_since_2000.csv', index=False, sep=';')
-
-
-test()
+if __name__ == '__main__':
+    test01()
