@@ -32,5 +32,28 @@ def class_testing():
     print(str(person))
 
 
+class Point2D:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __str__(self):
+        # wywolywane niejawnie podczas str(p1), a funkcja str jest wywolywana niejawnie w print
+        return f'P({self.x}, {self.y})'
+
+    def distance_to(self, other):
+        return ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
+
+
+def test_point():
+    p1 = Point2D(3, 4)
+    p1.x = 7
+    print(p1)  # P(7, 4)
+
+    p2 = Point2D(10, 8)
+    distance = p1.distance_to(p2)
+    print(distance)  # 5
+
+
 if __name__ == '__main__':
-    class_testing()
+    test_point()
