@@ -45,6 +45,17 @@ class Point2D:
         return ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
 
 
+class Point3D(Point2D):
+    def __init__(self, x, y, z):
+        # super() pozwala na odniesienie sie do klasy bazowej
+        super().__init__(x, y)
+        self.z = z
+
+    def __str__(self):
+        # wywolywane niejawnie podczas str(p1), a funkcja str jest wywolywana niejawnie w print
+        return f'P({self.x}, {self.y}, {self.z})'
+
+
 def test_point():
     p1 = Point2D(3, 4)
     p1.x = 7
@@ -53,7 +64,38 @@ def test_point():
     p2 = Point2D(10, 8)
     distance = p1.distance_to(p2)
     print(distance)  # 5
+    print()
+
+    p3 = Point3D(3, 4, 5)
+    print(p3)
+
+    print(p3.distance_to(p2))  # policzy dystans w 2D
+
+
+class Rectangle:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def field(self):
+        return self.a * self.b
+
+    def perimeter(self):
+        return 2 * (self.a + self.b)
+
+
+class RectangleInSpace:
+    def __init__(self):
+        # left top corner
+        self.corner: Point2D = None
+        self.dimensions: Rectangle = None
+
+
+def test_rect():
+    r1 = Rectangle(a=7, b=5)
+    print(r1.field())  # 35
+    print(r1.perimeter())  # 24
 
 
 if __name__ == '__main__':
-    test_point()
+    test_rect()
