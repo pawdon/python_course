@@ -4,34 +4,6 @@ class MyClass:
         self.x = 0
 
 
-class Person:
-    def __init__(self, first_name, last_name, age=20):
-        # self jest obiektem, na ktorym zostala wywolana metoda
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
-
-    def say_hello(self, other_name):
-        print(f'Hello {other_name}. My name is {self.first_name} {self.last_name}')
-
-    def __str__(self):
-        return f'{self.first_name} {self.last_name} ({self.age})'
-
-
-def class_testing():
-    # print(MyClass)
-    # my_object = MyClass()  # tu wywoluje sie __init__
-    # print(my_object)
-
-    person = Person('Jan', last_name='Kowalski')  # tworzony jest obiekt i na nim zawolana jest metoda __init__
-    print(person.first_name, person.last_name, person.age)
-    person.say_hello('Anna')
-    # <==>
-    Person.say_hello(self=person, other_name='Anna')
-    print(person)
-    print(str(person))
-
-
 class Point2D:
     def __init__(self, x, y):
         self.x = x
@@ -159,5 +131,78 @@ def test_inters_over_union():
     print(r1.intersection_over_union(r2))  # 0.01
 
 
+class Person:
+    number_of_people = 0
+    my_list = []
+
+    def __init__(self, first_name, last_name, age=20):
+        # self jest obiektem, na ktorym zostala wywolana metoda
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        Person.number_of_people += 1
+
+    def say_hello(self, other_name):
+        print(f'Hello {other_name}. My name is {self.first_name} {self.last_name}')
+
+    def __str__(self):
+        return f'{self.first_name} {self.last_name} ({self.age})'
+
+    @staticmethod
+    def say_buu(repeat=1):
+        print('Buu' * repeat)
+
+
+def class_testing():
+    # print(MyClass)
+    # my_object = MyClass()  # tu wywoluje sie __init__
+    # print(my_object)
+
+    person = Person('Jan', last_name='Kowalski')  # tworzony jest obiekt i na nim zawolana jest metoda __init__
+    print(person.first_name, person.last_name, person.age)
+    person.say_hello('Anna')
+    # <==>
+    Person.say_hello(self=person, other_name='Anna')
+    print(person)
+    print(str(person))
+
+    Person.say_buu(2)
+    person.say_buu(3)
+
+    person2 = Person('Anna', 'Nowak', 22)
+    print(Person.number_of_people)
+    print(person2.number_of_people)
+    print()
+
+    Person.number_of_people = 10
+    print(Person.number_of_people)
+    print(person2.number_of_people)
+    print()
+
+    # operacja = przerywa referencje
+    person2.number_of_people = 20
+    print(Person.number_of_people)
+    print(person2.number_of_people)
+    print()
+
+    Person.my_list.append('haha')
+    print(Person.my_list)
+    print(person2.my_list)
+    print()
+
+    person2.my_list.append('buu')
+    print(Person.my_list)
+    print(person2.my_list)
+    print()
+
+    person2.my_list = ['xx']
+    print(Person.my_list)
+    print(person2.my_list)
+    print()
+
+
+
+
+
 if __name__ == '__main__':
-    test_inters_over_union()
+    class_testing()
