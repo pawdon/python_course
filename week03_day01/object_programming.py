@@ -84,6 +84,45 @@ class Rectangle:
         return 2 * (self.a + self.b)
 
 
+class RectangleInSpace:
+    def __init__(self, top_left=None, dimensions=None):
+        # left top corner
+        self.top_left: Point2D = top_left
+        self.dimensions: Rectangle = dimensions
+
+    def get_extreme(self):
+        left = self.top_left.x
+        top = self.top_left.y
+        right = self.top_left.x + self.dimensions.a
+        bottom = self.top_left.y + self.dimensions.b
+        return left, right, top, bottom
+
+    def intersection1D(self, p1_start, p1_stop, p2_start, p2_stop):
+        start = max(p1_start, p2_start)
+        stop = min(p1_stop, p2_stop)
+        return start, stop
+
+    def intersection(self, other):
+        self_left, self_right, self_top, self_bottom = self.get_extreme()
+        other_left, other_right, other_top, other_bottom = other.get_extreme()
+
+        left, right = self.intersection1D(self_left, self_right, other_left, other_right)
+        top, bottom = self.intersection1D(self_top, self_bottom, other_top, other_bottom)
+
+        width = right - left
+        height = bottom - top
+        if width < 0 or height < 0:
+            return 0
+        else:
+            return Rectangle(width, height).field()
+
+    def union(self, other):
+        return self.dimensions.field() + other.dimensions.field() - self.intersection(other)
+
+    def intersection_over_union(self, other):
+        return self.intersection(other) / self.union(other)
+
+
 def test_rect():
     r1 = Rectangle(a=7, b=5)
     print(r1.field())  # 35
@@ -114,6 +153,10 @@ def test_inters_over_union():
     r1 = RectangleInSpace(top_left=Point2D(0, 0), dimensions=Rectangle(10, 20))
     r2 = RectangleInSpace(top_left=Point2D(5, 5), dimensions=Rectangle(5, 20))
     print(r1.intersection_over_union(r2))  # 0.3333333
+
+    r1 = RectangleInSpace(top_left=Point2D(0, 0), dimensions=Rectangle(100, 100))
+    r2 = RectangleInSpace(top_left=Point2D(50, 50), dimensions=Rectangle(10, 10))
+    print(r1.intersection_over_union(r2))  # 0.01
 
 
 if __name__ == '__main__':
