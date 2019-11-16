@@ -140,7 +140,9 @@ class Person:
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
-        Person.number_of_people += 1
+        self.__class__.number_of_people += 1  # OK
+        # self.number_of_people += 1  # NOT OK
+        # Person.number_of_people += 1  # OK
 
     def say_hello(self, other_name):
         print(f'Hello {other_name}. My name is {self.first_name} {self.last_name}')
@@ -170,6 +172,7 @@ def class_testing():
     person.say_buu(3)
 
     person2 = Person('Anna', 'Nowak', 22)
+    print('Number of people')
     print(Person.number_of_people)
     print(person2.number_of_people)
     print()
@@ -383,5 +386,45 @@ def test_process():
     print(ProcessSimpleGood.step1('buu'))
 
 
+class MyAccessExample:
+    def __init__(self):
+        self.a = 1  # public
+        self._b = 2  # protected
+        self.c_ = 3  # public
+        self._d_ = 4  # protected
+        self.__e = 5  # private
+        self.f__ = 6  # public
+        self.__g__ = 7  # public
+
+    def __str__(self):
+        values = [self.a, self._b, self.c_, self._d_, self.__e, self.f__, self.__g__]
+        return ','.join([str(x) for x in values])
+
+    @property
+    def e(self):
+        print('GETTER')
+        return self.__e
+
+    @e.setter
+    def e(self, value):
+        print('SETTER')
+        self.__e = value
+
+
+def test_access():
+    obj = MyAccessExample()
+    print(obj)
+    print(obj.__dict__)
+
+    values = [obj.a, obj._b, obj.c_, obj._d_, obj._MyAccessExample__e, obj.f__, obj.__g__]
+    print(','.join([str(x) for x in values]))
+
+    print()
+    x = obj.e
+    print(x)
+    obj.e = 17
+    print(obj.__dict__)
+
+
 if __name__ == '__main__':
-    test_process()
+    test_access()
