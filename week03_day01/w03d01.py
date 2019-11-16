@@ -20,7 +20,14 @@ def name_people2(first_names, last_names, ages):
     return [{'name': f'{first} {last}', 'age': age} for first, last, age in zip(first_names, last_names, ages)]
 
 
+def people_to_file(my_list: List[Dict], filename):
+    """
+    1,Jan,Kowalski,M,24
+    2,Julia,Nowak,F,31
+    3,Anna,Kolodziej,F,16
+    """
+
+
 if __name__ == '__main__':
-    # result = multiply_by([2, 4, 5], 7)
     result = name_people2(['Jan', 'Julia', 'Anna'], ['Kowalski', 'Nowak', 'Kolodziej'], [24, 31, 16])
-    print(result)
+    people_to_file(result, 'people.csvc')
