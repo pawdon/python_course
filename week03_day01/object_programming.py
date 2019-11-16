@@ -380,6 +380,8 @@ def test_process():
     pr = ProcessAdvanced('Jan')
     print(pr.process())
 
+    print(ProcessSimpleGood.step1('buu'))
+
 
 if __name__ == '__main__':
     test_process()
