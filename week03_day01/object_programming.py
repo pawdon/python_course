@@ -201,8 +201,34 @@ def class_testing():
     print()
 
 
+class ABC:
+    def __init__(self, name):
+        self.name = name
+
+    @staticmethod
+    def say_hello(name):
+        print('Hello', name)
+
+    @staticmethod
+    def say_buu():
+        print('Buu')
+
+    def say_hihi(self):
+        print('Hihi', self.name)
+
+
+def say_buu2():
+    print('Buu2')
+
+
+def say_hihi2(self):
+    print('Hihi', self.name)
+
+
+
+def test_abc():
 
 
 
 if __name__ == '__main__':
-    class_testing()
+    test_abc()
