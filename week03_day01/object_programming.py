@@ -247,6 +247,61 @@ def test_abc():
     ABC.say_hihi(obj_abc)  # Hihi DEF
     obj_abc.say_hihi(obj_abc)  # Hihi2 DEF
 
+    obj_abc.sth_else = 'Hi'
+    print(obj_abc.sth_else)
+
+
+class Car:
+    def __init__(self, model, color, doors_number=5):
+        self.model = model
+        self.color = color
+        self.doors_number = doors_number
+
+    def start_engine(self):
+        print('Brrrum')
+
+
+def test_car():
+    corsa = Car(model='Opel', color='silver')
+    print(corsa.__dict__)  # tylko pola; nazwy i wartosci; zwykly slownik
+    print(dir(corsa))  # pola i metody; lista nazw
+    corsa.__dict__['model'] = 'Skoda'
+    print(corsa.model)
+    setattr(corsa, 'model', 'Volvo')
+    print(corsa.model)
+    print(getattr(corsa, 'model', 'Opel'))  # Opel is default
+    print(getattr(corsa, 'has_radio', True))  # True is default
+
+    print(Car)
+    print(corsa)
+    print(corsa.__class__)
+
+    golf = corsa.__class__(model='VW', color='red')  # konstruktor
+    # corsa.__class__ <==> Car
+    print(corsa, corsa.model)
+    print(golf, golf.model)
+
+
+class XYZ:
+    def __init__(self):
+        self.name = 'X'
+
+    def copy(self):
+        # return XYZ()
+        return self.__class__()
+
+
+class XYZ2(XYZ):
+    def __init__(self):
+        super().__init__()
+        self.name = 'Y'
+
+
+def test_xyz():
+    obj = XYZ2()
+    obj_copy = obj.copy()
+    print(obj_copy.name)
+
 
 if __name__ == '__main__':
-    test_abc()
+    test_xyz()
