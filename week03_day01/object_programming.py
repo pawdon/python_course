@@ -461,5 +461,10 @@ def test_temp():
     print(temp.kelvin)
 
 
+class IPrint:
+    def print(self):
+        raise NotImplemented
+
+
 if __name__ == '__main__':
     test_temp()
