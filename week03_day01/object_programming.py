@@ -426,5 +426,40 @@ def test_access():
     print(obj.__dict__)
 
 
+class Temperature:
+    def __init__(self):
+        self._celsius = 0
+
+    @property
+    def celsius(self):
+        return self._celsius
+
+    @celsius.setter
+    def celsius(self, value):
+        self._celsius = value
+
+    @property
+    def kelvin(self):
+        return self._celsius + 273
+
+    @kelvin.setter
+    def kelvin(self, value):
+        self._celsius = value - 273
+
+
+def test_temp():
+    temp = Temperature()
+    print(temp.celsius)
+    print(temp.kelvin)
+
+    temp.celsius = 7
+    print(temp.celsius)
+    print(temp.kelvin)
+
+    temp.kelvin = 7
+    print(temp.celsius)
+    print(temp.kelvin)
+
+
 if __name__ == '__main__':
-    test_access()
+    test_temp()
