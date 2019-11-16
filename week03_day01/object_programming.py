@@ -84,18 +84,37 @@ class Rectangle:
         return 2 * (self.a + self.b)
 
 
-class RectangleInSpace:
-    def __init__(self):
-        # left top corner
-        self.corner: Point2D = None
-        self.dimensions: Rectangle = None
-
-
 def test_rect():
     r1 = Rectangle(a=7, b=5)
     print(r1.field())  # 35
     print(r1.perimeter())  # 24
 
 
+def test_inters_over_union():
+    r1 = RectangleInSpace(top_left=Point2D(3, 4), dimensions=Rectangle(4, 5))
+    r2 = RectangleInSpace(top_left=Point2D(3, 4), dimensions=Rectangle(4, 5))
+    print(r1.intersection_over_union(r2))  # 1.0
+
+    r1 = RectangleInSpace(top_left=Point2D(3, 4), dimensions=Rectangle(4, 5))
+    r2 = RectangleInSpace(top_left=Point2D(3, 4), dimensions=Rectangle(4, 10))
+    print(r1.intersection_over_union(r2))  # 0.5
+
+    r1 = RectangleInSpace(top_left=Point2D(3, 4), dimensions=Rectangle(8, 5))
+    r2 = RectangleInSpace(top_left=Point2D(3, 4), dimensions=Rectangle(4, 5))
+    print(r1.intersection_over_union(r2))  # 0.5
+
+    r1 = RectangleInSpace(top_left=Point2D(3, 4), dimensions=Rectangle(4, 5))
+    r2 = RectangleInSpace(top_left=Point2D(4, 4), dimensions=Rectangle(4, 5))
+    print(r1.intersection_over_union(r2))  # 0.6
+
+    r1 = RectangleInSpace(top_left=Point2D(3, 4), dimensions=Rectangle(4, 5))
+    r2 = RectangleInSpace(top_left=Point2D(9, 4), dimensions=Rectangle(4, 5))
+    print(r1.intersection_over_union(r2))  # 0.0
+
+    r1 = RectangleInSpace(top_left=Point2D(0, 0), dimensions=Rectangle(10, 20))
+    r2 = RectangleInSpace(top_left=Point2D(5, 5), dimensions=Rectangle(5, 20))
+    print(r1.intersection_over_union(r2))  # 0.3333333
+
+
 if __name__ == '__main__':
-    test_rect()
+    test_inters_over_union()
