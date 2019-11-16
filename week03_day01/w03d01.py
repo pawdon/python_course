@@ -26,8 +26,16 @@ def people_to_file(my_list: List[Dict], filename):
     2,Julia,Nowak,F,31
     3,Anna,Kolodziej,F,16
     """
+    with open(filename, 'w') as f:
+        for i, person in enumerate(my_list, 1):
+            name = person['name']
+            age = person['age']
+            first_name, last_name = name.split(' ')
+            sex = 'F' if first_name.endswith('a') else 'M'
+            row = ','.join([str(i), first_name, last_name, sex, str(age)])
+            f.write(row + '\n')
 
 
 if __name__ == '__main__':
     result = name_people2(['Jan', 'Julia', 'Anna'], ['Kowalski', 'Nowak', 'Kolodziej'], [24, 31, 16])
-    people_to_file(result, 'people.csvc')
+    people_to_file(result, 'people.csv')
