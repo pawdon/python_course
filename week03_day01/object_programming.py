@@ -217,17 +217,35 @@ class ABC:
         print('Hihi', self.name)
 
 
+@staticmethod
 def say_buu2():
     print('Buu2')
 
 
 def say_hihi2(self):
-    print('Hihi', self.name)
+    print('Hihi2', self.name)
 
 
 
 def test_abc():
+    obj_abc = ABC('DEF')
+    print(ABC.say_buu)
+    print(obj_abc.say_buu)
+    ABC.say_buu()  # Buu
+    obj_abc.say_buu()  # Buu
 
+    ABC.say_buu = say_buu2
+    ABC.say_buu()  # Buu2
+    obj_abc.say_buu()  # Buu2
+
+    print(ABC.say_hihi)
+    print(obj_abc.say_hihi)
+    ABC.say_hihi(obj_abc)  # Hihi DEF
+    obj_abc.say_hihi()  # Hihi DEF
+
+    obj_abc.say_hihi = say_hihi2
+    ABC.say_hihi(obj_abc)  # Hihi DEF
+    obj_abc.say_hihi(obj_abc)  # Hihi2 DEF
 
 
 if __name__ == '__main__':
