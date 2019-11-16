@@ -401,12 +401,12 @@ class MyAccessExample:
         return ','.join([str(x) for x in values])
 
     @property
-    def e(self):
+    def property_e(self):
         print('GETTER')
         return self.__e
 
-    @e.setter
-    def e(self, value):
+    @property_e.setter
+    def property_e(self, value):
         print('SETTER')
         self.__e = value
 
@@ -420,9 +420,9 @@ def test_access():
     print(','.join([str(x) for x in values]))
 
     print()
-    x = obj.e
+    x = obj.property_e
     print(x)
-    obj.e = 17
+    obj.property_e = 17
     print(obj.__dict__)
 
 
