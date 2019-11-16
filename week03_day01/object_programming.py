@@ -303,5 +303,83 @@ def test_xyz():
     print(obj_copy.name)
 
 
+class ProcessSimpleBad:
+    def __init__(self, name):
+        self.name = name
+
+    @staticmethod
+    def step1a(data):
+        return data + '_A'
+
+    @staticmethod
+    def step1b(data):
+        return data + '_B'
+
+    @staticmethod
+    def step1(data):
+        data = ProcessSimpleBad.step1a(data)
+        data = ProcessSimpleBad.step1b(data)
+        return data
+
+    @staticmethod
+    def step2(data):
+        return data + '_C'
+
+    @staticmethod
+    def pipeline(data):
+        data = ProcessSimpleBad.step1(data)
+        data = ProcessSimpleBad.step2(data)
+        return data
+
+    def process(self):
+        return ProcessSimpleBad.pipeline(self.name)
+
+
+class ProcessSimpleGood:
+    def __init__(self, name):
+        self.name = name
+
+    @staticmethod
+    def step1a(data):
+        return data + '_A'
+
+    @staticmethod
+    def step1b(data):
+        return data + '_B'
+
+    @classmethod
+    def step1(cls, data):
+        data = cls.step1a(data)
+        data = cls.step1b(data)
+        return data
+
+    @staticmethod
+    def step2(data):
+        return data + '_C'
+
+    @classmethod
+    def pipeline(cls, data):
+        data = cls.step1(data)
+        data = cls.step2(data)
+        return data
+
+    def process(self):
+        return self.pipeline(self.name)
+
+
+class ProcessAdvanced(ProcessSimpleGood):
+    def __init__(self, name):
+        super().__init__(name)
+
+    @staticmethod
+    def step1b(data):
+        return data + '_BXXX'
+
+
+def test_process():
+    pr = ProcessAdvanced('Jan')
+    print(pr.process())
+
+
 if __name__ == '__main__':
-    test_xyz()
+    test_process()
