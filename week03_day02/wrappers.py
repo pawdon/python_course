@@ -39,18 +39,6 @@ def get_name():
     return 'Adam'
 
 
-def timed_wrapper(func):
-    @functools.wraps(func)  # ta linia jest nieobowiazkowa, ale dobrze ja dodac; ukrywa uzycie wrappera
-    def modified_func(*args, **kwargs):
-        stime = time.time()
-        result = func(*args, **kwargs)
-        dtime = time.time() - stime
-        print('Time', dtime, 's')
-        return result
-
-    return modified_func
-
-
 def wrapper_with_message(message):
     def proper_wrapper(func):
         @functools.wraps(func)
@@ -63,13 +51,23 @@ def wrapper_with_message(message):
     return proper_wrapper
 
 
-@wrapper_with_message(message='Hello')
-def multiply(x, y):
-    return x * y
+def timed_wrapper(filename, separator=','):
+    def proper_wrapper(func):
+        @functools.wraps(func)
+        def modified_func(*args, **kwargs):
+            stime = time.time()
+            result = func(*args, **kwargs)
+            dtime = time.time() - stime
+            message = separator.join([func.__qualname__, str(dtime)]) + '\n'
+            with open(filename, 'a+') as f:
+                f.write(message)
+            return result
+        return modified_func
+    return proper_wrapper
 
 
 class ABC:
-    @wrapper_with_message('Hi')
+    @timed_wrapper(filename='time.csv')
     def do(self):
         pass
 
@@ -83,11 +81,18 @@ def long_fun():
         i *= 2
 
 
+@timed_wrapper(filename='time.csv')
+def multiply(x, y):
+    return x * y
+
+
 def test_wrapper():
     print(multiply(2, 3))
+    long_fun()
     print(multiply(2, 3))
     a = ABC()
     a.do()
+    long_fun()
     # long_fun()
 
 
