@@ -31,6 +31,8 @@ class Vector2D:
         return (self.x ** 2 + self.y ** 2) ** 0.5
 
     # operator == overload
+    # jesli mam object1 operator object2, to powoduje to wywolanie odpowieniej metody
+    # na object1 przekazujac object2 jako argument
     def __eq__(self, other):
         # return self.x == other.x and self.y == other.y
         # getattr(self, k) <==> self.__dict__.get(k) <~=> self.__dict__[k]
@@ -41,6 +43,19 @@ class Vector2D:
         else:
             return False
 
+    def __add__(self, other):
+        # isinstance wspiera dziedziczenie
+        # czyli sprawdza, czy other jest obiektem klasy Vector2D albo pochodnej
+        if isinstance(other, Vector2D):
+            x = self.x + other.x
+            y = self.y + other.y
+        elif isinstance(other, int) or isinstance(other, float):
+            x = self.x + other
+            y = self.y + other
+        else:
+            raise ValueError(f'Cannot add {self} and {other}')
+        return self.__class__(x, y)  # <==> Vector2d(x, y)
+
 
 def test_vector():
     v1 = Vector2D(3, 4)
@@ -48,7 +63,10 @@ def test_vector():
     print(v1.abs())
     v2 = Vector2D(3, 4)
     print(v1 == v2)
-    print(v1 + v2)
+    v3 = v1 + v2
+    print(v1, v2, v3)
+    v4 = v1 + 5
+    print(v4)
 
 
 if __name__ == '__main__':
