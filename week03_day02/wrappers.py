@@ -39,14 +39,6 @@ def get_name():
     return 'Adam'
 
 
-class ABC:
-    def do(self):
-        pass
-
-    def __str__(self):
-        return 'haha'
-
-
 def timed_wrapper(func):
     @functools.wraps(func)  # ta linia jest nieobowiazkowa, ale dobrze ja dodac; ukrywa uzycie wrappera
     def modified_func(*args, **kwargs):
@@ -59,17 +51,12 @@ def timed_wrapper(func):
     return modified_func
 
 
-@timed_wrapper
-def long_fun():
-    for i in range(10 ** 6):
-        i *= 2
-
-
 def wrapper_with_message(message):
     def proper_wrapper(func):
         @functools.wraps(func)
         def modified_func(*args, **kwargs):
-            print(message)
+            # __name__ to sama nazwa funkcji; __qualname__ zawiera tez informacje o klasie itd
+            print(message, func.__name__, func.__qualname__)
             result = func(*args, **kwargs)
             return result
         return modified_func
@@ -81,9 +68,26 @@ def multiply(x, y):
     return x * y
 
 
+class ABC:
+    @wrapper_with_message('Hi')
+    def do(self):
+        pass
+
+    def __str__(self):
+        return 'haha'
+
+
+@timed_wrapper(filename='time.csv')
+def long_fun():
+    for i in range(10 ** 6):
+        i *= 2
+
+
 def test_wrapper():
     print(multiply(2, 3))
     print(multiply(2, 3))
+    a = ABC()
+    a.do()
     # long_fun()
 
 
