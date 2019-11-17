@@ -76,5 +76,26 @@ def test_vector():
     print(v6)
 
 
+class Building:
+    # klasa opisuje budowe czegos, wiec mozna sie dostac do czesci skladowych
+    class Floor:
+        def __init__(self):
+            self.is_ground = False
+            self.rooms_number = 0
+
+    def __init__(self):
+        # metoda opisuje zachowanie, wiec nie da sie dostac do czegos wewnatrz zachowania
+        class ABC:
+            pass
+        xyz = 6
+        self.floors = [Building.Floor(), self.Floor()]
+        self.wall_color = 'white'
+
+
+def test_building():
+    build = Building()
+    floor = Building.Floor()
+
+
 if __name__ == '__main__':
-    test_vector()
+    test_building()
