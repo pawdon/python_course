@@ -4,15 +4,15 @@ def test_range():
     print(list(a))
 
 
-def my_generator(file):
-    for line in file:
-        print(line)
+def my_generator():
+    with open('box_since_2000.csv', 'r') as file:
+        keys = file.readline()
+        for line in file:
+            print(line)
 
 
 def test_my_generator():
-    with open('box_since_2000.csv', 'r') as f:
-        keys = f.readline()
-        my_generator(f)
+    my_generator()
 
 
 if __name__ == '__main__':
