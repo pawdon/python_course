@@ -52,6 +52,12 @@ def test_my_generator():
         print(single_dict['Name'], single_dict['Height'], single_dict['Weight'])
 
 
+def my_enumerate(iterable, id=0):
+    for x in iterable:
+        yield id, x
+        id += 1
+
+
 def test_my_enumerate():
     colors = ['red', 'green', 'blue', 'white', 'black']
     # 7 red
@@ -61,4 +67,4 @@ def test_my_enumerate():
 
 
 if __name__ == '__main__':
-    test_my_generator()
+    test_my_enumerate()
