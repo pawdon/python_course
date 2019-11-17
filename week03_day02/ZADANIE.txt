@@ -1,0 +1,18 @@
+Napisz gre w Pythonie wykorzystujac minimum:
+- 10 klas (przynajmniej 3 musza dziedziczyc po jakiejs innej)
+- metody i pola statyczne oraz metody klasowe (classmethod)
+- przeciazenie jakiegos operatora (np. __eq__)
+- funkcje wewnetrzne i lambdy
+- przekazywanie funkcji jako argument albo zwracnie jako rezultat
+- list comprehension lub dict comprehension
+- generator (yield)
+- properties (getter i setter)
+- type annotation
+Gra ma posiadac mozliwosc zapisania jej stanu w dowolnym momencie do pliku json i przywrocenia wszystkich wartosci
+
+Przykladowy pomysl:
+W grze maja wystepowac postacie (np. czarodziej, wojownik, lucznik).
+Kazda postac ma posiadac punkty zycia, sily, wytrzymalosci i szybkosci
+Postac moze nosic bron (do walki wrecz lub dystansowa)
+Postacie moga sie przemieszczac, atakowac, zabijac, zabierac przedmioty
+Postacie moga awansowac
