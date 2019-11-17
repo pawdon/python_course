@@ -44,16 +44,35 @@ def multiply(x, y):
     return x * y
 
 
-def test_wrapper():
-    # my_fun()
-    # name = get_name()
-    stime = time.time()
-    mul = multiply(2, 3)
-    dtime = time.time() - stime
-    print('Czas', dtime, 's')
-    print(mul)
+class ABC:
+    def do(self):
+        pass
 
-    print(multiply)
+    def __str__(self):
+        return 'haha'
+
+
+def timed_wrapper(func):
+    @functools.wraps(func)  # ta linia jest nieobowiazkowa, ale dobrze ja dodac; ukrywa uzycie wrappera
+    def modified_func(*args, **kwargs):
+        stime = time.time()
+        result = func(*args, **kwargs)
+        dtime = time.time() - stime
+        print('Time', dtime, 's')
+        return result
+
+    return modified_func
+
+
+@timed_wrapper
+def long_fun():
+    for i in range(10 ** 6):
+        i *= 2
+
+
+def test_wrapper():
+    print(multiply(2, 3))
+    long_fun()
 
 
 if __name__ == '__main__':
