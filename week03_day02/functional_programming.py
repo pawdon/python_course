@@ -41,8 +41,19 @@ def test01():
 
 
 def test_lambda():
-    pass
+    func01 = lambda: print('haha')
+    func01()
+
+    func02 = lambda: ['red', 'green']
+    result = func02()
+    print(result)
+
+    func03 = lambda x, y: x + y
+    print(func03(4, 5))
+
+    func04 = lambda x, y=1: x + y
+    print(func04(4))
 
 
 if __name__ == '__main__':
-    test01()
+    test_lambda()
