@@ -47,3 +47,19 @@ for key, value in costam:
         x[fun1(key)] = fun2(value)
 
 """
+
+
+"""
+WRAPPERS
+
+@wrapper
+def my_fun...
+
+<==> my_fun = wrapper(my_fun)
+
+@wrapper
+class MyClass...
+
+<==> MyClass = wrapper(MyClass)
+
+"""
