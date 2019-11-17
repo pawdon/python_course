@@ -6,7 +6,7 @@ def triple_x(x):
     return 3 * x
 
 
-def modify_x(x, func):
+def modify_x(x, func: function):
     result = func(x)
     return result
 
@@ -87,6 +87,7 @@ class ABC:
     def __init__(self, name):
         self.name = name
 
+    # dzieki temu obiekt klasy ABC moge traktowac jak obiekt albo jak funkcje
     def __call__(self, other):
         return f'Hi {other}! I am {self.name}'
 
