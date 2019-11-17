@@ -67,5 +67,21 @@ def test_lambda():
     print(sorted(data, key=lambda x: x['age']))
 
 
+def choose_function(name):
+    options = {'double': double_x, 'triple': triple_x}
+    return options.get(name, lambda x: x)
+
+
+def test_choose_function():
+    result = choose_function('double')(7)
+    print(result)
+
+    result = choose_function('triple')(7)
+    print(result)
+
+    result = choose_function('xyz')(7)
+    print(result)
+
+
 if __name__ == '__main__':
-    test_lambda()
+    test_choose_function()
