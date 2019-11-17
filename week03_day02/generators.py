@@ -8,8 +8,7 @@ def my_generator():
     with open('box_since_2000.csv', 'r') as file:
         keys = file.readline().strip().split(';')
         for line in file:
-            line = line.strip()
-            values = line.split(';')
+            values = line.strip().split(';')
             single_dict = {key: value for key, value in zip(keys, values)}
             print(single_dict)
 
