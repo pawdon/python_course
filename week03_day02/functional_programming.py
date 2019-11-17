@@ -51,8 +51,20 @@ def test_lambda():
     func03 = lambda x, y: x + y
     print(func03(4, 5))
 
-    func04 = lambda x, y=1: x + y
-    print(func04(4))
+    func04 = lambda x=9, y=1: x + y
+    print(func04(y=4))
+
+    data = [{'name': 'Jan', 'age': 15},
+            {'name': 'Adam', 'age': 54},
+            {'name': 'Agnieszka', 'age': 21}]
+    print(data)
+    # w sortowaniu key jest funkcja, ktora przyjmuje jako argument pojedynczy element list
+    # i zwraca po czym sortowac
+    # sort edytuje wewnetrznie liste
+    data.sort(key=lambda x: x['name'])
+    print(data)
+    # sorted tworzy kopie
+    print(sorted(data, key=lambda x: x['age']))
 
 
 if __name__ == '__main__':
