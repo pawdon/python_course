@@ -39,11 +39,6 @@ def get_name():
     return 'Adam'
 
 
-@simple_wrapper
-def multiply(x, y):
-    return x * y
-
-
 class ABC:
     def do(self):
         pass
@@ -70,9 +65,26 @@ def long_fun():
         i *= 2
 
 
+def wrapper_with_message(message):
+    def proper_wrapper(func):
+        @functools.wraps(func)
+        def modified_func(*args, **kwargs):
+            print(message)
+            result = func(*args, **kwargs)
+            return result
+        return modified_func
+    return proper_wrapper
+
+
+@wrapper_with_message(message='Hello')
+def multiply(x, y):
+    return x * y
+
+
 def test_wrapper():
     print(multiply(2, 3))
-    long_fun()
+    print(multiply(2, 3))
+    # long_fun()
 
 
 if __name__ == '__main__':
