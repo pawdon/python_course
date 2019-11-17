@@ -1,3 +1,5 @@
+import functools
+
 
 GLOBAL_X = 5
 USE_WRAPPERS = True
@@ -13,6 +15,7 @@ def my_fun01():
 
 
 def simple_wrapper(func):
+    @functools.wraps(func)  # ta linia jest nieobowiazkowa, ale dobrze ja dodac; ukrywa uzycie wrappera
     def modified_func(*args, **kwargs):
         print('START')
         result = func(*args, **kwargs)
@@ -45,6 +48,8 @@ def test_wrapper():
     # name = get_name()
     mul = multiply(2, 3)
     print(mul)
+
+    print(multiply)
 
 
 if __name__ == '__main__':
