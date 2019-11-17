@@ -52,6 +52,9 @@ class Vector2D:
         elif isinstance(other, int) or isinstance(other, float):
             x = self.x + other
             y = self.y + other
+        elif (isinstance(other, list) or isinstance(other, tuple)) and len(other) == 2:
+            x = self.x + other[0]
+            y = self.y + other[1]
         else:
             raise ValueError(f'Cannot add {self} and {other}')
         return self.__class__(x, y)  # <==> Vector2d(x, y)
