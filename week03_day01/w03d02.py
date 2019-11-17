@@ -67,6 +67,10 @@ def test_vector():
     print(v1, v2, v3)
     v4 = v1 + 5
     print(v4)
+    v5 = v1 + [5, 6]
+    print(v5)
+    v6 = v1 + (5, 6)
+    print(v6)
 
 
 if __name__ == '__main__':
