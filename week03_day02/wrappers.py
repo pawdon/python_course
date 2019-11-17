@@ -13,14 +13,14 @@ def my_fun01():
 
 
 def simple_wrapper(func):
-    def wrap():
+    def modified_func():
         print('START')
         result = func()
         print('STOP')
         return result
 
     if USE_WRAPPERS:
-        return wrap
+        return modified_func
     else:
         return func
 
