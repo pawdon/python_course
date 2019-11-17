@@ -105,6 +105,16 @@ def test_func_obj():
     print(choose_function.gy)
 
 
+class XYZ:
+    def __init__(self, a, b, func):
+        self.a = a
+        self.b = b
+        self.func = func
+
+    def do(self):
+        return self.func(self.a, self.b)
+
+
 def my_test():
     x = XYZ(2, 3, lambda x, y: x ** y)
     print(x.do())  # 8
@@ -113,4 +123,4 @@ def my_test():
 
 
 if __name__ == '__main__':
-    test_func_obj()
+    my_test()
