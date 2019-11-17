@@ -83,5 +83,26 @@ def test_choose_function():
     print(result)
 
 
+class ABC:
+    def __init__(self, name):
+        self.name = name
+
+    def __call__(self, other):
+        return f'Hi {other}! I am {self.name}'
+
+
+def test_func_obj():
+    print(choose_function)
+    print(dir(choose_function))
+    print(choose_function.__class__)
+
+    x = ABC('Jan')
+    result = x('Tomek')
+    print(result)
+
+    choose_function.gy = 7
+    print(choose_function.gy)
+
+
 if __name__ == '__main__':
-    test_choose_function()
+    test_func_obj()
