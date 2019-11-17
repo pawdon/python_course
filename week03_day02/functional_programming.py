@@ -69,7 +69,7 @@ def test_lambda():
 
 def choose_function(name):
     options = {'double': double_x, 'triple': triple_x}
-    return options.get(name, lambda x: x)
+    return options.get(name, lambda x: 4 * x)
 
 
 def test_choose_function():
