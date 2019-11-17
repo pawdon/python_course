@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from enum import Enum
 
 
 # dataclass implements eg. __init__, __eq__
@@ -97,5 +98,34 @@ def test_building():
     floor = Building.Floor()
 
 
+# jesli nie chce podawac wartosci
+class OtherEnum(Enum):
+    NAME01 = object()  # musi miec jakas wartosc
+    NAME02 = object()
+    NAME03 = object()
+
+
+class Color(Enum):
+    RED = '#FF0000'
+    GREEN = '#00FF00'
+    BLUE = '#0000FF'
+
+
+def test_enum():
+    print(OtherEnum.NAME01.value)
+    c1 = Color.RED
+    print(c1.value, c1.name)
+    print(c1)
+    c2 = Color('#FF0000')
+    print(c2)
+    c3 = Color['RED']
+    print(c3)
+    print(c1 == c2, c2 == c3)
+    for x in Color:
+        print(x)
+
+    print(len(Color))
+
+
 if __name__ == '__main__':
-    test_building()
+    test_enum()
