@@ -105,5 +105,12 @@ def test_func_obj():
     print(choose_function.gy)
 
 
+def my_test():
+    x = XYZ(2, 3, lambda x, y: x ** y)
+    print(x.do())  # 8
+    x.a = 5
+    print(x.do())  # 125
+
+
 if __name__ == '__main__':
     test_func_obj()
