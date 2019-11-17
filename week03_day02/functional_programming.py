@@ -6,7 +6,7 @@ def triple_x(x):
     return 3 * x
 
 
-def modify_x(x, func: function):
+def modify_x(x, func):
     result = func(x)
     return result
 
