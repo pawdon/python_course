@@ -8,6 +8,8 @@ Napisz gre w Pythonie wykorzystujac minimum:
 - generator (yield)
 - properties (getter i setter)
 - type annotation
+- wrappera
+- with
 Gra ma posiadac mozliwosc zapisania jej stanu w dowolnym momencie do pliku json i przywrocenia wszystkich wartosci
 
 Przykladowy pomysl:
