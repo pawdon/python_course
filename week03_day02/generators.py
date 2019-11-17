@@ -58,12 +58,21 @@ def my_enumerate(iterable, id=0):
         id += 1
 
 
+def restrict(iterable, maximum):
+    for i, x in enumerate(iterable):
+        if i >= maximum:
+            break
+        yield x
+
+
 def test_my_enumerate():
     colors = ['red', 'green', 'blue', 'white', 'black']
-    # 7 red
-    # 8 green itd
-    for i, c in my_enumerate(colors, 7):
-        print(i, c)
+    # red
+    # green
+    # blue
+    # wypisz max 3 elementy
+    for c in restrict(colors, 3):
+        print(c)
 
 
 if __name__ == '__main__':
