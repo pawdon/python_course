@@ -1,4 +1,5 @@
 import functools
+import time
 
 
 GLOBAL_X = 5
@@ -46,7 +47,10 @@ def multiply(x, y):
 def test_wrapper():
     # my_fun()
     # name = get_name()
+    stime = time.time()
     mul = multiply(2, 3)
+    dtime = time.time() - stime
+    print('Czas', dtime, 's')
     print(mul)
 
     print(multiply)
