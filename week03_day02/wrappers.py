@@ -1,5 +1,6 @@
 
 GLOBAL_X = 5
+USE_WRAPPERS = True
 
 def my_fun01():
     print(GLOBAL_X)
@@ -14,9 +15,14 @@ def my_fun01():
 def simple_wrapper(func):
     def wrap():
         print('START')
-        func()
+        result = func()
         print('STOP')
-    return wrap
+        return result
+
+    if USE_WRAPPERS:
+        return wrap
+    else:
+        return func
 
 
 @simple_wrapper
@@ -24,8 +30,15 @@ def my_fun():
     print('haha')
 
 
+@simple_wrapper
+def get_name():
+    return 'Adam'
+
+
 def test_wrapper():
-    my_fun()
+    # my_fun()
+    name = get_name()
+    print(name)
 
 
 if __name__ == '__main__':
