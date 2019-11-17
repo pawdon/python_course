@@ -52,5 +52,13 @@ def test_my_generator():
         print(single_dict['Name'], single_dict['Height'], single_dict['Weight'])
 
 
+def test_my_enumerate():
+    colors = ['red', 'green', 'blue', 'white', 'black']
+    # 7 red
+    # 8 green itd
+    for i, c in my_enumerate(colors, 7):
+        print(i, c)
+
+
 if __name__ == '__main__':
     test_my_generator()
