@@ -13,9 +13,9 @@ def my_fun01():
 
 
 def simple_wrapper(func):
-    def modified_func():
+    def modified_func(*args, **kwargs):
         print('START')
-        result = func()
+        result = func(*args, **kwargs)
         print('STOP')
         return result
 
@@ -35,10 +35,16 @@ def get_name():
     return 'Adam'
 
 
+@simple_wrapper
+def multiply(x, y):
+    return x * y
+
+
 def test_wrapper():
     # my_fun()
-    name = get_name()
-    print(name)
+    # name = get_name()
+    mul = multiply(2, 3)
+    print(mul)
 
 
 if __name__ == '__main__':
