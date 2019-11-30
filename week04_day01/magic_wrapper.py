@@ -3,6 +3,7 @@ import functools
 
 def magic_wrapper(func=None, name='XYZ'):
     def proper_wrapper(original_func):
+        @functools.wraps(original_func)
         def modified_func(*args, **kwargs):
             print('Start', name)
             result = original_func(*args, **kwargs)
