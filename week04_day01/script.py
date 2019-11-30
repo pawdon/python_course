@@ -1,5 +1,8 @@
 import argparse
 import sys
+import os
+import shutil
+import pathlib
 
 
 def fun_arg01():
@@ -46,5 +49,32 @@ python script.py 2.5 3.5  # 6; zrob 2 wersje (z uzyciem sys.argv i z uzyciem arg
 """
 
 
+def test_os_01():
+    dirname = '..'
+    for filename in os.listdir(dirname):
+        path = os.path.join(dirname, filename)
+        # print(filename, path, os.path.abspath(path))
+        if os.path.isdir(path):
+            print(filename, os.listdir(path))
+        else:
+            print(filename)
+
+
+def test_os_02():
+    os.makedirs('new_dir', exist_ok=True)
+    shutil.copy2('box_since_2000.csv', 'new_dir')
+    shutil.copy2('box_since_2000.csv', 'new_dir/box.csv')
+    os.remove('new_dir/box.csv')
+    shutil.copytree('new_dir', 'new_dir2')
+    shutil.rmtree('new_dir')
+
+
+def test_os_03():
+    my_path = 'abc/def/ghi.txt'
+    print(os.path.split(my_path))
+    print(os.path.splitext(my_path))
+    print(pathlib.Path(my_path).parts)
+
+
 if __name__ == '__main__':
-    fun_arg05()
+    test_os_03()
