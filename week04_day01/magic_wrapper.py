@@ -1,5 +1,7 @@
 import functools
 
+MAGIC_WRAPPER_ON = False
+
 
 def magic_wrapper(func=None, name='XYZ'):
     def proper_wrapper(original_func):
@@ -9,7 +11,7 @@ def magic_wrapper(func=None, name='XYZ'):
             result = original_func(*args, **kwargs)
             print('Stop', name)
             return result
-        return modified_func
+        return modified_func if MAGIC_WRAPPER_ON else original_func
     return proper_wrapper if func is None else proper_wrapper(func)
 
 
