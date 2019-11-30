@@ -1,0 +1,14 @@
+- przeczytaj plik box_since_2000.csv
+- utworz glowny folder 'games', w ktorym beda wszystkie dalsze wyniki
+- utworz osobny folder dla kazdego wydarzenia (kolumna 'Games')
+- w odpowiednim folderze utworz osobny plik yaml dla kazdego kraju
+- uzyjcie slowka yield
+
+games/2016_Summer/poland.yaml
+
+- NIE PATRZYMY WGL NA PLIK box_since_2000.csv
+- NIE OTWIERAMY ŻADNEGO PLIKU
+- w folderze games utworz folder _ALL_
+- do tego folderu skopiuj wszystkie pliki yaml modyfikujac ich nazwe zgodnie z przykladem
+
+games/_ALL_/poland_2016_summer.yaml
