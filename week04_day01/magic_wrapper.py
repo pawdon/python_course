@@ -19,6 +19,7 @@ def multiply01(x, y):
     return result
 
 # multiply01 = magic_wrapper(multiply01)
+# multiply01 = magic_wrapper()(multiply01)
 
 
 #@magic_wrapper
