@@ -20,7 +20,16 @@ class User:
         self.date_of_birth: datetime.date = date_of_birth
 
     def __str__(self):
-        return f'{self.first_name} {self.last_name} ({self.profile_name})'
+        return self.profile_name
+
+    def full_data(self):
+        str_data = f'{self.first_name} {self.last_name}'
+        if self.sex != Sex.UNSPECIFIED:
+            str_data += f' (sex={self.sex.name})'
+        if self.date_of_birth is not None:
+            date_as_str = self.date_of_birth.strftime("%Y.%m.%d")
+            str_data += f' (date_of_birth={date_as_str})'
+        return str_data
 
     @staticmethod
     def get_clean_name(name: str) -> str:
@@ -36,7 +45,9 @@ class User:
 if __name__ == '__main__':
     us1 = User('Jan', 'Kowalski')
     print(us1)
-    us2 = User('Jan', 'kowalski')
+    us2 = User('Jan', 'kowalski', sex=Sex.MALE, date_of_birth=datetime.date(year=1996, month=5, day=25))
     print(us2)
-    us3 = User('Adam', 'Nowak')
+    us3 = User('Adam', 'Nowak', date_of_birth=datetime.date(year=1995, month=2, day=16))
     print(us3)
+    print(us2.full_data())
+    print(us3.full_data())
