@@ -1,10 +1,23 @@
+import datetime
+from enum import Enum
+
+
+class Sex(Enum):
+    FEMALE = 'F'
+    MALE = 'M'
+    OTHER = 'O'
+    UNSPECIFIED = 'U'
+
+
 class User:
     names_count = dict()
 
-    def __init__(self, first_name: str, last_name: str):
+    def __init__(self, first_name: str, last_name: str, sex=Sex.UNSPECIFIED, date_of_birth: datetime.date=None):
         self.first_name: str = first_name
         self.last_name: str = last_name
         self.profile_name: str = self.get_profile_name()
+        self.sex: Sex = sex
+        self.date_of_birth: datetime.date = date_of_birth
 
     def __str__(self):
         return f'{self.first_name} {self.last_name} ({self.profile_name})'
