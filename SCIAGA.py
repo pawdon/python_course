@@ -63,3 +63,22 @@ class MyClass...
 <==> MyClass = wrapper(MyClass)
 
 """
+
+
+"""
+POPRAWNE UZYCIE ZMIENNYCH STATYCZNYCH
+
+class XYZ:
+    counter = 0
+    my_list = []
+
+    def __init__(self):
+        self.__class__.counter += 1  # zmiana referencji, czyli =
+        self.my_list.append(self.counter)
+
+
+a = XYZ()
+b = XYZ()
+print(XYZ.counter)
+print(XYZ.my_list)
+"""
