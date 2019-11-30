@@ -3,6 +3,7 @@ import sys
 import os
 import shutil
 import pathlib
+import glob
 
 
 def fun_arg01():
@@ -76,5 +77,10 @@ def test_os_03():
     print(pathlib.Path(my_path).parts)
 
 
+def test_glob():
+    for path in glob.iglob('../**/*.py', recursive=True):
+        print(path)
+
+
 if __name__ == '__main__':
-    test_os_03()
+    test_glob()
