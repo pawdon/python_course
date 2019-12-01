@@ -43,7 +43,7 @@ def test_array():
     my_array[1:] += 7
     print('arr', my_array)
 
-    my_array = np.where(my_array < 15, 2 * my_array, 7)
+    my_array = np.where(my_array < 15, 2 * my_array, 3 * my_array)
     print('arr', my_array)
 
 
