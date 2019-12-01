@@ -139,5 +139,14 @@ def operation2D_ver4(mat):
     return result
 
 
+def test_2d_part2():
+    my_list = [[1, 3, 5, 7], [2, 4, 6, 8], [11, 13, 15, 17]]
+    arr = np.array(my_list)
+    print(arr)
+    print(np.sum(arr))
+    print(np.sum(arr, axis=0))
+    print(np.sum(arr, axis=1))
+
+
 if __name__ == '__main__':
-    test_2d()
+    test_2d_part2()
