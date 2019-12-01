@@ -57,6 +57,14 @@ def test_array():
     print(arr5 == my_list, arr5 is my_list)
 
 
+def my_fun(x):
+    x = np.array(x)  # skopiuje, wiec zajmie wiecej czasu
+    # x = np.asarray(x)  # zmieni obiekt na zewnatrz funkcji
+    x += 5
+    x[x > 10] -= 3
+    x = x ** 2
+    return x
+
 
 if __name__ == '__main__':
     test_array()
