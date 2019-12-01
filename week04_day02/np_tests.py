@@ -87,5 +87,51 @@ def test_2d():
     print(arr[:, 2], '\n')  # kolumna nr 2
 
 
+def operation2D_ver1(mat):
+    a = mat[:, 0]
+    b = mat[:, 1]
+    c = a * b
+    result = np.sum(c)
+    print(mat, '\n')
+    print(a, '\n')
+    print(b, '\n')
+    print(c, '\n')
+    print(result, '\n')
+    return result
+
+
+def operation2D_ver2(mat):
+    a = mat[:, 0]
+    b = mat[:, 1]
+    result = a @ b
+    print(mat, '\n')
+    print(a, '\n')
+    print(b, '\n')
+    print(result, '\n')
+    return result
+
+
+def operation2D_ver3(mat):
+    a = mat[:, 0]
+    b = np.array([mat[:, 1]]).transpose()
+    result = a @ b
+    print(mat, '\n')
+    print(a, '\n')
+    print(b, '\n')
+    print(result, '\n')
+    return result
+
+
+def operation2D_ver4(mat):
+    a = mat[:, 0]
+    b = np.reshape(mat[:, 1], newshape=(-1, 1))
+    result = a @ b
+    print(mat, '\n')
+    print(a, '\n')
+    print(b, '\n')
+    print(result, '\n')
+    return result
+
+
 if __name__ == '__main__':
-    test_2d()
+    operation2D_ver4(np.array([[1, 6], [3, 4], [5, 2]]))
