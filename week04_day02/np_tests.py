@@ -46,6 +46,16 @@ def test_array():
     my_array = np.where(my_array < 15, 2 * my_array, 3 * my_array)
     print('arr', my_array)
 
+    arr2 = np.array(my_array)  # zawsze robi kopie; ta kopia jest np.ndarray
+    arr3 = np.asarray(my_array)  # jesli dostanie np.ndarray, to zrobi referencje, a jesli liste, to utworzy np.ndarray
+    print(arr2 == my_array, arr2 is my_array)
+    print(arr3 == my_array, arr3 is my_array)
+
+    arr4 = np.array(my_list)
+    arr5 = np.asarray(my_list)
+    print(arr4 == my_list, arr4 is my_list)
+    print(arr5 == my_list, arr5 is my_list)
+
 
 
 if __name__ == '__main__':
