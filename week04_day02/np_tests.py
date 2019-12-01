@@ -58,7 +58,7 @@ def test_array():
 
 
 def my_fun(x):
-    x = np.array(x)  # skopiuje, wiec zajmie wiecej czasu
+    x = np.array(x)  # skopiuje, wiec zajmie wiecej czasu, wprost mozna zawolac np.copy(x)
     # x = np.asarray(x)  # zmieni obiekt na zewnatrz funkcji
     x += 5
     x[x > 10] -= 3
@@ -66,5 +66,26 @@ def my_fun(x):
     return x
 
 
+def test_2d():
+    my_list = [[1, 3, 5, 7], [2, 4, 6, 8], [11, 13, 15, 17]]
+    print(my_list, '\n')
+    arr = np.array(my_list)
+    print(arr, '\n')
+    print(arr + 2, '\n')
+    print(arr / 2, '\n')
+    arr2 = np.asarray(arr, dtype=np.float)
+    print(arr is arr2, np.shape(arr2), arr2.dtype)
+    arr2 /= 2
+    print(arr2, '\n')
+
+    print(arr, '\n')
+    print(arr * arr, '\n')  # kazdy z kazdym
+    print(arr @ arr.transpose(), '\n')  # mnozenie macierzowe, rownowazne z np.matmul(arr, np.transpose(arr))
+    print(arr[2][3], '\n')
+    print(arr[2, 3], '\n')
+    print(arr[1:3, 2:], '\n')
+    print(arr[:, 2], '\n')  # kolumna nr 2
+
+
 if __name__ == '__main__':
-    test_array()
+    test_2d()
