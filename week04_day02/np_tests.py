@@ -86,6 +86,12 @@ def test_2d():
     print(arr[1:3, 2:], '\n')
     print(arr[:, 2], '\n')  # kolumna nr 2
 
+    arr3 = np.array(range(12))
+    print(arr3)
+    print(arr3.reshape((-1, 6)))
+    print(arr3.reshape((2, -1)))
+    print(arr3.reshape((2, 2, -1)))
+
 
 def operation2D_ver1(mat):
     a = mat[:, 0]
@@ -134,4 +140,4 @@ def operation2D_ver4(mat):
 
 
 if __name__ == '__main__':
-    operation2D_ver4(np.array([[1, 6], [3, 4], [5, 2]]))
+    test_2d()
