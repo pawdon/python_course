@@ -38,6 +38,7 @@ class Trojkat(Ksztalt2D):
     TO JEST ŹLE! WARTOŚCI MUTABLE (MODYFIKOWALNE) NIE POWINNY BYĆ ARGUMENTAMI DOMYŚLNYMI
     def __init__(self, A: Punkt=Punkt(0,0), B: Punkt=Punkt(2,-2), C: Punkt=Punkt(2,2)):
     """
+    """
     def __init__(self, A: Punkt=None, B: Punkt=None, C: Punkt=None):
         self.A: Punkt = A
         self.B: Punkt = B
@@ -48,6 +49,21 @@ class Trojkat(Ksztalt2D):
         if self.B is None:
             self.B = Punkt(2,-2)
         if self.C is None:
+            self.C = Punkt(2, 2)
+    """
+
+    def __init__(self, Ax: float=0, Ay: float=0, Bx: float=2, By: float=-2, Cx: float=2, Cy: float=2,
+                 A: Punkt = None, B: Punkt = None, C: Punkt = None):
+
+        self.A: Punkt = Punkt(Ax, Ay)
+        self.B: Punkt = Punkt(Bx, By)
+        self.C: Punkt = Punkt(Cx, Cy)
+
+        if A is not None:
+            self.A = Punkt(0, 0)
+        if B is not None:
+            self.B = Punkt(2,-2)
+        if C is not None:
             self.C = Punkt(2, 2)
 
     def __repr__(self):
