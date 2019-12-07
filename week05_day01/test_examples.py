@@ -57,6 +57,12 @@ def test_silnia_correct(arg, val):
     assert silnia(arg) == val
 
 
+def test_silnia_incorrect():
+    # match jest opcjonalne
+    with pytest.raises(ValueError, match='n should be >= 0'):
+        silnia(-1)
+
+
 if __name__ == '__main__':
     # import doctest
     # doctest.testmod()
