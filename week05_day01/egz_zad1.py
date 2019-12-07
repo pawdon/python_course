@@ -28,11 +28,14 @@ class Kolo(Ksztalt2D):
 
 
 class Trojkat(Ksztalt2D):
-    def __init__(self, Ax: float, Ay: float, Bx: float, By: float, Cx: float, Cy: float):
+    def __init__(self, Ax: float=0, Ay: float=0, Bx: float=2, By: float=-2, Cx: float=2, Cy: float=2):
         self.A: Punkt = Punkt(Ax, Ay)
         self.B: Punkt = Punkt(Bx, By)
         self.C: Punkt = Punkt(Cx, Cy)
 
+    def __repr__(self):
+        # return f'A{self.A}, B{self.B}, C{self.C}'
+        return ', '.join([f'{key}{val}' for key, val in self.__dict__.items()])
 
 
 def test01():
@@ -40,6 +43,9 @@ def test01():
     a = Ksztalt2D()  # __new__(), __init__(), __postinit__()
     # a.obwod()
     t = Trojkat(1, 2, 3, 4, 5, 6)
+    print(t)
+    t = Trojkat()
+    print(t)
 
 
 if __name__ == '__main__':
