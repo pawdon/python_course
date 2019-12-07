@@ -4,6 +4,14 @@ def read_file(filename):
     return text
 
 
+def get_ordered_letters():
+    digits = list(range(ord('0'), ord('9') + 1))
+    letters = list(range(ord('a'), ord('z') + 1))
+
+    chars = [chr(x) for x in digits + letters]
+    return chars
+
+
 def histogram(text: str):
     letters_hist = dict()
     text = text.lower()
@@ -20,9 +28,11 @@ def histogram(text: str):
             """
             letters_hist[letter] = letters_hist.get(letter, 0) + 1
     print(letters_hist)
+    # Zalozmy, ze histogram ma byc w kolejnosci 0,1,2,...,9,a,b,c,...,z
 
 
 if __name__ == '__main__':
-    text = read_file('literki.txt')
-    print(text)
-    histogram(text)
+    # text = read_file('literki.txt')
+    # print(text)
+    # histogram(text)
+    print(get_ordered_letters())
