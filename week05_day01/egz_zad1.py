@@ -34,10 +34,21 @@ class Trojkat(Ksztalt2D):
         self.B: Punkt = Punkt(Bx, By)
         self.C: Punkt = Punkt(Cx, Cy)
     """
-    def __init__(self, A: Punkt, B: Punkt, C: Punkt):
+    """
+    TO JEST ŹLE! WARTOŚCI MUTABLE (MODYFIKOWALNE) NIE POWINNY BYĆ ARGUMENTAMI DOMYŚLNYMI
+    def __init__(self, A: Punkt=Punkt(0,0), B: Punkt=Punkt(2,-2), C: Punkt=Punkt(2,2)):
+    """
+    def __init__(self, A: Punkt=None, B: Punkt=None, C: Punkt=None):
         self.A: Punkt = A
         self.B: Punkt = B
         self.C: Punkt = C
+
+        if self.A is None:
+            self.A = Punkt(0, 0)
+        if self.B is None:
+            self.B = Punkt(2,-2)
+        if self.C is None:
+            self.C = Punkt(2, 2)
 
     def __repr__(self):
         # return f'A{self.A}, B{self.B}, C{self.C}'
@@ -60,9 +71,15 @@ def test02():
     # a.obwod()
     A = Punkt(1, 2)
     B = Punkt(3, 4)
-    C = Punkt(5, 6)
-    t = Trojkat(A, B, C)
+    t = Trojkat(A, B, Punkt(5, 6))
     print(t)
+    t1 = Trojkat()
+    print(t1)
+    t2 = Trojkat()
+    print(t2)
+    t1.A.x = 17
+    print(t1)
+    print(t2)
 
 
 if __name__ == '__main__':
