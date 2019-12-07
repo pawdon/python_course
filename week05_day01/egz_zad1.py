@@ -111,9 +111,11 @@ class Trojkat(Ksztalt2D):
         else:  # are_numbers_given and are_points_given
             raise RuntimeError('Albo liczby albo punkty powinny byc zadane, ale nie liczby i punkty jednoczesnie')
 
+        self.__boki()
+
     def __repr__(self):
-        # return f'A{self.A}, B{self.B}, C{self.C}'
-        return ', '.join([f'{key}{val}' for key, val in self.__dict__.items()])
+        return f'A{self.A}, B{self.B}, C{self.C}'
+        # return ', '.join([f'{key}{val}' for key, val in self.__dict__.items()])
 
     def __boki(self):
         self.__a = self.B.distance(self.C)
@@ -128,6 +130,18 @@ class Trojkat(Ksztalt2D):
 
     def get_bok_c(self):
         return self.__c
+
+    def set_punkt_A(self, val: Punkt):
+        self.A = val
+        self.__boki()
+
+    def set_punkt_B(self, val: Punkt):
+        self.B = val
+        self.__boki()
+
+    def set_punkt_C(self, val: Punkt):
+        self.C = val
+        self.__boki()
 
 
 class TrojkatPython(Ksztalt2D):
@@ -212,7 +226,9 @@ def test04():
 
 
 def test05():
-    t = Trojkat()
+    t = Trojkat(2, 3, 4, 5, 5, 7)
+    print(t)
+    print(t.get_bok_b())
 
 
 if __name__ == '__main__':
