@@ -29,6 +29,7 @@ class Kolo(Ksztalt2D):
 
 class Trojkat(Ksztalt2D):
     """
+    # Sposob dziala, realizuje funkcjonalnosc dwoch konstruktorow (domyslny i z liczbami)
     def __init__(self, Ax: float=0, Ay: float=0, Bx: float=2, By: float=-2, Cx: float=2, Cy: float=2):
         self.A: Punkt = Punkt(Ax, Ay)
         self.B: Punkt = Punkt(Bx, By)
@@ -39,6 +40,7 @@ class Trojkat(Ksztalt2D):
     def __init__(self, A: Punkt=Punkt(0,0), B: Punkt=Punkt(2,-2), C: Punkt=Punkt(2,2)):
     """
     """
+    # Sposob dziala, realizuje funkcjonalnosc dwoch konstruktorow (domyslny i z punktami)
     def __init__(self, A: Punkt=None, B: Punkt=None, C: Punkt=None):
         self.A: Punkt = A
         self.B: Punkt = B
@@ -52,6 +54,9 @@ class Trojkat(Ksztalt2D):
             self.C = Punkt(2, 2)
     """
 
+    """
+    # Sposob dziala, realizuje funkcjonalnosc trzech konstruktorow (domyslny, z liczbami i z punktami)
+    # Nie obsluguje sytuacji Trojkat(Ax=5, Ay=7, A=Punkt(13, 15))
     def __init__(self, Ax: float=0, Ay: float=0, Bx: float=2, By: float=-2, Cx: float=2, Cy: float=2,
                  A: Punkt=None, B: Punkt=None, C: Punkt=None):
 
@@ -65,6 +70,38 @@ class Trojkat(Ksztalt2D):
             self.B = B
         if C is not None:
             self.C = C
+    """
+
+    def __init__(self,
+                 Ax: float=None, Ay: float=None,
+                 Bx: float=None, By: float=None,
+                 Cx: float=None, Cy: float=None,
+                 A: Punkt=None, B: Punkt=None, C: Punkt=None):
+
+        self.A: Punkt = None
+        self.B: Punkt = None
+        self.C: Punkt = None
+
+        # are_numbers_given jest rowne True, jesli ktorakolwiek z liczb Ax...Cy zostala podana
+        are_numbers_given = any([Ax is not None, Ay is not None,
+                                 Bx is not None, By is not None,
+                                 Cx is not None, Cy is not None])
+        are_points_given = (A is not None) or (B is not None) or (C is not None)
+
+        if not are_numbers_given and not are_points_given:
+            self.A = Punkt(0, 0)
+            self.B = Punkt(2, -2)
+            self.C = Punkt(2, 2)
+        elif are_numbers_given and not are_points_given:
+            self.A = Punkt(Ax, Ay)
+            self.B = Punkt(Bx, By)
+            self.C = Punkt(Cx, Cy)
+        elif not are_numbers_given and are_points_given:
+            self.A = A
+            self.B = B
+            self.C = C
+        else:  # are_numbers_given and are_points_given
+            raise RuntimeError('Albo liczby albo punkty powinny byc zadane, ale nie liczby i punkty jednoczesnie')
 
     def __repr__(self):
         # return f'A{self.A}, B{self.B}, C{self.C}'
@@ -110,6 +147,7 @@ def test03():
     B = Punkt(13, 14)
     t = Trojkat(A=A, B=B, C=Punkt(15, 16))
     print(t)
+    # t = Trojkat(Ax=5, Ay=7, A=Punkt(13, 15))  # RuntimeError: Albo liczby albo punkty powinny byc zadane, ale nie liczby i punkty jednoczesnie
 
 
 if __name__ == '__main__':
