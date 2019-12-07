@@ -108,6 +108,28 @@ class Trojkat(Ksztalt2D):
         return ', '.join([f'{key}{val}' for key, val in self.__dict__.items()])
 
 
+class TrojkatPython(Ksztalt2D):
+    def __init__(self, A: Punkt=None, B: Punkt=None, C: Punkt=None):
+        self.A: Punkt = A
+        self.B: Punkt = B
+        self.C: Punkt = C
+
+        if self.A is None:
+            self.A = Punkt(0, 0)
+        if self.B is None:
+            self.B = Punkt(2, -2)
+        if self.C is None:
+            self.C = Punkt(2, 2)
+
+    @classmethod
+    def create_from_numbers(cls, Ax: float=0, Ay: float=0, Bx: float=2, By: float=-2, Cx: float=2, Cy: float=2):
+        return cls(A=Punkt(Ax, Ay), B=Punkt(Bx, By), C=Punkt(Cx, Cy))
+
+    def __repr__(self):
+        # return f'A{self.A}, B{self.B}, C{self.C}'
+        return ', '.join([f'{key}{val}' for key, val in self.__dict__.items()])
+
+
 def test01():
     print('START')
     a = Ksztalt2D()  # __new__(), __init__(), __postinit__()
@@ -150,6 +172,23 @@ def test03():
     # t = Trojkat(Ax=5, Ay=7, A=Punkt(13, 15))  # RuntimeError: Albo liczby albo punkty powinny byc zadane, ale nie liczby i punkty jednoczesnie
 
 
+def test04():
+    print('START')
+    a = Ksztalt2D()  # __new__(), __init__(), __postinit__()
+    # a.obwod()
+    t = TrojkatPython()
+    print(t)
+    t = TrojkatPython.create_from_numbers()
+    print(t)
+    t = TrojkatPython.create_from_numbers(1, 2, 3, 4, 5, 6)
+    print(t)
+    A = Punkt(11, 12)
+    B = Punkt(13, 14)
+    t = TrojkatPython(A, B, Punkt(15, 16))
+    print(t)
+    # t = Trojkat(Ax=5, Ay=7, A=Punkt(13, 15))  # Ru
+
+
 if __name__ == '__main__':
-    test03()
+    test04()
 
