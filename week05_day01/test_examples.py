@@ -74,6 +74,11 @@ def test_silnia_incorrect():
 
 
 # fixture sluzy do przygotowania danych do testow
+# argumenty sa opcjonalne
+# scope okresla jak czesto ma sie wykonac ta funkcja
+# params pozwala na parametryzowanie funkcji
+# jesli uzywamy params, to funkcja musi przyjmowac argument o nazwie request
+# request.param to aktualna wartosc z listy params
 @pytest.fixture(scope='session', params=['Volvo', 'Skoda', 'Audi'])
 def prepare_data(request):
     # jakies laczenie sie z baza danych itp
