@@ -1,3 +1,5 @@
+from typing import Union
+
 class Punkt:
     def __init__(self, x, y):
         self.x: float = x
@@ -233,6 +235,15 @@ def test05():
     print(t.get_bok_a(), t.get_bok_b(), t.get_bok_c())
 
 
+def program_8():
+    t = Trojkat()
+    print(t.get_bok_a(), t.get_bok_b(), t.get_bok_c())
+    t.set_punkt_A(Punkt(-1, 0.3))
+    t.set_punkt_B(Punkt(-1, 2.3))
+    t.set_punkt_C(Punkt(3, 1.3))
+    print(t.get_bok_a(), t.get_bok_b(), t.get_bok_c())
+
+
 if __name__ == '__main__':
-    test05()
+    program_8()
 
