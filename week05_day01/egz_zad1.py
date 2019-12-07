@@ -53,18 +53,18 @@ class Trojkat(Ksztalt2D):
     """
 
     def __init__(self, Ax: float=0, Ay: float=0, Bx: float=2, By: float=-2, Cx: float=2, Cy: float=2,
-                 A: Punkt = None, B: Punkt = None, C: Punkt = None):
+                 A: Punkt=None, B: Punkt=None, C: Punkt=None):
 
         self.A: Punkt = Punkt(Ax, Ay)
         self.B: Punkt = Punkt(Bx, By)
         self.C: Punkt = Punkt(Cx, Cy)
 
         if A is not None:
-            self.A = Punkt(0, 0)
+            self.A = A
         if B is not None:
-            self.B = Punkt(2,-2)
+            self.B = B
         if C is not None:
-            self.C = Punkt(2, 2)
+            self.C = C
 
     def __repr__(self):
         # return f'A{self.A}, B{self.B}, C{self.C}'
@@ -98,6 +98,20 @@ def test02():
     print(t2)
 
 
+def test03():
+    print('START')
+    a = Ksztalt2D()  # __new__(), __init__(), __postinit__()
+    # a.obwod()
+    t = Trojkat()
+    print(t)
+    t = Trojkat(1, 2, 3, 4, 5, 6)
+    print(t)
+    A = Punkt(11, 12)
+    B = Punkt(13, 14)
+    t = Trojkat(A=A, B=B, C=Punkt(15, 16))
+    print(t)
+
+
 if __name__ == '__main__':
-    test02()
+    test03()
 
