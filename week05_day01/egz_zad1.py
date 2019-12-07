@@ -10,7 +10,7 @@ class Punkt:
     # __repr__ dziala np przy print(lista) albo str(lista)
     def __repr__(self):
         return f'({self.x}, {self.y})'
-    
+
     def distance(self, other):
         return ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
 
@@ -116,7 +116,18 @@ class Trojkat(Ksztalt2D):
         return ', '.join([f'{key}{val}' for key, val in self.__dict__.items()])
 
     def __boki(self):
-        self.__a =
+        self.__a = self.B.distance(self.C)
+        self.__b = self.A.distance(self.C)
+        self.__c = Punkt.distance(self.A, self.B)
+
+    def get_bok_a(self):
+        return self.__a
+
+    def get_bok_b(self):
+        return self.__b
+
+    def get_bok_c(self):
+        return self.__c
 
 
 class TrojkatPython(Ksztalt2D):
