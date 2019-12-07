@@ -1,3 +1,6 @@
+import pytest
+
+
 def multiply(x, y):
     """
 
@@ -41,6 +44,12 @@ def silnia(n: int) -> int:
         return n * silnia(n - 1)
 
 
+def test_01():
+    assert 1 == 1
+    assert 2 == 2, 'Opcjonalny opis'
+
+
 if __name__ == '__main__':
-    import doctest
-    doctest.testmod(verbose=False)
+    # import doctest
+    # doctest.testmod()
+    pass
