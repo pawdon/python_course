@@ -29,10 +29,16 @@ def histogram(text: str):
             letters_hist[letter] = letters_hist.get(letter, 0) + 1
     print(letters_hist)
     # Zalozmy, ze histogram ma byc w kolejnosci 0,1,2,...,9,a,b,c,...,z
+    ordered_letters = get_ordered_letters()
+    print(ordered_letters)
+    counts = [str(letters_hist.get(key, 0)) for key in ordered_letters]
+    print(counts)
+
+    with open('hist.txt', 'w') as file:
+        file.write(';'.join(counts))
 
 
 if __name__ == '__main__':
-    # text = read_file('literki.txt')
-    # print(text)
-    # histogram(text)
-    print(get_ordered_letters())
+    text = read_file('literki.txt')
+    print(text)
+    histogram(text)
