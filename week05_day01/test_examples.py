@@ -74,12 +74,12 @@ def test_silnia_incorrect():
 
 
 # fixture sluzy do przygotowania danych do testow
-@pytest.fixture(scope='session')
-def prepare_data():
+@pytest.fixture(scope='session', params=['Volvo', 'Skoda', 'Audi'])
+def prepare_data(request):
     # jakies laczenie sie z baza danych itp
     # generalnie duze przygotowanie obiektu
     print('\nSTART_PREPARE_DATA')
-    yield 'Volvo'
+    yield request.param
     print('\nSTOP_PREPARE_DATA')
 
 
