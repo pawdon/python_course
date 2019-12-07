@@ -66,7 +66,19 @@ def letters_replace(text):
         file.write(text)
 
 
+def reverse_text_ver1(text):
+    text = text[::-1]
+    with open('wspak.txt', 'w') as file:
+        file.write(text)
+
+
+def reverse_text_ver2(text):
+    with open('wspak2.txt', 'w') as file:
+        for letter in reversed(text):
+            file.write(letter)
+
+
 if __name__ == '__main__':
     text = read_file('literki.txt')
     print(text)
-    letters_replace(text)
+    reverse_text_ver2(text)
