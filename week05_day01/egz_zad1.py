@@ -3,6 +3,14 @@ class Punkt:
         self.x: float = x
         self.y: float = y
 
+    # __str__ i __repr__ sluza do ladnego wyswietlania obiektow
+    # jesli __str__ nie jest zaimplementowane, ale jest __repr__, to
+    # __repr__ zadziala tez wtedy, kiedy normalnie zadzialaloby __str__
+    # __str__ dziala np przy print(pojedyncza_wartosc) albo str(pojedyncza_wartosc)
+    # __repr__ dziala np przy print(lista) albo str(lista)
+    def __repr__(self):
+        return f'({self.x}, {self.y})'
+
 
 class Ksztalt2D:
     def obwod(self) -> float:
@@ -31,6 +39,7 @@ def test01():
     print('START')
     a = Ksztalt2D()  # __new__(), __init__(), __postinit__()
     # a.obwod()
+    t = Trojkat(1, 2, 3, 4, 5, 6)
 
 
 if __name__ == '__main__':
