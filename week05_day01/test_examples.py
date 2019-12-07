@@ -49,6 +49,11 @@ def test_01():
     assert 2 == 2, 'Opcjonalny opis'
 
 
+@pytest.mark.parametrize('arg, val', [(0, 1), (1, 1), (2, 2), (3, 6), (4, 24)])
+def test_silnia_correct(arg, val):
+    assert silnia(arg) == val
+
+
 if __name__ == '__main__':
     # import doctest
     # doctest.testmod()
