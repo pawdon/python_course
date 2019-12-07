@@ -243,6 +243,11 @@ def program_8():
     t.set_punkt_C(Punkt(3, 1.3))
     print(t.get_bok_a(), t.get_bok_b(), t.get_bok_c())
 
+    with open('wyniki.txt', 'w') as file:
+        sep = ';'
+        data = sep.join([str(t.get_bok_a()), str(t.get_bok_b()), str(t.get_bok_c())])
+        file.write(data)
+
 
 if __name__ == '__main__':
     program_8()
