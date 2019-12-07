@@ -10,6 +10,9 @@ class Punkt:
     # __repr__ dziala np przy print(lista) albo str(lista)
     def __repr__(self):
         return f'({self.x}, {self.y})'
+    
+    def distance(self, other):
+        return ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
 
 
 class Ksztalt2D:
@@ -82,6 +85,11 @@ class Trojkat(Ksztalt2D):
         self.B: Punkt = None
         self.C: Punkt = None
 
+        # pojedyncze _ przed nazwa to protected, podwojne to private
+        self.__a: float = 0
+        self.__b: float = 0
+        self.__c: float = 0
+
         # are_numbers_given jest rowne True, jesli ktorakolwiek z liczb Ax...Cy zostala podana
         are_numbers_given = any([Ax is not None, Ay is not None,
                                  Bx is not None, By is not None,
@@ -106,6 +114,9 @@ class Trojkat(Ksztalt2D):
     def __repr__(self):
         # return f'A{self.A}, B{self.B}, C{self.C}'
         return ', '.join([f'{key}{val}' for key, val in self.__dict__.items()])
+
+    def __boki(self):
+        self.__a =
 
 
 class TrojkatPython(Ksztalt2D):
@@ -189,6 +200,10 @@ def test04():
     # t = Trojkat(Ax=5, Ay=7, A=Punkt(13, 15))  # Ru
 
 
+def test05():
+    t = Trojkat()
+
+
 if __name__ == '__main__':
-    test04()
+    test05()
 
