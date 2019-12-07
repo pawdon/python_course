@@ -1,4 +1,5 @@
 from typing import Union
+import math
 
 class Punkt:
     def __init__(self, x, y):
@@ -30,6 +31,9 @@ class Kolo(Ksztalt2D):
     def __init__(self):
         self.Sr: Punkt = None
         self.r: float = 0
+
+    def obwod(self) -> float:
+        return 2 * self.r * math.pi
 
 
 class Trojkat(Ksztalt2D):
@@ -144,6 +148,10 @@ class Trojkat(Ksztalt2D):
     def set_punkt_C(self, val: Punkt):
         self.C = val
         self.__boki()
+
+    def obwod(self) -> float:
+        # return self.__a + self.__b + self.__c
+        return self.get_bok_a() + self.get_bok_b() + self.get_bok_c()
 
 
 class TrojkatPython(Ksztalt2D):
