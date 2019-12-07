@@ -257,6 +257,16 @@ def program_8():
         file.write(data)
 
 
+def program_11():
+    k = Kolo()
+    k.r = 1
+    k.Sr = Punkt(0, 0)
+    k.show()
+
+    tr = Trojkat(0, 0, 1, 1, -1, 1)
+    tr.show()
+
+
 if __name__ == '__main__':
-    program_8()
+    program_11()
 
