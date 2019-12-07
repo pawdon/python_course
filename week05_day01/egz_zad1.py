@@ -228,7 +228,9 @@ def test04():
 def test05():
     t = Trojkat(2, 3, 4, 5, 5, 7)
     print(t)
-    print(t.get_bok_b())
+    print(t.get_bok_a(), t.get_bok_b(), t.get_bok_c())
+    t.set_punkt_C(Punkt(9, 17))
+    print(t.get_bok_a(), t.get_bok_b(), t.get_bok_c())
 
 
 if __name__ == '__main__':
