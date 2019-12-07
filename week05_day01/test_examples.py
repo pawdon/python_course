@@ -6,6 +6,7 @@ def multiply(x, y):
     :return:
 
     >>> multiply(2, 3)
+    2 * 3 = 6
     6
     """
     result = x * y
@@ -27,6 +28,10 @@ def silnia(n: int) -> int:
     2
     >>> silnia(3)
     6
+    >>> silnia(-1)
+    Traceback (most recent call last):
+        ...
+    ValueError: n should be >= 0
     """
     if n < 0:
         raise ValueError('n should be >= 0')
