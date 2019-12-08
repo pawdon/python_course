@@ -69,6 +69,22 @@ def simple02():
 
     tk.Label(c1, textvariable=label_str).pack()
 
+    label2_str = tk.StringVar()
+    label2_str.set('Zero')
+    tk.Label(c4, textvariable=label2_str).pack(side=tk.TOP)
+
+    radio_button_value = tk.IntVar()
+    def radio_button_command():
+        label2_str.set(f'Value {radio_button_value.get()}')
+
+    radio_button_value2 = tk.IntVar()
+    tk.Radiobutton(c4, text="Option A1", variable=radio_button_value, value=1, command=radio_button_command).pack(side=tk.TOP)
+    tk.Radiobutton(c4, text="Option A2", variable=radio_button_value, value=2, command=radio_button_command).pack(side=tk.TOP)
+    tk.Radiobutton(c4, text="Option A3", variable=radio_button_value, value=2, command=radio_button_command).pack(side=tk.TOP)
+
+    tk.Radiobutton(c4, text="Option B4", variable=radio_button_value2, value=4, command=radio_button_command).pack(side=tk.TOP)
+    tk.Radiobutton(c4, text="Option B5", variable=radio_button_value2, value=5, command=radio_button_command).pack(side=tk.TOP)
+
     main_window.mainloop()
 
 
