@@ -22,9 +22,12 @@ def simple01():
 
     def command_02():
         tk.Label(main_window, text='add').pack(side=tk.BOTTOM)
+        button_01.invoke()
 
     button_02 = tk.Button(main_window, text='Add label', font=("Times", "24"), command=command_02)
     button_02.pack(side=tk.RIGHT)
+    button_02.invoke()
+    button_02.invoke()
 
     main_window.mainloop()
 
