@@ -1,4 +1,7 @@
 import pandas as pd
+import plotly.graph_objs as go
+from plotly.offline import plot
+
 
 pd.set_option('display.max_rows', 10)
 pd.set_option('display.max_columns', 500)
@@ -27,6 +30,54 @@ def test01():
     df_low_bmi_middleweight = df[(bmi < 20) & (df['Event'] == "Boxing Men's Middleweight")]
     print(df_low_bmi_middleweight)
 
+    df_bantam = df[df['Event'] == "Boxing Men's Bantamweight"]
+    print(df_bantam['Weight'].min(), df_bantam['Weight'].max(), df_bantam['Weight'].mean())
+
+    print()
+    weight_cat = df['Event'].unique()
+    cat_data = []
+    for cat in weight_cat:
+        df_cat_weight = df[df['Event'] == cat]['Weight']
+        single_data = {'name': cat,
+                       'min': df_cat_weight.min(),
+                       'max': df_cat_weight.max(),
+                       'mean': round(df_cat_weight.mean(), 2),
+                       'count': df_cat_weight.shape[0]}
+        cat_data.append(single_data)
+
+    cat_data.sort(key=lambda x: x['min'])
+
+    df_cat_data = pd.DataFrame(cat_data)
+
+    pd.set_option('display.max_rows', 100)
+    print(df_cat_data)
+
+    mask_women_lightweight = df['Event'] == "Boxing Women's Lightweight"
+    women_lightweight = df[mask_women_lightweight]
+    print(women_lightweight)
+    pd.set_option('display.max_rows', 10)
+
+
+def plot_bar():
+    df = pd.read_csv('box_since_2000.csv', sep=';')
+    weight_cat = df['Event'].unique()
+    cat_data = []
+    for cat in weight_cat:
+        df_cat_weight = df[df['Event'] == cat]['Weight']
+        single_data = {'name': cat,
+                       'min': df_cat_weight.min(),
+                       'max': df_cat_weight.max(),
+                       'mean': round(df_cat_weight.mean(), 2),
+                       'count': df_cat_weight.shape[0]}
+        cat_data.append(single_data)
+
+    cat_data.sort(key=lambda x: x['min'])
+
+    df_cat_data = pd.DataFrame(cat_data)
+
+    pd.set_option('display.max_rows', 100)
+    print(df_cat_data)
+
 
 if __name__ == '__main__':
-    test01()
+    plot_bar()
