@@ -26,7 +26,7 @@ def run():
     horizontal_var.set(0)
 
     def set_text():
-        label.configure(text=f'x={horizontal_var.get()}, y={vertical_var.get()}')
+        label.configure(text=f'{horizontal_var.get()}, {vertical_var.get()}')
 
     def move(val):
         # val jest aktualną wartością slidera, który wywołał tą funkcję
