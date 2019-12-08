@@ -40,23 +40,27 @@ def simple02():
     canvas_width = 200
 
     c1 = tk.Canvas(main_window, bg='#ffff00', height=canvas_height, width=canvas_width)
-    c1.grid(row=0, column=0, sticky=tk.W+tk.E+tk.N+tk.S)
+    c1.grid(row=0, column=0, sticky=tk.NSEW)
 
     c2 = tk.Canvas(main_window, bg='#ff9911', height=canvas_height, width=canvas_width)
-    c2.grid(row=0, column=1, sticky=tk.W+tk.E+tk.N+tk.S)
+    c2.grid(row=0, column=1, sticky=tk.NSEW)
 
     c3 = tk.Canvas(main_window, bg='#00ffff', height=canvas_height, width=canvas_width)
-    c3.grid(row=1, column=0, sticky=tk.W+tk.E+tk.N+tk.S)
+    c3.grid(row=1, column=0, sticky=tk.NSEW)
 
     c4 = tk.Canvas(main_window, bg='#ff00ff', height=canvas_height, width=canvas_width)
-    c4.grid(row=1, column=1, sticky=tk.W+tk.E+tk.N+tk.S)
+    c4.grid(row=1, column=1, sticky=tk.NSEW)
+
+    for x in [main_window, c1, c2, c3, c4]:
+        tk.Grid.rowconfigure(x, 0, weight=1)
+        tk.Grid.columnconfigure(x, 0, weight=1)
 
     for i in range(5):
-        tk.Label(c3, bg='#00ff00', text=f'0{i}').grid(row=0, column=i)
-        tk.Label(c3, bg='#00ff00', text=f'{i}0').grid(row=i, column=0)
+        tk.Label(c3, bg='#00ff00', text=f'0{i}').grid(row=0, column=i, sticky=tk.NSEW)
+        tk.Label(c3, bg='#00ff00', text=f'{i}0').grid(row=i, column=0, sticky=tk.NSEW)
 
-    tk.Label(c3, bg='#00ff00', text=f'---col 2---').grid(row=2, column=2, rowspan=2, columnspan=1)
-    tk.Label(c3, bg='#00ff00', text=f'-------col 2+3-------').grid(row=3, column=2, rowspan=2, columnspan=2)
+    tk.Label(c3, bg='#00ff00', text=f'---col 2---').grid(row=1, column=2, rowspan=2, columnspan=1, sticky=tk.NSEW)
+    tk.Label(c3, bg='#00ff00', text=f'-------col 2+3-------').grid(row=3, column=2, rowspan=2, columnspan=2, sticky=tk.NSEW)
 
     check_button_int = tk.IntVar()
     label_str = tk.StringVar()
