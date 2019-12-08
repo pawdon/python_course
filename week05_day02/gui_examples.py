@@ -96,6 +96,11 @@ def simple03():
     main_window = tk.Tk()
     main_window.title("Second application")
 
+    tk.Grid.rowconfigure(main_window, 0, weight=1)
+    tk.Grid.rowconfigure(main_window, 1, weight=1)
+    tk.Grid.columnconfigure(main_window, 0, weight=1)
+    tk.Grid.columnconfigure(main_window, 1, weight=1)
+
     canvas_height = 200
     canvas_width = 200
 
@@ -115,7 +120,7 @@ def simple03():
 
     tk.Grid.rowconfigure(c3, 0, weight=1)
     tk.Grid.rowconfigure(c3, 1, weight=1)
-    tk.Grid.rowconfigure(c3, 2, weight=3)  # row 2 is 3 times wider than others
+    tk.Grid.rowconfigure(c3, 2, weight=10)  # weight ma znaczenie jesli jest nadmiarowe miejsce
     tk.Grid.rowconfigure(c3, 3, weight=1)
     tk.Grid.rowconfigure(c3, 4, weight=1)
     tk.Grid.columnconfigure(c3, 0, weight=1)
@@ -124,9 +129,7 @@ def simple03():
     tk.Grid.columnconfigure(c3, 3, weight=1)
     tk.Grid.columnconfigure(c3, 4, weight=1)
     for i in range(5):
-        tk.Grid.rowconfigure(c3, i, weight=1)
-        tk.Grid.columnconfigure(c3, i, weight=1)
-        tk.Label(c3, bg='#00ff00', text=f'0{i}').grid(row=0, column=i, sticky=tk.NSEW)
+        tk.Label(c3, bg='#00ff00', text=f'0{i}').grid(row=0, column=i, sticky=tk.NSEW)  # sticky is for expanding
         tk.Label(c3, bg='#00ff00', text=f'{i}0').grid(row=i, column=0, sticky=tk.NSEW)
 
     tk.Label(c3, bg='#00ff00', text=f'---col 2---').grid(row=1, column=2, rowspan=2, columnspan=1, sticky=tk.NSEW)
