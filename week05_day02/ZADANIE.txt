@@ -1,0 +1,15 @@
+- wczytaj plik athlete_events.csv
+- znajdz wyniki skokow narciarskich meskich od roku 2000
+- zostaw tylko tych zawodnikow, ktorzy zdobyli medale
+- czesc 1:
+  - narysuj pie chart i nanies na niego liczbe medali w zaleznosci od kraju
+- czesc 2:
+  - narysuj sunburst chart gdzie srodkowa warstwa bedzie taka, jak w czesc 1
+  - zewnetrzna warstwa pokazuje konkretne medale
+  
+  df['Team'] -> pd.Series
+  df[['Team', 'Medal']] -> pd.DataFrame z 2 kluczami (kolumnami)
+
+  https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
+
+  df[df['Event'].str.contains("Ski Jumping Men's")]
