@@ -63,13 +63,14 @@ def plot_bar():
     weight_cat = df['Event'].unique()
     cat_data = []
     for cat in weight_cat:
-        df_cat_weight = df[df['Event'] == cat]['Weight']
-        single_data = {'name': cat,
-                       'min': df_cat_weight.min(),
-                       'max': df_cat_weight.max(),
-                       'mean': round(df_cat_weight.mean(), 2),
-                       'count': df_cat_weight.shape[0]}
-        cat_data.append(single_data)
+        if "Boxing Men's" in cat:
+            df_cat_weight = df[df['Event'] == cat]['Weight']
+            single_data = {'name': cat.replace("Boxing Men's", ""),
+                           'min': df_cat_weight.min(),
+                           'max': df_cat_weight.max(),
+                           'mean': round(df_cat_weight.mean(), 2),
+                           'count': df_cat_weight.shape[0]}
+            cat_data.append(single_data)
 
     cat_data.sort(key=lambda x: x['min'])
 
@@ -77,6 +78,30 @@ def plot_bar():
 
     pd.set_option('display.max_rows', 100)
     print(df_cat_data)
+
+    categories = df_cat_data['name']
+
+    trace_min = go.Bar(
+        name='min',
+        x=categories,
+        y=df_cat_data['min'],
+        marker=dict(color='#0000ff')
+    )
+    trace_mean = go.Bar(
+        name='mean',
+        x=categories,
+        y=df_cat_data['mean'],
+        marker=dict(color='#ffff00')
+    )
+    trace_max = go.Bar(
+        name='max',
+        x=categories,
+        y=df_cat_data['max'],
+        marker=dict(color='#888888', line=dict(color='#ff0000', width=4))
+    )
+    layout = go.Layout(title='Boxing categories', barmode='group')
+    figure = go.Figure(data=[trace_min, trace_mean, trace_max], layout=layout)
+    plot(figure, auto_open=True, filename='box.html')
 
 
 if __name__ == '__main__':
