@@ -32,5 +32,45 @@ def simple01():
     main_window.mainloop()
 
 
+def simple02():
+    main_window = tk.Tk()
+    main_window.title("Second application")
+
+    canvas_height = 200
+    canvas_width = 200
+
+    c1 = tk.Canvas(main_window, bg='#ffff00', height=canvas_height, width=canvas_width)
+    c1.grid(row=0, column=0, sticky=tk.W+tk.E+tk.N+tk.S)
+
+    c2 = tk.Canvas(main_window, bg='#ff9911', height=canvas_height, width=canvas_width)
+    c2.grid(row=0, column=1, sticky=tk.W+tk.E+tk.N+tk.S)
+
+    c3 = tk.Canvas(main_window, bg='#00ffff', height=canvas_height, width=canvas_width)
+    c3.grid(row=1, column=0, sticky=tk.W+tk.E+tk.N+tk.S)
+
+    c4 = tk.Canvas(main_window, bg='#ff00ff', height=canvas_height, width=canvas_width)
+    c4.grid(row=1, column=1, sticky=tk.W+tk.E+tk.N+tk.S)
+
+    for i in range(5):
+        tk.Label(c3, bg='#00ff00', text=f'0{i}').grid(row=0, column=i)
+        tk.Label(c3, bg='#00ff00', text=f'{i}0').grid(row=i, column=0)
+
+    tk.Label(c3, bg='#00ff00', text=f'---col 2---').grid(row=2, column=2, rowspan=2, columnspan=1)
+    tk.Label(c3, bg='#00ff00', text=f'-------col 2+3-------').grid(row=3, column=2, rowspan=2, columnspan=2)
+
+    check_button_int = tk.IntVar()
+    label_str = tk.StringVar()
+
+    def command_01():
+        print(check_button_int.get())
+        label_str.set(f'Value {check_button_int.get()}')
+
+    tk.Checkbutton(c2, text='checkbutton', command=command_01, variable=check_button_int).pack()\
+
+    tk.Label(c1, textvariable=label_str).pack()
+
+    main_window.mainloop()
+
+
 if __name__ == '__main__':
-    simple01()
+    simple02()
