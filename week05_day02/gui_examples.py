@@ -138,5 +138,33 @@ def simple03():
     main_window.mainloop()
 
 
+def run():
+    main_window = tk.Tk()
+    main_window.title("Klawisz")
+    main_window.geometry('700x700')
+
+    panel = tk.Frame(main_window, bg='#ffff00', height=500, width=500)
+    panel.grid(row=0, column=1)
+    panel.pack_propagate(0)  # ta magiczna linijka powoduje ze panel nie zmienia rozmiaru przez zawartosc
+
+    label_frame = tk.Frame(panel, width=100, height=25, bg='#ff9900')
+    label_frame.pack()
+    label_frame.pack_propagate(0)
+
+    tk.Frame(label_frame, width=25, height=25, bg='#ff0000').pack(side=tk.RIGHT)
+    # label = tk.Button(panel, bg='#00ffff')
+    # label.place(width=100, height=25)
+
+    vertical_var = tk.DoubleVar()
+    slider_vertical = tk.Scale(main_window, variable=vertical_var, from_=0, to=1, resolution=0.01, orient=tk.VERTICAL, showvalue=False)
+    slider_vertical.grid(row=0, column=0, sticky=tk.NS)
+
+    horizontal_var = tk.DoubleVar()
+    slider_horizontal = tk.Scale(main_window, variable=horizontal_var, from_=0, to=1, resolution=0.01, orient=tk.HORIZONTAL, showvalue=False)
+    slider_horizontal.grid(row=1, column=1, sticky=tk.EW)
+
+    main_window.mainloop()
+
+
 if __name__ == '__main__':
     simple03()
