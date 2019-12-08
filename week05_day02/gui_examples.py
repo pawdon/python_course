@@ -11,8 +11,11 @@ def simple01():
     label_01.pack(side=tk.LEFT)
 
     def command_01():
-        print(f'Clicked')
-        label_01.configure(text='Clicked')
+        print(label_01.cget('font'), type(label_01.cget('font')))
+        if label_01.cget('text') == 'Hello world':
+            label_01.configure(text='Clicked')
+        else:
+            label_01.configure(text='Hello world')
 
     button_01 = tk.Button(main_window, text='My button', font=("Times", "24"), command=command_01)
     button_01.pack(side=tk.LEFT)
