@@ -47,6 +47,10 @@ def silnia(n: int) -> int:
 def test_01():
     assert 1 == 1
     assert 2 == 2, 'Opcjonalny opis'
+    result = 3.5000001
+    expected = 3.5
+    precision = 1e-3
+    assert abs(result - expected) < precision
 
 
 def more_values_to_test(filename):
