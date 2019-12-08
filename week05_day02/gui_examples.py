@@ -20,6 +20,12 @@ def simple01():
     button_01 = tk.Button(main_window, text='My button', font=("Times", "24"), command=command_01)
     button_01.pack(side=tk.LEFT)
 
+    def command_02():
+        tk.Label(main_window, text='add').pack(side=tk.BOTTOM)
+
+    button_02 = tk.Button(main_window, text='Add label', font=("Times", "24"), command=command_02)
+    button_02.pack(side=tk.RIGHT)
+
     main_window.mainloop()
 
 
