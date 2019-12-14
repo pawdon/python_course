@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from contextlib import contextmanager
+import contextlib
 
 
 def triangle(h: int, a: int, char='*'):
@@ -68,4 +68,57 @@ def analyse_pesel(pesel: str):
         raise ValueError(f'Pesel not correct: {e}')
 
 
-print(analyse_pesel('04211725639'))
+# print(analyse_pesel('04211725639'))
+
+@contextlib.contextmanager
+def open_stream(name):
+    # odpala sie w linijce
+    # with open_stream(0) as cam
+    print('Open stream')
+    camera = cv2.VideoCapture(name)
+    try:
+        yield camera  # to camera trafia do cam z linijki as cam
+    finally:
+        # to sie wykonuje po wyjsciu z with, czyli kiedy konczy sie wciecie
+        print('Close stream')
+        camera.release()
+        cv2.destroyAllWindows()
+
+
+def get_frames(cam):
+    while True:
+        ret_val, img = cam.read()
+        if ret_val:
+            yield img
+        else:
+            print('BREAK FROM GENERATOR')
+            break
+
+
+def show_img(img, window_name='image', wait_key=0):
+    cv2.imshow(window_name, img)
+    return cv2.waitKey(wait_key)
+
+
+def get_frames_from_cam(name):
+    with open_stream(name) as cam:
+        for frame in get_frames(cam):
+            yield frame
+
+
+def webcam():
+    with open_stream(0) as cam:
+        for frame in get_frames(cam):
+            key = show_img(frame, wait_key=1)
+            if key == ord('q'):
+                break
+
+
+def webcam2():
+    for frame in get_frames_from_cam(0):
+        key = show_img(frame, wait_key=1)
+        if key == ord('q'):
+            break
+
+
+webcam()

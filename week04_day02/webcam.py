@@ -63,4 +63,4 @@ def show_webcam():
 
 
 if __name__ == '__main__':
-    show_image()
+    show_webcam()
