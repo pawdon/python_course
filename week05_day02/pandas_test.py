@@ -104,5 +104,63 @@ def plot_bar():
     plot(figure, auto_open=True, filename='box.html')
 
 
+def plot_ski_jumping_sunburst():
+    pd.set_option('display.max_rows', 100)
+
+    df = pd.read_csv('athlete_events.csv')
+    df = df[df['Year'] >= 2000]
+    df = df[df['Event'].str.contains("Ski Jumping Men's")]
+    df = df[df['Medal'].notna()]
+
+    grouped = df.groupby(['Team', 'Medal']).size()
+    print(grouped)
+    # print(grouped.index)
+
+    # teams = grouped.index.levels[0]
+    # medals = grouped.index.levels[1]
+    # print(grouped.loc['Austria'])
+    # print(grouped.loc['Austria', 'Gold'])
+    ids = []
+    labels = []
+    parents = []
+    values = []
+    colors = []
+
+    medals_colors = {'Bronze': '#9C5843', 'Silver': '#C0C0C0', 'Gold': '#FFD700'}
+
+    for team in grouped.index.levels[0]:
+        team_id = f'{team}_all'
+        team_total_count = 0
+
+        medal_types = grouped.loc[team]
+        for medal in medal_types.index:
+            count = medal_types.loc[medal]
+            ids.append(f'{team}_{medal}')
+            labels.append(medal)
+            parents.append(team_id)
+            values.append(count)
+            team_total_count += count
+            colors.append(medals_colors.get(medal))
+
+        ids.append(team_id)
+        labels.append(team)
+        parents.append('')
+        values.append(team_total_count)
+        colors.append(None)
+
+    trace = go.Sunburst(
+        ids=ids,
+        labels=labels,
+        parents=parents,
+        values=values,
+        marker=dict(colors=colors),
+        branchvalues="total"
+    )
+
+    layout = go.Layout()
+    figure = go.Figure(data=[trace], layout=layout)
+    plot(figure, auto_open=True, filename='ski_jumping.html')
+
+
 if __name__ == '__main__':
-    plot_bar()
+    plot_ski_jumping_sunburst()
