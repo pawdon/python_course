@@ -1,29 +1,50 @@
-class Punkt:
-    def __init__(self, x, y):
-        self.x: float = x
-        self.y: float = y
+def test01():
+    my_list = [1, 2, 3]
+    my_number = 3
 
-    # __str__ i __repr__ sluza do ladnego wyswietlania obiektow
-    # jesli __str__ nie jest zaimplementowane, ale jest __repr__, to
-    # __repr__ zadziala tez wtedy, kiedy normalnie zadzialaloby __str__
-    # __str__ dziala np przy print(pojedyncza_wartosc) albo str(pojedyncza_wartosc)
-    # __repr__ dziala np przy print(lista) albo str(lista)
+    func1 = lambda a_number: [i * a_number for i in my_list]
+    func2 = lambda a_list: [my_number * i for i in a_list]
+
+    print(func1(4))
+    print(func2([3, 4]))
+
+    return func1, func2
+
+
+def test02():
+    my_list = [11, 12, 13]
+    my_number = 13
+    func1, func2 = test01()
+    print(func1(4))
+    print(func2([3, 4]))
+
+
+class Obywatel:
+    class AdresZameldowania:
+        def __init__(self, kod_pocztowy, miejscowosc, ulica, numer_domu, numer_mieszkania):
+            self.kod_pocztowy = kod_pocztowy
+            self.miejscowosc = miejscowosc
+            self.ulica = ulica
+            self.numer_domu = numer_domu
+            self.numer_mieszkania = numer_mieszkania
+
+        def __repr__(self):
+            return f'{self.kod_pocztowy} {self.miejscowosc}, {self.ulica} {self.numer_domu}/{self.numer_mieszkania}'
+
+    def __init__(self, imie, nazwisko, adres_zameldowania):
+        self.imie = imie
+        self.nazwisko = nazwisko
+        self.adres_zameldowania = adres_zameldowania
+
     def __repr__(self):
-        return f'({self.x}, {self.y})'
-
-    def distance(self, other):
-        return ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
+        return f'{self.imie} {self.nazwisko} zameldowany w {self.adres_zameldowania}'
 
 
-class Trojkat:
-    def __init__(self, A: Punkt = None, B: Punkt = None, C: Punkt = None):
-        self.A: Punkt = A
-        self.B: Punkt = B
-        self.C: Punkt = C
+def test_obywatel():
+    jan = Obywatel('Jan', 'Kowalski', Obywatel.AdresZameldowania('31-044', 'Kraków', 'Grodzka', 50, 1))
+    print(jan)
 
-        if self.A is None:
-            self.A = Punkt(0, 0)
-        if self.B is None:
-            self.B = Punkt(2, -2)
-        if self.C is None:
-            self.C = Punkt(2, 2)
+
+if __name__ == '__main__':
+    test_obywatel()
+
