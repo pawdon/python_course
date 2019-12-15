@@ -176,6 +176,17 @@ class TrojkatPython(Ksztalt2D):
         return ', '.join([f'{key}{val}' for key, val in self.__dict__.items()])
 
 
+def test_trojkat_python():
+    t1 = TrojkatPython()
+    print(t1)
+    t2 = TrojkatPython(Punkt(3, 2), Punkt(3, 4), Punkt(7, 1))
+    print(t2)
+    t3 = TrojkatPython.create_from_numbers()
+    print(t3)
+    t4 = TrojkatPython.create_from_numbers(1, 2, 3, 4, 5, 6)
+    print(t4)
+
+
 def test01():
     print('START')
     a = Ksztalt2D()  # __new__(), __init__(), __postinit__()
@@ -268,5 +279,5 @@ def program_11():
 
 
 if __name__ == '__main__':
-    program_11()
+    test_trojkat_python()
 
