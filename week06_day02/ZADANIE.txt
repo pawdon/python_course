@@ -1,0 +1,26 @@
+- Zaczynamy tworzyc gre.
+- W grze wystepuja postacie.
+- Postac ma punkty imie, zycia i sile.
+- Postac moze atakowac inna postac zabierajac jej punkty zycia.
+- Postac ma wytrzymalosc, ktora zmniejsza otrzymywane obrazenia
+  np. sila atakujacego = 10, wytrzymalosc broniacego = 2
+  obrazenia = 8
+- W wyniku ataku strona broniaca sie, nie powinna zyskac zycia
+- Postac ma zrecznosc, ktora definiuje prawdopodobienstwo
+  unikniecia ataku
+- Postac ma okreslona szanse na zadanie obrazen krytycznych
+  (podwojna wartosc); najpierw oblicza sie podwojona wartosc
+  ataku, a dopiero potem uwzglednia wytrzymalosc
+- Postac ma pewna szanse na zadanie kontraataku.
+  Kontratak nastepuje jako natychmiastowa reakcja na atak.
+  Do kontrataku stosuja sie te same zasady (zwinnosc, krytyczne)
+  Nie jest mozliwy kontratak na kontratak
+
+- Utworz klase przedmiot, ktora moze byc typu:
+  - ofensywna
+  - defensywna
+  - nijaka
+- Przedmiot ma wartosc, ktora dodaje odpowiednio do sily
+  albo wytrzymalosci oraz wage
+- Postac ma liste przedmiotow, ktore maja udzial w walce
+- Postac ma limit wagi przedmiotow, ktore nosi
