@@ -19,8 +19,15 @@
 - Utworz klase przedmiot, ktora moze byc typu:
   - ofensywna
   - defensywna
-  - nijaka
+  - inny
 - Przedmiot ma wartosc, ktora dodaje odpowiednio do sily
   albo wytrzymalosci oraz wage
 - Postac ma liste przedmiotow, ktore maja udzial w walce
 - Postac ma limit wagi przedmiotow, ktore nosi
+
+- Efektem walki sa obrazenia, ktore otrzymal broniacy sie i atakujacy
+- Utworz klase wampir, ktora dziedziczy po postaci i po udanym ataku (lub kontrataku) odzyskuje zycie
+  rowne 10% zadanych obrazen
+- Utworz klase elf, ktory dziedziczy po postaci i zawsze unika kontrataku
+- Postac moze stac sie wampirem (elf tez)
+- Dodaj typ przedmiotu, ktorego uzycie powoduje przywrocenie zycie
