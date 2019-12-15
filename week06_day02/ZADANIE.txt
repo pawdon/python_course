@@ -27,7 +27,7 @@
 
 - Efektem walki sa obrazenia, ktore otrzymal broniacy sie i atakujacy
 - Utworz klase wampir, ktora dziedziczy po postaci i po udanym ataku (lub kontrataku) odzyskuje zycie
-  rowne 10% zadanych obrazen
+  rowne 10% zadanych obrazen. Ginie natychmiastowo, jesli uzyje przedmiotu o nazwie "czosnek"
 - Utworz klase elf, ktory dziedziczy po postaci i zawsze unika kontrataku
 - Postac moze stac sie wampirem (elf tez)
 - Dodaj typ przedmiotu, ktorego uzycie powoduje przywrocenie zycie
